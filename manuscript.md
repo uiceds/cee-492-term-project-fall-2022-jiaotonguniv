@@ -41,9 +41,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/cc9d1fcc36a99e9ab4375e7cbb318879ba180f55/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/cc9d1fcc36a99e9ab4375e7cbb318879ba180f55/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/cc9d1fcc36a99e9ab4375e7cbb318879ba180f55/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/6672e1d9de1ddd880638215b6399775f56bb1c4a/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/6672e1d9de1ddd880638215b6399775f56bb1c4a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/6672e1d9de1ddd880638215b6399775f56bb1c4a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -65,9 +65,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/cc9d1fcc36a99e9ab4375e7cbb318879ba180f55/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/6672e1d9de1ddd880638215b6399775f56bb1c4a/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@cc9d1fc](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/cc9d1fcc36a99e9ab4375e7cbb318879ba180f55)
+from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@6672e1d](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/6672e1d9de1ddd880638215b6399775f56bb1c4a)
 on September 6, 2022.
 </em></small>
 
