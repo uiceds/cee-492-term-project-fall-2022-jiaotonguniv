@@ -1,21 +1,18 @@
 ---
-title: "Manuscript Title"
+title: "Jiaotong Univ"
 keywords:
   - markdown
   - publishing
   - manubot
 lang: en-US
 authors:
-  - github: johndoe
-    name: John Doe
-    initials: JD
-    orcid: XXXX-XXXX-XXXX-XXXX
-    twitter: johndoe
-    email: john.doe@something.com
+  - github: mulin-wan
+    name: Mulin Wan
+    initials: MW
+    orcid: 665168942
+    email: mulinw2@illinois.edu
     affiliations:
-      - Department of Something, University of Whatever
-    funders:
-      - Grant XXXXXXXX
+      - Department of CEE, University of Illinois
   - github: janeroe
     name: Jane Roe
     initials: JR
