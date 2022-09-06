@@ -6,11 +6,29 @@ keywords:
   - manubot
 lang: en-US
 authors:
-  - github: johndoe
-    name: John Doe
-    initials: JD
+  - github: mulin-wan
+    name: Mulin Wan
+    initials: MW
     orcid: XXXX-XXXX-XXXX-XXXX
     twitter: johndoe
-    email: john.doe@something.com
+    email: mulinw2@illinois.edu
+    affiliations:
+      - CEE, University of Illinois Urbana-Champaign
+authors:
+  - github: jingwenyaooo
+    name: Jingwen Yao
+    initials: JY
+    orcid: XXXX-XXXX-XXXX-XXXX
+    twitter: johndoe
+    email: jyao26@illinois.edu
+    affiliations:
+      - CEE, University of Illinois Urbana-Champaign
+authors:
+  - github: cyfcx2
+    name: Yunze Guo
+    initials: YG
+    orcid: XXXX-XXXX-XXXX-XXXX
+    twitter: johndoe
+    email: yunzeg2@illinois.edu
     affiliations:
       - CEE, University of Illinois Urbana-Champaign
