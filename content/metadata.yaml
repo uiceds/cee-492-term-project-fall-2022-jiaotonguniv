@@ -1,19 +1,19 @@
 ---
-title: "Manuscript Title"
+title: "JiaotongUniv"
 keywords:
   - markdown
   - publishing
   - manubot
 lang: en-US
 authors:
-  - github: johndoe
-    name: John Doe
+  - github: cyfcx2
+    name: Yunze Guo
     initials: JD
     orcid: XXXX-XXXX-XXXX-XXXX
     twitter: johndoe
-    email: john.doe@something.com
+    email: yunzeg2@illinois.edu
     affiliations:
-      - Department of Something, University of Whatever
+      - CEE, University of Illinois Urbana-Champaign
     funders:
       - Grant XXXXXXXX
   - github: janeroe
