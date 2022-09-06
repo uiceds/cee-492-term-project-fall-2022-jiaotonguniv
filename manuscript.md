@@ -7,7 +7,7 @@ keywords:
 lang: en-US
 date-meta: '2022-09-06'
 author-meta:
-- John Doe
+- Yunze Guo
 header-includes: |-
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
@@ -26,7 +26,7 @@ header-includes: |-
   <meta name="dc.publisher" content="Manubot" />
   <meta name="citation_journal_title" content="Manubot" />
   <meta name="citation_technical_report_institution" content="Manubot" />
-  <meta name="citation_author" content="John Doe" />
+  <meta name="citation_author" content="Yunze Guo" />
   <meta name="citation_author_institution" content="CEE, University of Illinois Urbana-Champaign" />
   <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
   <meta name="twitter:creator" content="@johndoe" />
@@ -36,9 +36,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/83a6874e94fdcf967c5d1ad3de6f41ac287a257d/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/83a6874e94fdcf967c5d1ad3de6f41ac287a257d/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/83a6874e94fdcf967c5d1ad3de6f41ac287a257d/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/93431cf11d5f64143119f0d72798b8c92108b4e0/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/93431cf11d5f64143119f0d72798b8c92108b4e0/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/93431cf11d5f64143119f0d72798b8c92108b4e0/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -60,9 +60,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/83a6874e94fdcf967c5d1ad3de6f41ac287a257d/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/93431cf11d5f64143119f0d72798b8c92108b4e0/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@83a6874](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/83a6874e94fdcf967c5d1ad3de6f41ac287a257d)
+from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@93431cf](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/93431cf11d5f64143119f0d72798b8c92108b4e0)
 on September 6, 2022.
 </em></small>
 
@@ -70,11 +70,11 @@ on September 6, 2022.
 
 
 
-+ **John Doe**<br>
++ **Yunze Guo**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon}
     [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
     · ![GitHub icon](images/github.svg){.inline_icon}
-    [johndoe](https://github.com/johndoe)
+    [cyfcx2](https://github.com/cyfcx2)
     · ![Twitter icon](images/twitter.svg){.inline_icon}
     [johndoe](https://twitter.com/johndoe)<br>
   <small>
