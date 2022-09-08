@@ -29,7 +29,6 @@ ipsum
 irure
 Jingwen
 jingwenyaooo
-johndoe
 labore
 laboris
 laborum
@@ -57,7 +56,6 @@ Urbana
 velit
 veniam
 voluptate
-XXXX
 Yao
 Yaojune
 Yunze
