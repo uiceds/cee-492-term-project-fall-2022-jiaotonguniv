@@ -7,6 +7,8 @@ keywords:
 lang: en-US
 date-meta: '2022-09-08'
 author-meta:
+- Mulin Wan
+- Jingwen Yao
 - Yunze Guo
 header-includes: |-
   <!--
@@ -26,6 +28,14 @@ header-includes: |-
   <meta name="dc.publisher" content="Manubot" />
   <meta name="citation_journal_title" content="Manubot" />
   <meta name="citation_technical_report_institution" content="Manubot" />
+  <meta name="citation_author" content="Mulin Wan" />
+  <meta name="citation_author_institution" content="CEE, University of Illinois Urbana-Champaign" />
+  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
+  <meta name="twitter:creator" content="@johndoe" />
+  <meta name="citation_author" content="Jingwen Yao" />
+  <meta name="citation_author_institution" content="CEE, University of Illinois Urbana-Champaign" />
+  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
+  <meta name="twitter:creator" content="@Yaojune" />
   <meta name="citation_author" content="Yunze Guo" />
   <meta name="citation_author_institution" content="CEE, University of Illinois Urbana-Champaign" />
   <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
@@ -36,9 +46,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/423eb97237e53e392c60aa5643032253276d23f0/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/423eb97237e53e392c60aa5643032253276d23f0/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/423eb97237e53e392c60aa5643032253276d23f0/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/043a6b41ff4d6a39eb7e92465f086a86874120bb/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/043a6b41ff4d6a39eb7e92465f086a86874120bb/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/043a6b41ff4d6a39eb7e92465f086a86874120bb/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -60,15 +70,37 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/423eb97237e53e392c60aa5643032253276d23f0/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/043a6b41ff4d6a39eb7e92465f086a86874120bb/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@423eb97](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/423eb97237e53e392c60aa5643032253276d23f0)
+from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@043a6b4](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/043a6b41ff4d6a39eb7e92465f086a86874120bb)
 on September 8, 2022.
 </em></small>
 
 ## Authors
 
 
+
++ **Mulin Wan**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [mulin-wan](https://github.com/mulin-wan)
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [johndoe](https://twitter.com/johndoe)<br>
+  <small>
+     CEE, University of Illinois Urbana-Champaign
+  </small>
+
++ **Jingwen Yao**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [jingwenyaooo](https://github.com/jingwenyaooo)
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [Yaojune](https://twitter.com/Yaojune)<br>
+  <small>
+     CEE, University of Illinois Urbana-Champaign
+  </small>
 
 + **Yunze Guo**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon}
