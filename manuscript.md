@@ -36,9 +36,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/1b02f8e13be5e63f716ee653d54e660e494f1ccb/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/1b02f8e13be5e63f716ee653d54e660e494f1ccb/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/1b02f8e13be5e63f716ee653d54e660e494f1ccb/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/423eb97237e53e392c60aa5643032253276d23f0/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/423eb97237e53e392c60aa5643032253276d23f0/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/423eb97237e53e392c60aa5643032253276d23f0/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -60,9 +60,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/1b02f8e13be5e63f716ee653d54e660e494f1ccb/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/423eb97237e53e392c60aa5643032253276d23f0/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@1b02f8e](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/1b02f8e13be5e63f716ee653d54e660e494f1ccb)
+from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@423eb97](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/423eb97237e53e392c60aa5643032253276d23f0)
 on September 8, 2022.
 </em></small>
 
@@ -86,7 +86,7 @@ on September 8, 2022.
 ## Abstract {.page_break_before}
 
 
-
+This is the abstract.
 
 This manuscript is a template (aka "rootstock") for [Manubot](https://manubot.org/ "Manubot"), a tool for writing scholarly manuscripts.
 Use this template as a starting point for your manuscript.
