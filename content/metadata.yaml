@@ -1,5 +1,5 @@
 ---
-title: "Manuscript Title"
+title: "JiaotongUniv"
 keywords:
   - markdown
   - publishing
@@ -9,8 +9,6 @@ authors:
   - github: mulin-wan
     name: Mulin Wan
     initials: MW
-    orcid: XXXX-XXXX-XXXX-XXXX
-    twitter: johndoe
     email: mulinw2@illinois.edu
     affiliations:
       - CEE, University of Illinois Urbana-Champaign
@@ -18,8 +16,6 @@ authors:
   - github: jingwenyaooo
     name: Jingwen Yao
     initials: JY
-    orcid: XXXX-XXXX-XXXX-XXXX
-    twitter: johndoe
     email: jyao26@illinois.edu
     affiliations:
       - CEE, University of Illinois Urbana-Champaign
@@ -27,8 +23,6 @@ authors:
   - github: cyfcx2
     name: Yunze Guo
     initials: YG
-    orcid: XXXX-XXXX-XXXX-XXXX
-    twitter: johndoe
     email: yunzeg2@illinois.edu
     affiliations:
       - CEE, University of Illinois Urbana-Champaign
