@@ -12,14 +12,17 @@ authors:
     email: mulinw2@illinois.edu
     affiliations:
       - CEE, University of Illinois Urbana-Champaign
-authors:
   - github: jingwenyaooo
     name: Jingwen Yao
     initials: JY
     email: jyao26@illinois.edu
+=======
+    twitter: Yaojune
+    email1: jyao26@illinois.edu
+    email2: yaojune33@gmail.com
+>>>>>>> a9ca13d62f99eac26ca3dd590d870293dfc0adfd
     affiliations:
       - CEE, University of Illinois Urbana-Champaign
-authors:
   - github: cyfcx2
     name: Yunze Guo
     initials: YG
