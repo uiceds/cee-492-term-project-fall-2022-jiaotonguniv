@@ -41,9 +41,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/2f44347fd45a3369b8356e1306b973c41afb7990/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/2f44347fd45a3369b8356e1306b973c41afb7990/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/2f44347fd45a3369b8356e1306b973c41afb7990/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/e06a6fb1f3347717eb8e2998398d7af2b3a9ed32/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/e06a6fb1f3347717eb8e2998398d7af2b3a9ed32/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/e06a6fb1f3347717eb8e2998398d7af2b3a9ed32/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -65,9 +65,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/2f44347fd45a3369b8356e1306b973c41afb7990/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/e06a6fb1f3347717eb8e2998398d7af2b3a9ed32/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@2f44347](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/2f44347fd45a3369b8356e1306b973c41afb7990)
+from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@e06a6fb](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/e06a6fb1f3347717eb8e2998398d7af2b3a9ed32)
 on September 10, 2022.
 </em></small>
 
@@ -100,7 +100,7 @@ on September 10, 2022.
 
 
 
-## Abstract {.page_break_before}
+# Abstract
 
 # Iroduction
 
@@ -110,19 +110,19 @@ on September 10, 2022.
 
 ## Information of team members
 
-### Member 1: Mulin Wan
+#### Member 1: Mulin Wan
 
-### Member 2: Jingwen Yao
+#### Member 2: Jingwen Yao
 
-### Member 3: Yunze Guo
+#### Member 3: Yunze Guo
 
-### Member 4: Boyang Wang
+#### Member 4: Boyang Wang
 
 ## Description
 
 ### Dataset:
 
-#### For this project, we are going to combine the data from two datasets. One of the two datasets is bike-share usage in London and Taipei, the other is London bike hire. 
+For this project, we are going to combine the data from two datasets. One of the two datasets is bike-share usage in London and Taipei, the other is London bike hire. 
 
 ### Bike-Share usage in London and Taipei
 
