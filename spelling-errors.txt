@@ -1,12 +1,10 @@
 adipiscing
-affact
 aliqua
 aliquip
 amet
 anim
 aute
 bikeshare
-Boyang
 CEE
 Champaign
 cillum
@@ -48,9 +46,8 @@ laborum
 Lorem
 magna
 mestamp
-modelled
 mollit
-mulin
+Mulin
 nisi
 nostrud
 nulla
@@ -62,7 +59,6 @@ proident
 qui
 quis
 reprehenderit
-retal
 schoolholiday
 sed
 sheme
