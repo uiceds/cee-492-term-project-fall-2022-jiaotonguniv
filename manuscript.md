@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2022-09-09'
+date-meta: '2022-09-10'
 author-meta:
 - Mulin Wan
 - Jingwen Yao
@@ -20,8 +20,8 @@ header-includes: |-
   <meta name="citation_title" content="JiaotongUniv" />
   <meta property="og:title" content="JiaotongUniv" />
   <meta property="twitter:title" content="JiaotongUniv" />
-  <meta name="dc.date" content="2022-09-09" />
-  <meta name="citation_publication_date" content="2022-09-09" />
+  <meta name="dc.date" content="2022-09-10" />
+  <meta name="citation_publication_date" content="2022-09-10" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -41,9 +41,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/c383592dcb943fd59612d899047fde8fc84b1e39/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/c383592dcb943fd59612d899047fde8fc84b1e39/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/c383592dcb943fd59612d899047fde8fc84b1e39/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/2f44347fd45a3369b8356e1306b973c41afb7990/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/2f44347fd45a3369b8356e1306b973c41afb7990/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/2f44347fd45a3369b8356e1306b973c41afb7990/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -65,10 +65,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/c383592dcb943fd59612d899047fde8fc84b1e39/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/2f44347fd45a3369b8356e1306b973c41afb7990/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@c383592](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/c383592dcb943fd59612d899047fde8fc84b1e39)
-on September 9, 2022.
+from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@2f44347](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/2f44347fd45a3369b8356e1306b973c41afb7990)
+on September 10, 2022.
 </em></small>
 
 ## Authors
@@ -102,8 +102,106 @@ on September 9, 2022.
 
 ## Abstract {.page_break_before}
 
-jusy for a try!
-This is the abstract!
+# Iroduction
+
+## Title of the project
+
+### Bike-Share Usage in London and Taipei Network Analysis
+
+## Information of team members
+
+### Member 1: Mulin Wan
+
+### Member 2: Jingwen Yao
+
+### Member 3: Yunze Guo
+
+### Member 4: Boyang Wang
+
+## Description
+
+### Dataset:
+
+#### For this project, we are going to combine the data from two datasets. One of the two datasets is bike-share usage in London and Taipei, the other is London bike hire. 
+
+### Bike-Share usage in London and Taipei
+
+#### The raw data is collected from the respective cities open data sites. London:https://cycling.data.tfl.gov.uk/ Taipei:https://data.taipei/#/dataset?topic=topic-transportation
+
+#### The data has been reformatted into CSV in order to be easier to use and compare. The content is unchanged.This gives The columns in the data comprise:
+
+##### 1.rental_id -
+
+##### 2.duration -
+
+##### 3.bike_id -
+
+##### 4.end_rental_date_time -
+
+##### 5.end_station_id -
+
+##### 6.end_station_name -
+
+##### 7.start_rental_date_time -
+
+##### 8.start_station_id -
+
+##### 9.start_station_name -
+
+### London bike hire -
+
+#### This dataset runs from 4th January 2015 to 3rd January 2017 and reports total bike hire numbers for a bike rental sheme in London, England, alongside some weather info.
+
+#### The data has been formatted into CSV in order to be easier to use and compare. This gives The columns in the data comprise:
+
+##### 1.mestamp - timestamp field for grouping the data
+
+##### 2.cnt- the count of a new bike shares
+
+##### 3.t1 real temperature in C
+
+##### 4.t2 - temperature in C "feels like"
+
+##### 5.hum - humidity in percentage
+
+##### 6.windspeed - wind speed in km/h
+
+##### 7.weathercode - category of the weather
+
+###### 1 = Clear ; mostly clear but have some values with haze/fog/patches of fog/ fog in vicinity
+
+###### 2 = scattered clouds / few clouds
+
+###### 3 = Broken clouds
+
+###### 4 = Cloudy
+
+###### 7 = Rain/ light Rain shower/ Light rain
+
+###### 10 = rain with thunderstorm
+
+###### 26 = snowfall
+
+##### 8.isholiday - boolean field - 1 holiday / 0 non holiday - refers to bank holidays
+
+##### 9.isweekend - boolean field - 1 if the day is weekend / 0 if a working day
+
+##### 10.season - category (0-spring; 1-summer; 2-autumn; 3-winter)
+
+##### In addition to season and isweekend, from the tiestamp feature we can extract many separate time features - day of the week (as one scaled column or as seven columns of ismonday, istuesday etc.), month number, day of the month, week number, hour, minute. In combination with external data, we could add islight for after dawn times and is_schoolholiday to match London school holiday times.
+
+#### Link of dataset:
+
+##### Link 1:https://www.kaggle.com/datasets/ajohrn/bikeshare-usage-in-london-and-taipei-network
+
+##### Link 2:https://www.kaggle.com/datasets/hmavrodiev/london-bike-sharing-dataset/discussion?resource=download
+
+## Proposal
+
+### Bike-sharing in a city has in recent years become a key part of urban transport of humans. The data is spatiotemporal, that is, it varies over space and time. That variation can be explored, described and modelled in many different ways. The two cities contained in this data set are London and Taipei, both very large cities with very large bike-share systems. There is variation within the two cities, as well as between them. 
+
+### Previous work has also shown that weather is a key driver for variation is usage. We'd like to use those datasets to analysis the evidence for extreme weather events, like typhoons in Taipei or winter rain in London and the locations for retal and end-trip, in order to distinguish  weather condition and those locations in city area affact citizens' bike retal behavior.
+
 
 
 This manuscript is a template (aka "rootstock") for [Manubot](https://manubot.org/ "Manubot"), a tool for writing scholarly manuscripts.
