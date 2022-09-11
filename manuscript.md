@@ -41,9 +41,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/52a3f4df086e3cafa5ce094b2035287a0b8f0908/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/52a3f4df086e3cafa5ce094b2035287a0b8f0908/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/52a3f4df086e3cafa5ce094b2035287a0b8f0908/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/cdc5b2b97cc9f3c9024fdc3f0c988a6a0d1391d0/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/cdc5b2b97cc9f3c9024fdc3f0c988a6a0d1391d0/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/cdc5b2b97cc9f3c9024fdc3f0c988a6a0d1391d0/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -65,9 +65,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/52a3f4df086e3cafa5ce094b2035287a0b8f0908/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/cdc5b2b97cc9f3c9024fdc3f0c988a6a0d1391d0/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@52a3f4d](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/52a3f4df086e3cafa5ce094b2035287a0b8f0908)
+from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@cdc5b2b](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/cdc5b2b97cc9f3c9024fdc3f0c988a6a0d1391d0)
 on September 11, 2022.
 </em></small>
 
@@ -124,23 +124,23 @@ The raw data is collected from the respective cities open data sites.
 
 The data has been reformatted into CSV in order to be easier to use and compare. The content is unchanged. This gives the columns in the data comprise:
 
-##### 1.rental_id -
+##### 1.rental_id - id of people who rent the bike
 
-##### 2.duration -
+##### 2.duration - duration of rental
 
-##### 3.bike_id -
+##### 3.bike_id - id of bike
 
-##### 4.end_rental_date_time -
+##### 4.end_rental_date_time - date and time of end rental
 
-##### 5.end_station_id -
+##### 5.end_station_id - id of end station
 
-##### 6.end_station_name -
+##### 6.end_station_name - name of end station
 
-##### 7.start_rental_date_time -
+##### 7.start_rental_date_time - date and time of start rental
 
-##### 8.start_station_id -
+##### 8.start_station_id - id of start station
 
-##### 9.start_station_name -
+##### 9.start_station_name - name of start station
 
 #### London bike sharing dataset
 
