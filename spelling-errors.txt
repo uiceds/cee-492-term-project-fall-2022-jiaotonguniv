@@ -16,7 +16,7 @@ CSV
 culpa
 cupidatat
 cyfcx
-Dataset
+dataset
 datasets
 deserunt
 dolore
@@ -47,7 +47,7 @@ Lorem
 magna
 mestamp
 mollit
-Mulin
+mulin
 nisi
 nostrud
 nulla
@@ -61,12 +61,10 @@ quis
 reprehenderit
 schoolholiday
 sed
-sheme
 sint
 spatiotemporal
 sunt
 tempor
-tiestamp
 ullamco
 Urbana
 velit

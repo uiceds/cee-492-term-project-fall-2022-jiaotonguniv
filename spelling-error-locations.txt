@@ -1,11 +1,10 @@
 content/01.abstract.md:3:Iroduction
 content/01.abstract.md:11:Dataset
-content/01.abstract.md:13:datasets
+content/01.abstract.md:13:dataset
 content/01.abstract.md:13:datasets
 content/01.abstract.md:21:dataset
 content/01.abstract.md:23:CSV
 content/01.abstract.md:45:dataset
-content/01.abstract.md:45:sheme
 content/01.abstract.md:47:CSV
 content/01.abstract.md:49:mestamp
 content/01.abstract.md:51:cnt
@@ -17,7 +16,6 @@ content/01.abstract.md:83:islight
 content/01.abstract.md:83:ismonday
 content/01.abstract.md:83:istuesday
 content/01.abstract.md:83:isweekend
-content/01.abstract.md:83:tiestamp
 content/01.abstract.md:85:dataset
 content/01.abstract.md:87:bikeshare
 content/01.abstract.md:87:bikeshare
