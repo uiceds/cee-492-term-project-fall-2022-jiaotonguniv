@@ -41,9 +41,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/3f93d64a02bf48ce266374bfe5a6a3a704ebdbdd/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/3f93d64a02bf48ce266374bfe5a6a3a704ebdbdd/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/3f93d64a02bf48ce266374bfe5a6a3a704ebdbdd/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/def219d4742474917095cfdec07c434752205faf/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/def219d4742474917095cfdec07c434752205faf/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/def219d4742474917095cfdec07c434752205faf/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -65,9 +65,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/3f93d64a02bf48ce266374bfe5a6a3a704ebdbdd/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/def219d4742474917095cfdec07c434752205faf/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@3f93d64](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/3f93d64a02bf48ce266374bfe5a6a3a704ebdbdd)
+from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@def219d](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/def219d4742474917095cfdec07c434752205faf)
 on September 13, 2022.
 </em></small>
 
@@ -194,9 +194,9 @@ In addition to season and isweekend, from the timestamp feature we can extract m
 
 Recently, bike-sharing in big cities has become an important part of residents' daily life, which plays a significant role in urban transportation system. The data is spatiotemporal, in other words, it varies over space and time. That variation can be explored, described, and modeled in many different ways. The overlap of two datasets shows many factors affecting residents' bike-renting behavior.
 
-Previous work has shown that weather is a key driver for variation in usage. By utilizing those datasets to analyze the evidence for extreme weather events like winter rains in London, it is safe to draw some conclusions guiding the process of making contingency plans. The locations of start-trip and end-trip is also considered to have the potential of revealing hot spots of bike-renting usage.
+Previous work has shown that weather is a key driver for variation in usage. By utilizing those datasets to analyze how extreme weather events like winter rains in London will affect bike-sharing system, it is safe to draw some conclusions to guide the process of making contingency plans. The locations of start-trip and end-trip is also considered to have the potential of revealing hot spots of bike-renting usage.
 
-The result will be able to offer some suggestions for the decision maker of bike-sharing companies about the arrangement of bike density in different blocks, methods to tackle extreme weather conditions and distribution between urban and rural areas.
+The result will be able to offer some suggestions for the decision maker of bike-sharing companies about the arrangement of bike density in different blocks, distribution between urban and rural areas and methods to tackle extreme weather conditions.
 
 
 This manuscript is a template (aka "rootstock") for [Manubot](https://manubot.org/ "Manubot"), a tool for writing scholarly manuscripts.
