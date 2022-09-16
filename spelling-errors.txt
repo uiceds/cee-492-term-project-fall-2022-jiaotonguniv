@@ -7,6 +7,7 @@ cyfcx
 dataset
 datasets
 Guo
+informations
 isholiday
 islight
 ismonday
@@ -18,6 +19,7 @@ mestamp
 mulin
 schoolholiday
 spatiotemporal
+timespan
 Urbana
 weathercode
 windspeed
