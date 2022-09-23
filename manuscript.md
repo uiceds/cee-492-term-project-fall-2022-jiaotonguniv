@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2022-09-22'
+date-meta: '2022-09-23'
 author-meta:
 - Mulin Wan
 - Jingwen Yao
@@ -21,8 +21,8 @@ header-includes: |-
   <meta name="citation_title" content="JiaotongUniv" />
   <meta property="og:title" content="JiaotongUniv" />
   <meta property="twitter:title" content="JiaotongUniv" />
-  <meta name="dc.date" content="2022-09-22" />
-  <meta name="citation_publication_date" content="2022-09-22" />
+  <meta name="dc.date" content="2022-09-23" />
+  <meta name="citation_publication_date" content="2022-09-23" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -44,9 +44,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/32a9d2772d058aee47ae62a46e35c41314dbba79/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/32a9d2772d058aee47ae62a46e35c41314dbba79/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/32a9d2772d058aee47ae62a46e35c41314dbba79/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/6dffda2794bdf43b4c0eb7397f00622f082090b3/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/6dffda2794bdf43b4c0eb7397f00622f082090b3/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/6dffda2794bdf43b4c0eb7397f00622f082090b3/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -68,10 +68,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/32a9d2772d058aee47ae62a46e35c41314dbba79/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/6dffda2794bdf43b4c0eb7397f00622f082090b3/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@32a9d27](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/32a9d2772d058aee47ae62a46e35c41314dbba79)
-on September 22, 2022.
+from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@6dffda2](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/6dffda2794bdf43b4c0eb7397f00622f082090b3)
+on September 23, 2022.
 </em></small>
 
 ## Authors
@@ -208,8 +208,6 @@ Previous work has shown that weather is a key driver for variation in usage. By 
 
 The result will be able to offer some suggestions for the decision maker of bike-sharing companies about the arrangement of bike density in different blocks, distribution between urban and rural areas and methods to tackle extreme weather conditions.
 
-
-## This is an introduction
 
 ## References {.page_break_before}
 
