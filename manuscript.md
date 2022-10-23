@@ -44,9 +44,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/7c54566543176088447206f850ca65c30374ed9a/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/7c54566543176088447206f850ca65c30374ed9a/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/7c54566543176088447206f850ca65c30374ed9a/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/f5401a9ae30d195d5bb29a9d4d8f8e6bc7c87f25/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/f5401a9ae30d195d5bb29a9d4d8f8e6bc7c87f25/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/f5401a9ae30d195d5bb29a9d4d8f8e6bc7c87f25/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -68,9 +68,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/7c54566543176088447206f850ca65c30374ed9a/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/f5401a9ae30d195d5bb29a9d4d8f8e6bc7c87f25/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@7c54566](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/7c54566543176088447206f850ca65c30374ed9a)
+from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@f5401a9](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/f5401a9ae30d195d5bb29a9d4d8f8e6bc7c87f25)
 on October 23, 2022.
 </em></small>
 
@@ -134,24 +134,14 @@ This dataset would be the main dataset for the project as it contains every sing
 | --- | --- |
 | rental_id | id of people who rent the bike |
 | duration | duration of rental |
-
-##### 1.rental_id - id of people who rent the bike
-
-##### 2.duration - duration of rental
-
-##### 3.bike_id - id of bike
-
-##### 4.end_rental_date_time - date and time of end rental
-
-##### 5.end_station_id - id of end station
-
-##### 6.end_station_name - name of end station
-
-##### 7.start_rental_date_time - date and time of start rental
-
-##### 8.start_station_id - id of start station
-
-##### 9.start_station_name - name of start station
+| bike_id  | id of bike |
+| end_rental_date_time | date and time of end rental |
+| end_station_id | id of end station |
+| end_station_name | name of end station |
+| start_rental_date_time | date and time of start rental |
+| start_station_id | id of end station |
+| start_station_name | name of start station |
+| start_rental_date_time | date and time of start rental |
 
 #### London bike sharing dataset
 
@@ -159,39 +149,25 @@ This dataset is playing a more supporting role, as it helped providing informati
 
 The data has been formatted into CSV in order to be easier to use and compare. This gives The columns in the data comprise:
 
-##### 1.mestamp - timestamp field for grouping the data
-
-##### 2.cnt- the count of a new bike shares
-
-##### 3.t1 real temperature in C
-
-##### 4.t2 - temperature in C "feels like"
-
-##### 5.hum - humidity in percentage
-
-##### 6.windspeed - wind speed in km/h
-
-##### 7.weathercode - category of the weather
-
-###### 1 = Clear ; mostly clear but have some values with haze/fog/patches of fog/ fog in vicinity
-
-###### 2 = scattered clouds / few clouds
-
-###### 3 = Broken clouds
-
-###### 4 = Cloudy
-
-###### 7 = Rain/ light Rain shower/ Light rain
-
-###### 10 = rain with thunderstorm
-
-###### 26 = snowfall
-
-##### 8.isholiday - boolean field - 1 holiday / 0 non holiday - refers to bank holidays
-
-##### 9.isweekend - boolean field - 1 if the day is weekend / 0 if a working day
-
-##### 10.season - category (0-spring; 1-summer; 2-autumn; 3-winter)
+| Object | Description |
+| --- | --- |
+| mestamp  | timestamp field for grouping the data |
+| cnt | ithe count of a new bike shares |
+| t1 | real temperature in Celsius |
+| t2 | temperature in Celsius "feels like" |
+| hum | humidity in percentage |
+| windspeed | wind speed in km/h |
+| weathercode | category of the weather |
+| Clear | mostly clear but have some values with *haze*, *fog*, *patches of fog*, *fog in vicinity* |
+| scattered clouds | few clouds|
+| Broken clouds | clouds were broken |
+| Cloudy | cloudy weather |
+| Rain/ light Rain shower/ Light rain | rainy weather |
+| rain with thunderstorm | rain with thunderstorm |
+| snowfall | snowy weather |
+| isholiday | boolean field - 1 holiday / 0 non holiday - refers to bank holidays |
+| isweekend | boolean field - 1 if the day is weekend / 0 if a working day |
+| season | category (0-spring; 1-summer; 2-autumn; 3-winter) |
 
 In addition to season and isweekend, from the timestamp feature we can extract many separate time features - day of the week (as one scaled column or as seven columns of ismonday, istuesday etc.), month number, day of the month, week number, hour, minute. In combination with external data, we could add islight for after dawn times and is_schoolholiday to match London school holiday times.
 
@@ -201,11 +177,11 @@ In addition to season and isweekend, from the timestamp feature we can extract m
 
 [London bikeshare](https://www.kaggle.com/datasets/hmavrodiev/london-bike-sharing-dataset/discussion?resource=download)
 
-### Proposal
+### Proposal "SPECIFIC"
 
 Recently, bike-sharing in big cities has become an important part of residents' daily life, and its role in urban transportation system has never been more significant. Looking at the spatiotemporal bike-sharing data in London, we could explore patterns, describe variations, or modeled the data in many different ways. From the two datasets, we may have a chance to take a peek at the residents' bike-renting behavior through many angles.
 
-Previous work has shown that weather is a key driver for variation in usage. By utilizing those datasets to analyze how extreme weather events like winter rains in London will affect bike-sharing system, it is safe to draw some conclusions to guide the process of making contingency plans. The locations of start-trip and end-trip is also considered to have the potential of revealing hot spots of bike-renting usage.
+"PREVIOUS" work has shown that weather is a key driver for variation in usage. By utilizing those datasets to analyze how extreme weather events like winter rains in London will affect bike-sharing system, it is safe to draw some conclusions to guide the process of making contingency plans. The locations of start-trip and end-trip is also considered to have the potential of revealing hot spots of bike-renting usage.
 
 The result will be able to offer some suggestions for the decision maker of bike-sharing companies about the arrangement of bike density in different blocks, distribution between urban and rural areas and methods to tackle extreme weather conditions.
 

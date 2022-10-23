@@ -73,9 +73,9 @@
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/7c54566543176088447206f850ca65c30374ed9a/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/7c54566543176088447206f850ca65c30374ed9a/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/7c54566543176088447206f850ca65c30374ed9a/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/f5401a9ae30d195d5bb29a9d4d8f8e6bc7c87f25/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/f5401a9ae30d195d5bb29a9d4d8f8e6bc7c87f25/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/f5401a9ae30d195d5bb29a9d4d8f8e6bc7c87f25/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -89,9 +89,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/7c54566543176088447206f850ca65c30374ed9a/">permalink</a>)
+(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/f5401a9ae30d195d5bb29a9d4d8f8e6bc7c87f25/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/7c54566543176088447206f850ca65c30374ed9a">uiceds/cee-492-term-project-fall-2022-jiaotonguniv@7c54566</a>
+from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/f5401a9ae30d195d5bb29a9d4d8f8e6bc7c87f25">uiceds/cee-492-term-project-fall-2022-jiaotonguniv@f5401a9</a>
 on October 23, 2022.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -149,44 +149,132 @@ CEE, University of Illinois Urbana-Champaign
 <td>duration</td>
 <td>duration of rental</td>
 </tr>
+<tr class="odd">
+<td>bike_id</td>
+<td>id of bike</td>
+</tr>
+<tr class="even">
+<td>end_rental_date_time</td>
+<td>date and time of end rental</td>
+</tr>
+<tr class="odd">
+<td>end_station_id</td>
+<td>id of end station</td>
+</tr>
+<tr class="even">
+<td>end_station_name</td>
+<td>name of end station</td>
+</tr>
+<tr class="odd">
+<td>start_rental_date_time</td>
+<td>date and time of start rental</td>
+</tr>
+<tr class="even">
+<td>start_station_id</td>
+<td>id of end station</td>
+</tr>
+<tr class="odd">
+<td>start_station_name</td>
+<td>name of start station</td>
+</tr>
+<tr class="even">
+<td>start_rental_date_time</td>
+<td>date and time of start rental</td>
+</tr>
 </tbody>
 </table>
-<h5 id="rental_id---id-of-people-who-rent-the-bike">1.rental_id - id of people who rent the bike</h5>
-<h5 id="duration---duration-of-rental">2.duration - duration of rental</h5>
-<h5 id="bike_id---id-of-bike">3.bike_id - id of bike</h5>
-<h5 id="end_rental_date_time---date-and-time-of-end-rental">4.end_rental_date_time - date and time of end rental</h5>
-<h5 id="end_station_id---id-of-end-station">5.end_station_id - id of end station</h5>
-<h5 id="end_station_name---name-of-end-station">6.end_station_name - name of end station</h5>
-<h5 id="start_rental_date_time---date-and-time-of-start-rental">7.start_rental_date_time - date and time of start rental</h5>
-<h5 id="start_station_id---id-of-start-station">8.start_station_id - id of start station</h5>
-<h5 id="start_station_name---name-of-start-station">9.start_station_name - name of start station</h5>
 <h4 id="london-bike-sharing-dataset">London bike sharing dataset</h4>
 <p>This dataset is playing a more supporting role, as it helped providing informations on weather conditions. Although the timespan doesn’t overlap too much with the first dataset(January 4th 2015 to January 3rd 2017), it gives the idea to incorporate weather conditions into consideration. In the future we may try to find weather datasets that fit the first dataset better to help analyzing.</p>
 <p>The data has been formatted into CSV in order to be easier to use and compare. This gives The columns in the data comprise:</p>
-<h5 id="mestamp---timestamp-field-for-grouping-the-data">1.mestamp - timestamp field for grouping the data</h5>
-<h5 id="cnt--the-count-of-a-new-bike-shares">2.cnt- the count of a new bike shares</h5>
-<h5 id="t1-real-temperature-in-c">3.t1 real temperature in C</h5>
-<h5 id="t2---temperature-in-c-feels-like">4.t2 - temperature in C “feels like”</h5>
-<h5 id="hum---humidity-in-percentage">5.hum - humidity in percentage</h5>
-<h5 id="windspeed---wind-speed-in-kmh">6.windspeed - wind speed in km/h</h5>
-<h5 id="weathercode---category-of-the-weather">7.weathercode - category of the weather</h5>
-<h6 id="clear-mostly-clear-but-have-some-values-with-hazefogpatches-of-fog-fog-in-vicinity">1 = Clear ; mostly clear but have some values with haze/fog/patches of fog/ fog in vicinity</h6>
-<h6 id="scattered-clouds-few-clouds">2 = scattered clouds / few clouds</h6>
-<h6 id="broken-clouds">3 = Broken clouds</h6>
-<h6 id="cloudy">4 = Cloudy</h6>
-<h6 id="rain-light-rain-shower-light-rain">7 = Rain/ light Rain shower/ Light rain</h6>
-<h6 id="rain-with-thunderstorm">10 = rain with thunderstorm</h6>
-<h6 id="snowfall">26 = snowfall</h6>
-<h5 id="isholiday---boolean-field---1-holiday-0-non-holiday---refers-to-bank-holidays">8.isholiday - boolean field - 1 holiday / 0 non holiday - refers to bank holidays</h5>
-<h5 id="isweekend---boolean-field---1-if-the-day-is-weekend-0-if-a-working-day">9.isweekend - boolean field - 1 if the day is weekend / 0 if a working day</h5>
-<h5 id="season---category-0-spring-1-summer-2-autumn-3-winter">10.season - category (0-spring; 1-summer; 2-autumn; 3-winter)</h5>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Object</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>mestamp</td>
+<td>timestamp field for grouping the data</td>
+</tr>
+<tr class="even">
+<td>cnt</td>
+<td>ithe count of a new bike shares</td>
+</tr>
+<tr class="odd">
+<td>t1</td>
+<td>real temperature in Celsius</td>
+</tr>
+<tr class="even">
+<td>t2</td>
+<td>temperature in Celsius “feels like”</td>
+</tr>
+<tr class="odd">
+<td>hum</td>
+<td>humidity in percentage</td>
+</tr>
+<tr class="even">
+<td>windspeed</td>
+<td>wind speed in km/h</td>
+</tr>
+<tr class="odd">
+<td>weathercode</td>
+<td>category of the weather</td>
+</tr>
+<tr class="even">
+<td>Clear</td>
+<td>mostly clear but have some values with <em>haze</em>, <em>fog</em>, <em>patches of fog</em>, <em>fog in vicinity</em></td>
+</tr>
+<tr class="odd">
+<td>scattered clouds</td>
+<td>few clouds</td>
+</tr>
+<tr class="even">
+<td>Broken clouds</td>
+<td>clouds were broken</td>
+</tr>
+<tr class="odd">
+<td>Cloudy</td>
+<td>cloudy weather</td>
+</tr>
+<tr class="even">
+<td>Rain/ light Rain shower/ Light rain</td>
+<td>rainy weather</td>
+</tr>
+<tr class="odd">
+<td>rain with thunderstorm</td>
+<td>rain with thunderstorm</td>
+</tr>
+<tr class="even">
+<td>snowfall</td>
+<td>snowy weather</td>
+</tr>
+<tr class="odd">
+<td>isholiday</td>
+<td>boolean field - 1 holiday / 0 non holiday - refers to bank holidays</td>
+</tr>
+<tr class="even">
+<td>isweekend</td>
+<td>boolean field - 1 if the day is weekend / 0 if a working day</td>
+</tr>
+<tr class="odd">
+<td>season</td>
+<td>category (0-spring; 1-summer; 2-autumn; 3-winter)</td>
+</tr>
+</tbody>
+</table>
 <p>In addition to season and isweekend, from the timestamp feature we can extract many separate time features - day of the week (as one scaled column or as seven columns of ismonday, istuesday etc.), month number, day of the month, week number, hour, minute. In combination with external data, we could add islight for after dawn times and is_schoolholiday to match London school holiday times.</p>
 <h4 id="link-of-dataset">Link of dataset:</h4>
 <p><a href="https://www.kaggle.com/datasets/ajohrn/bikeshare-usage-in-london-and-taipei-network">London and Taipei bikeshare</a></p>
 <p><a href="https://www.kaggle.com/datasets/hmavrodiev/london-bike-sharing-dataset/discussion?resource=download">London bikeshare</a></p>
-<h3 id="proposal">Proposal</h3>
+<h3 id="proposal-specific">Proposal “SPECIFIC”</h3>
 <p>Recently, bike-sharing in big cities has become an important part of residents’ daily life, and its role in urban transportation system has never been more significant. Looking at the spatiotemporal bike-sharing data in London, we could explore patterns, describe variations, or modeled the data in many different ways. From the two datasets, we may have a chance to take a peek at the residents’ bike-renting behavior through many angles.</p>
-<p>Previous work has shown that weather is a key driver for variation in usage. By utilizing those datasets to analyze how extreme weather events like winter rains in London will affect bike-sharing system, it is safe to draw some conclusions to guide the process of making contingency plans. The locations of start-trip and end-trip is also considered to have the potential of revealing hot spots of bike-renting usage.</p>
+<p>“PREVIOUS” work has shown that weather is a key driver for variation in usage. By utilizing those datasets to analyze how extreme weather events like winter rains in London will affect bike-sharing system, it is safe to draw some conclusions to guide the process of making contingency plans. The locations of start-trip and end-trip is also considered to have the potential of revealing hot spots of bike-renting usage.</p>
 <p>The result will be able to offer some suggestions for the decision maker of bike-sharing companies about the arrangement of bike density in different blocks, distribution between urban and rural areas and methods to tackle extreme weather conditions.</p>
 <h2 class="page_break_before" id="references">References</h2>
 <!-- Explicitly insert bibliography here -->
