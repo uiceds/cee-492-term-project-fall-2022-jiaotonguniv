@@ -17,7 +17,7 @@ isweekend
 Jingwen
 jingwenyaooo
 mestamp
-mulin
+Mulin
 schoolholiday
 spatiotemporal
 timespan
