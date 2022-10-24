@@ -5,7 +5,7 @@ Champaign
 cnt
 CSV
 cyfcx
-Dataset
+dataset
 datasets
 Guo
 informations
@@ -18,7 +18,7 @@ ithe
 Jingwen
 jingwenyaooo
 mestamp
-Mulin
+mulin
 schoolholiday
 spatiotemporal
 timespan
