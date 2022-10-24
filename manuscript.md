@@ -44,9 +44,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/9b8645ec1a88ead1b53611f68a27ec9ad442b411/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/9b8645ec1a88ead1b53611f68a27ec9ad442b411/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/9b8645ec1a88ead1b53611f68a27ec9ad442b411/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/6100502ebf8ef87b0f56c9ab2e219de11ac0da7b/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/6100502ebf8ef87b0f56c9ab2e219de11ac0da7b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/6100502ebf8ef87b0f56c9ab2e219de11ac0da7b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -68,9 +68,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/9b8645ec1a88ead1b53611f68a27ec9ad442b411/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/6100502ebf8ef87b0f56c9ab2e219de11ac0da7b/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@9b8645e](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/9b8645ec1a88ead1b53611f68a27ec9ad442b411)
+from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@6100502](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/6100502ebf8ef87b0f56c9ab2e219de11ac0da7b)
 on October 24, 2022.
 </em></small>
 
@@ -190,3 +190,8 @@ The result will be able to offer some suggestions for the decision maker of bike
 
 <!-- Explicitly insert bibliography here -->
 <div id="refs"></div>
+
+
+#### [1] AndersOhrn (2020) Bike-share usage in London and Taipei Network, Kaggle. Available at: https://www.kaggle.com/datasets/ajohrn/bikeshare-usage-in-london-and-taipei-network (Accessed: October 24, 2022). 
+
+#### [2] Mavrodiev, H. (2019) London Bike Sharing Dataset, Kaggle. Available at: https://www.kaggle.com/datasets/hmavrodiev/london-bike-sharing-dataset/discussion?resource=download (Accessed: October 24, 2022). 

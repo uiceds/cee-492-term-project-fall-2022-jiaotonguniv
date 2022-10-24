@@ -1,3 +1,4 @@
+AndersOhrn
 bikeshare
 byw
 CEE
@@ -17,8 +18,10 @@ isweekend
 ithe
 Jingwen
 jingwenyaooo
+Kaggle
+Mavrodiev
 mestamp
-mulin
+Mulin
 schoolholiday
 spatiotemporal
 timespan
