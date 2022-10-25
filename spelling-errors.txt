@@ -15,7 +15,6 @@ islight
 ismonday
 istuesday
 isweekend
-ithe
 Jingwen
 jingwenyaooo
 Kaggle

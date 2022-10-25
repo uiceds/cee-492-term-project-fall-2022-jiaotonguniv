@@ -14,7 +14,6 @@ content/01.abstract.md:36:timespan
 content/01.abstract.md:38:CSV
 content/01.abstract.md:42:mestamp
 content/01.abstract.md:43:cnt
-content/01.abstract.md:43:ithe
 content/01.abstract.md:47:windspeed
 content/01.abstract.md:48:weathercode
 content/01.abstract.md:56:isholiday
