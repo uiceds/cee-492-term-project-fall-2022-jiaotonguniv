@@ -44,9 +44,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/f484e938efa8fe7d446480020cccf63982ec75bb/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/f484e938efa8fe7d446480020cccf63982ec75bb/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/f484e938efa8fe7d446480020cccf63982ec75bb/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/ef46ddb62a949c0c5f51e1185775f01431c9c945/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/ef46ddb62a949c0c5f51e1185775f01431c9c945/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/ef46ddb62a949c0c5f51e1185775f01431c9c945/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -68,9 +68,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/f484e938efa8fe7d446480020cccf63982ec75bb/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/ef46ddb62a949c0c5f51e1185775f01431c9c945/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@f484e93](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/f484e938efa8fe7d446480020cccf63982ec75bb)
+from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@ef46ddb](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/ef46ddb62a949c0c5f51e1185775f01431c9c945)
 on October 26, 2022.
 </em></small>
 
@@ -157,17 +157,10 @@ The data has been formatted into CSV in order to be easier to use and compare. T
 | t2 | temperature in Celsius "feels like" |
 | hum | humidity in percentage |
 | windspeed | wind speed in km/h |
-| weathercode | different weather condition|
-| Clear | mostly clear but have some values with *haze*, *fog*, *patches of fog*, *fog in vicinity* |
-| scattered clouds | few clouds|
-| Broken clouds | clouds were broken |
-| Cloudy | cloudy weather |
-| Rain/ light Rain shower/ Light rain | rainy weather |
-| rain with thunderstorm | rain with thunderstorm |
-| snowfall | snowy weather |
 | isholiday | boolean field - 1 holiday / 0 non holiday - refers to bank holidays |
 | isweekend | boolean field - 1 if the day is weekend / 0 if a working day |
 | season | category (0-spring; 1-summer; 2-autumn; 3-winter) |
+| weathercode | different weather condition|
 
 Description of weathercode:
 
@@ -179,7 +172,7 @@ Description of weathercode:
 | 4 | clear; cloudy|
 | 7 | clear; light rain shower / rain / light rain|
 | 10 | clear; rain with thunderstorm|
-| 26 | snow fall|
+| 26 | snowfall|
 | 90 | freezing fog |
 
 In addition to season and isweekend, from the timestamp feature we can extract many separate time features - day of the week (as one scaled column or as seven columns of ismonday, istuesday etc.), month number, day of the month, week number, hour, minute. In combination with external data, we could add islight for after dawn times and is_schoolholiday to match London school holiday times.
