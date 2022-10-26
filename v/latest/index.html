@@ -8,7 +8,7 @@
   <meta name="author" content="Jingwen Yao" />
   <meta name="author" content="Yunze Guo" />
   <meta name="author" content="Bo-Yang Wang" />
-  <meta name="dcterms.date" content="2022-10-25" />
+  <meta name="dcterms.date" content="2022-10-26" />
   <meta name="keywords" content="markdown, publishing, manubot" />
   <title>Bike-Share Usage in London Network Analysis</title>
   <style>
@@ -50,8 +50,8 @@
   <meta name="citation_title" content="Bike-Share Usage in London Network Analysis" />
   <meta property="og:title" content="Bike-Share Usage in London Network Analysis" />
   <meta property="twitter:title" content="Bike-Share Usage in London Network Analysis" />
-  <meta name="dc.date" content="2022-10-25" />
-  <meta name="citation_publication_date" content="2022-10-25" />
+  <meta name="dc.date" content="2022-10-26" />
+  <meta name="citation_publication_date" content="2022-10-26" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -73,9 +73,9 @@
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/2f2700d0e88fe5cebfe2cb299b891b3c6fc26fa2/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/2f2700d0e88fe5cebfe2cb299b891b3c6fc26fa2/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/2f2700d0e88fe5cebfe2cb299b891b3c6fc26fa2/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/f484e938efa8fe7d446480020cccf63982ec75bb/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/f484e938efa8fe7d446480020cccf63982ec75bb/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/f484e938efa8fe7d446480020cccf63982ec75bb/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -89,10 +89,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/2f2700d0e88fe5cebfe2cb299b891b3c6fc26fa2/">permalink</a>)
+(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/f484e938efa8fe7d446480020cccf63982ec75bb/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/2f2700d0e88fe5cebfe2cb299b891b3c6fc26fa2">uiceds/cee-492-term-project-fall-2022-jiaotonguniv@2f2700d</a>
-on October 25, 2022.
+from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/f484e938efa8fe7d446480020cccf63982ec75bb">uiceds/cee-492-term-project-fall-2022-jiaotonguniv@f484e93</a>
+on October 26, 2022.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -224,7 +224,7 @@ CEE, University of Illinois Urbana-Champaign
 </tr>
 <tr class="odd">
 <td>weathercode</td>
-<td>category of the weather</td>
+<td>different weather condition</td>
 </tr>
 <tr class="even">
 <td>Clear</td>
@@ -265,6 +265,49 @@ CEE, University of Illinois Urbana-Champaign
 <tr class="odd">
 <td>season</td>
 <td>category (0-spring; 1-summer; 2-autumn; 3-winter)</td>
+</tr>
+</tbody>
+</table>
+<p>Description of weathercode:</p>
+<table>
+<thead>
+<tr class="header">
+<th>weathercode</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>clear; mostly clear but have some values with haze/fog</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>scattered clouds / few clouds</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>broken clouds</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>clear; cloudy</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>clear; light rain shower / rain / light rain</td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td>clear; rain with thunderstorm</td>
+</tr>
+<tr class="odd">
+<td>26</td>
+<td>snow fall</td>
+</tr>
+<tr class="even">
+<td>90</td>
+<td>freezing fog</td>
 </tr>
 </tbody>
 </table>
