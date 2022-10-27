@@ -20,7 +20,6 @@ content/01.abstract.md:49:isweekend
 content/01.abstract.md:51:weathercode
 content/01.abstract.md:53:weathercode
 content/01.abstract.md:55:weathercode
-content/01.abstract.md:66:islight
 content/01.abstract.md:66:ismonday
 content/01.abstract.md:66:istuesday
 content/01.abstract.md:66:isweekend

@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2022-10-26'
+date-meta: '2022-10-27'
 author-meta:
 - Mulin Wan
 - Jingwen Yao
@@ -21,8 +21,8 @@ header-includes: |-
   <meta name="citation_title" content="Bike-Share Usage in London Network Analysis" />
   <meta property="og:title" content="Bike-Share Usage in London Network Analysis" />
   <meta property="twitter:title" content="Bike-Share Usage in London Network Analysis" />
-  <meta name="dc.date" content="2022-10-26" />
-  <meta name="citation_publication_date" content="2022-10-26" />
+  <meta name="dc.date" content="2022-10-27" />
+  <meta name="citation_publication_date" content="2022-10-27" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -44,9 +44,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/ef46ddb62a949c0c5f51e1185775f01431c9c945/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/ef46ddb62a949c0c5f51e1185775f01431c9c945/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/ef46ddb62a949c0c5f51e1185775f01431c9c945/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/ca05e0c7ba17f79316b5b0431cf5905865cf7739/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/ca05e0c7ba17f79316b5b0431cf5905865cf7739/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/ca05e0c7ba17f79316b5b0431cf5905865cf7739/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -68,10 +68,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/ef46ddb62a949c0c5f51e1185775f01431c9c945/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/ca05e0c7ba17f79316b5b0431cf5905865cf7739/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@ef46ddb](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/ef46ddb62a949c0c5f51e1185775f01431c9c945)
-on October 26, 2022.
+from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@ca05e0c](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/ca05e0c7ba17f79316b5b0431cf5905865cf7739)
+on October 27, 2022.
 </em></small>
 
 ## Authors
@@ -126,7 +126,7 @@ The raw data is collected from the respective cities open data sites.
 
 [London](https://cycling.data.tfl.gov.uk/) 
 
-The data has been reformatted into CSV in order to be easier to use and compare. The content is unchanged. 
+The data has been reformatted into CSV in order to be easier to use and compare. The content remains unchanged. 
 
 This dataset would be the main dataset for the project as it contains every single bike rental in London in the duration. This gives the columns in the data comprise:
 
@@ -175,7 +175,7 @@ Description of weathercode:
 | 26 | snowfall|
 | 90 | freezing fog |
 
-In addition to season and isweekend, from the timestamp feature we can extract many separate time features - day of the week (as one scaled column or as seven columns of ismonday, istuesday etc.), month number, day of the month, week number, hour, minute. In combination with external data, we could add islight for after dawn times and is_schoolholiday to match London school holiday times.
+In addition to season and isweekend, from the timestamp feature we can extract many separate time features - day of the week (as one scaled column or as seven columns of ismonday, istuesday etc.), month number, day of the month, week number, hour, minute. In combination with external data, we could add is_light for after dawn times and is_schoolholiday to match London school holiday times.
 
 #### Link of dataset:
 
@@ -185,7 +185,7 @@ In addition to season and isweekend, from the timestamp feature we can extract m
 
 ### Proposal "SPECIFIC"
 
-Recently, bike-sharing in big cities has become an important part of residents' daily life, and its role in urban transportation system has never been more significant. Looking at the spatiotemporal bike-sharing data in London, we could explore patterns, describe variations, or modeled the data in many different ways. From the two datasets, we may have a chance to take a peek at the residents' bike-renting behavior through many angles.
+Recently, bike-sharing in big cities has become an important part of residents' daily life, and its role in urban transportation system has never been more significant. Looking at the spatiotemporal bike-sharing data in London, we could explore patterns, describe variations, or model the data in many different ways. From the two datasets, we may have a chance to take a peek at the residents' bike-renting behavior through many angles.
 
 "PREVIOUS" work has shown that weather is a key driver for variation in usage. <sup>[1]</sup> <sup>[2]</sup> By utilizing those datasets to analyze how extreme weather events like winter rains in London will affect bike-sharing system, it is safe to draw some conclusions to guide the process of making contingency plans. The locations of start-trip and end-trip is also considered to have the potential of revealing hot spots of bike-renting usage.
 
