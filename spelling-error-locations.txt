@@ -35,6 +35,8 @@ content/01.abstract.md:72:kaggle
 content/01.abstract.md:76:datasets
 content/01.abstract.md:76:spatiotemporal
 content/01.abstract.md:78:datasets
+content/01.abstract.md:85:cnt
+content/01.abstract.md:85:windspeed
 content/90.back-matter.md:7:AndersOhrn
 content/90.back-matter.md:7:bikeshare
 content/90.back-matter.md:7:datasets

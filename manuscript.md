@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2022-10-27'
+date-meta: '2022-10-28'
 author-meta:
 - Mulin Wan
 - Jingwen Yao
@@ -21,8 +21,8 @@ header-includes: |-
   <meta name="citation_title" content="Bike-Share Usage in London Network Analysis" />
   <meta property="og:title" content="Bike-Share Usage in London Network Analysis" />
   <meta property="twitter:title" content="Bike-Share Usage in London Network Analysis" />
-  <meta name="dc.date" content="2022-10-27" />
-  <meta name="citation_publication_date" content="2022-10-27" />
+  <meta name="dc.date" content="2022-10-28" />
+  <meta name="citation_publication_date" content="2022-10-28" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -44,9 +44,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/ca05e0c7ba17f79316b5b0431cf5905865cf7739/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/ca05e0c7ba17f79316b5b0431cf5905865cf7739/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/ca05e0c7ba17f79316b5b0431cf5905865cf7739/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/117cb2ecd566e9282d7ef283e69ba871ed8f2d68/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/117cb2ecd566e9282d7ef283e69ba871ed8f2d68/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/117cb2ecd566e9282d7ef283e69ba871ed8f2d68/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -68,10 +68,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/ca05e0c7ba17f79316b5b0431cf5905865cf7739/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/117cb2ecd566e9282d7ef283e69ba871ed8f2d68/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@ca05e0c](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/ca05e0c7ba17f79316b5b0431cf5905865cf7739)
-on October 27, 2022.
+from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@117cb2e](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/117cb2ecd566e9282d7ef283e69ba871ed8f2d68)
+on October 28, 2022.
 </em></small>
 
 ## Authors
@@ -190,6 +190,11 @@ Recently, bike-sharing in big cities has become an important part of residents' 
 "PREVIOUS" work has shown that weather is a key driver for variation in usage. <sup>[1]</sup> <sup>[2]</sup> By utilizing those datasets to analyze how extreme weather events like winter rains in London will affect bike-sharing system, it is safe to draw some conclusions to guide the process of making contingency plans. The locations of start-trip and end-trip is also considered to have the potential of revealing hot spots of bike-renting usage.
 
 The result will be able to offer some suggestions for the decision maker of bike-sharing companies about the arrangement of bike density in different blocks, distribution between urban and rural areas and methods to tackle extreme weather conditions.
+
+
+# Different variables on the count of new bike shares
+
+There are different variables in the database such as time, windspeed, season, and so on. The group is interested in these arguments and try to find the impact of them on the count of new bike shares(cnt).
 
 
 ## References {.page_break_before}
