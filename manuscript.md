@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2022-10-28'
+date-meta: '2022-10-29'
 author-meta:
 - Mulin Wan
 - Jingwen Yao
@@ -21,8 +21,8 @@ header-includes: |-
   <meta name="citation_title" content="Bike-Share Usage in London Network Analysis" />
   <meta property="og:title" content="Bike-Share Usage in London Network Analysis" />
   <meta property="twitter:title" content="Bike-Share Usage in London Network Analysis" />
-  <meta name="dc.date" content="2022-10-28" />
-  <meta name="citation_publication_date" content="2022-10-28" />
+  <meta name="dc.date" content="2022-10-29" />
+  <meta name="citation_publication_date" content="2022-10-29" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -44,9 +44,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/117cb2ecd566e9282d7ef283e69ba871ed8f2d68/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/117cb2ecd566e9282d7ef283e69ba871ed8f2d68/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/117cb2ecd566e9282d7ef283e69ba871ed8f2d68/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/b8fd4c11866e4d22c9d5ebbdd35758b1520268eb/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/b8fd4c11866e4d22c9d5ebbdd35758b1520268eb/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/b8fd4c11866e4d22c9d5ebbdd35758b1520268eb/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -68,10 +68,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/117cb2ecd566e9282d7ef283e69ba871ed8f2d68/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/b8fd4c11866e4d22c9d5ebbdd35758b1520268eb/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@117cb2e](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/117cb2ecd566e9282d7ef283e69ba871ed8f2d68)
-on October 28, 2022.
+from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@b8fd4c1](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/b8fd4c11866e4d22c9d5ebbdd35758b1520268eb)
+on October 29, 2022.
 </em></small>
 
 ## Authors
@@ -130,6 +130,8 @@ The data has been reformatted into CSV in order to be easier to use and compare.
 
 This dataset would be the main dataset for the project as it contains every single bike rental in London in the duration. This gives the columns in the data comprise:
 
+Table 1: Discription of London and Taipei Bike-Share
+
 | Object | Description |
 | --- | --- |
 | rental_id | id of people who rent the bike |
@@ -149,9 +151,11 @@ This dataset is playing a more supporting role, as it helped providing informati
 
 The data has been formatted into CSV in order to be easier to use and compare. This gives The columns in the data comprise:
 
+Table 2: Description of London Bike-Share
+
 | Object | Description |
 | --- | --- |
-| mestamp  | timestamp field for grouping the data |
+| timestamp  | timestamp field for grouping the data |
 | cnt | the count of a new bike shares |
 | t1 | real temperature in Celsius |
 | t2 | temperature in Celsius "feels like" |
@@ -162,7 +166,7 @@ The data has been formatted into CSV in order to be easier to use and compare. T
 | season | category (0-spring; 1-summer; 2-autumn; 3-winter) |
 | weathercode | different weather condition|
 
-Description of weathercode:
+Table 3: Description of weathercode
 
 | weathercode | Description |
 | --- | --- |
@@ -183,7 +187,7 @@ In addition to season and isweekend, from the timestamp feature we can extract m
 
 [London bikeshare](https://www.kaggle.com/datasets/hmavrodiev/london-bike-sharing-dataset/discussion?resource=download)
 
-### Proposal "SPECIFIC"
+## Proposal "SPECIFIC"
 
 Recently, bike-sharing in big cities has become an important part of residents' daily life, and its role in urban transportation system has never been more significant. Looking at the spatiotemporal bike-sharing data in London, we could explore patterns, describe variations, or model the data in many different ways. From the two datasets, we may have a chance to take a peek at the residents' bike-renting behavior through many angles.
 
@@ -191,10 +195,51 @@ Recently, bike-sharing in big cities has become an important part of residents' 
 
 The result will be able to offer some suggestions for the decision maker of bike-sharing companies about the arrangement of bike density in different blocks, distribution between urban and rural areas and methods to tackle extreme weather conditions.
 
+## Exploratory Data Analysis
 
-# Different variables on the count of new bike shares
+In this section,  most of factors attaches a bar chart indicating the distribution of the new bike share in London area and Taipei area. In order to achieve the goals of this project to analysis the influencial factors on the new bike share distribution, applying the process of Exploratory Data Analysis (EDA) is the way to develop the better understanding of this datasets and promote this project.
 
-There are different variables in the database such as time, windspeed, season, and so on. The group is interested in these arguments and try to find the impact of them on the count of new bike shares(cnt).
+(Hoping there will be more discription and introduction)
+
+### Data Wrangling
+
+(delete me if u think there is no need for more discription, But for me, I guess there could have some intro or description... )
+
+#### Different factors on the count of new bike shares
+
+There are different factors in the database such as time, windspeed, season, and so on. The group is interested in these arguments and try to find the impact of them on the count of new bike shares(cnt).
+
+#### Data cleaning process
+
+The csv file with the London bike sharing dataset stored in is generic and need to be restructured before it can be used to anlysis its raw forms which are those variable connecting to factors influencing the number of new bike shares and its distribution.
+
+For the dataset of London Bike Share, it contains 17414 variables (columns) and 10 factors in its original form. Due to the factor called timestamp in original form is hard to analysis the bike share distribution with time.So shift it into five more specific factors.Factors went from 10 to 14.
+
+Table 4: Description of New London Bike-Share form
+
+| Object | Description |
+| --- | --- |
+| cnt | the count of a new bike shares |
+| t1 | real temperature in Celsius |
+| t2 | temperature in Celsius "feels like" |
+| hum | humidity in percentage |
+| windspeed | wind speed in km/h |
+| weathercode | different weather condition|
+| isholiday | boolean field - 1 holiday / 0 non holiday - refers to bank holidays |
+| isweekend | boolean field - 1 if the day is weekend / 0 if a working day |
+| season | category (0-spring; 1-summer; 2-autumn; 3-winter) |
+| date | the date of the bike share happens in the data form of Dates |
+| year | the year of the bike share happens in the data form of Int |
+| hour | the specific time to be observed of the bike share happens in the data form of Time |
+| dayofweek | distiguis the date of the bike share happens in the day of the week |
+| month| the month of the bike share happens in the data form of Int |
+
+
+### Analysis and Visualization
+
+## Predictive Modeling
+
+
 
 
 ## References {.page_break_before}
