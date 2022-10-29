@@ -1,3 +1,4 @@
+alomost
 AndersOhrn
 anlysis
 bikeshare
@@ -5,15 +6,16 @@ byw
 CEE
 Champaign
 cnt
-csv
+CSV
 cyfcx
 Dataset
 datasets
 dayofweek
-Discription
+discription
 distiguis
 EDA
 Guo
+hlaf
 influencial
 informations
 isholiday

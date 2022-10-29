@@ -44,9 +44,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/efec2b3074eebda93df3b4cfe3480a5e52ed45e0/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/efec2b3074eebda93df3b4cfe3480a5e52ed45e0/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/efec2b3074eebda93df3b4cfe3480a5e52ed45e0/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/075ba7ab0570988fa56d4a91b38a14965367ca65/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/075ba7ab0570988fa56d4a91b38a14965367ca65/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/075ba7ab0570988fa56d4a91b38a14965367ca65/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -68,9 +68,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/efec2b3074eebda93df3b4cfe3480a5e52ed45e0/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/075ba7ab0570988fa56d4a91b38a14965367ca65/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@efec2b3](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/efec2b3074eebda93df3b4cfe3480a5e52ed45e0)
+from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@075ba7a](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/075ba7ab0570988fa56d4a91b38a14965367ca65)
 on October 29, 2022.
 </em></small>
 
@@ -261,7 +261,7 @@ mean cnt of different month with the distribution of hour
 
 ![This is an image](https://github.com/Jingwenyaooo/-/blob/main/sub7.png)
 
-mean cnt with the distribution of month
+mean cnt with the distribution of season
 
 **(delete me except u think those above subtables is useful for our documents content, as they print here is to help teamates have better understanding of this documents)**
 
@@ -269,51 +269,53 @@ mean cnt with the distribution of month
 
 #### London Bike Share
 
+In this section, adapt mean cnt (the count of a new bike shares) to analysis how the new bike share demand as this mean cnt could better present the demand levels as possible.
+
 ![This is an image](https://github.com/Jingwenyaooo/-/blob/main/p1.png)
 
-**Figure1:mean cnt of general weekdays with the distribution of hour**
+**Figure1: mean cnt of general weekdays with the distribution of hour**
 
-
+This figure shows how the new bike share demand distribute in different hours in a weekday. According to the image, it can be clearly concluded that during the working day, the change of demand for borrowed cars shows a double-peaked image during the day, and the peak period of commuting can greatly affect the number of new borrowed cars, and the maximum peak of borrowed cars in a day appears around 8:30 which is higher than3000, and the minimum peak appears around 3:30 which is alomost 0.
 
 ![This is an image](https://github.com/Jingwenyaooo/-/blob/main/p2.png)
 
-**Figure2:mean cnt of general weekends with the distribution of hour**
+**Figure2: mean cnt of general weekends with the distribution of hour**
 
-
+This figure shows how the new bike share demand distribute in different hours in a weekend day. Based on the images, it is clear that during the weekend, the demand for rental cars varies in a single wave throughout the day, with the demand for travel in London mainly between 11:00 and 20:00, peaking around 15:00 and reaching a minimum around 5:30. Besides, the highest count of new bike shares is about 2000 which is nearly hlaf of the counts in weekdays. 
 
 ![This is an image](https://github.com/Jingwenyaooo/-/blob/main/p3.png)
 
-**Figure3:mean cnt of day of week in weekdays with the distribution of hour**
+**Figure3: mean cnt of day of week in weekdays with the distribution of hour**
 
-
+In this figure, y1, y2, y3, y4 and y5 represent Monday, Tuesday, Wednesday, Thursday and Friday, respectively.In this figure, the overall trend is consistent with the trend in Figure1, but according to this figure, we can conclude that the overall number of new bike shares on Monday and Friday is relatively low in each time period. It is worth noting that while the maximum peak in Figure1 is greater than 3000 but less than 4000, in this figure Tuesday, Wednesday and Thursday not only reach 4000, but also Tuesday and Thursday are the two days with higher relative quantities. In addition, the number of new bike shares is extraordinarily high at 22:00 on Wednesday, which is not only different from the trend in Figure1, but even almost three times higher than on other weekdays at the same moment.
 
 ![This is an image](https://github.com/Jingwenyaooo/-/blob/main/p4.png)
 
-**Figure4:mean cnt of day of week in weekends with the distribution of hour**
+**Figure4: mean cnt of day of week in weekends with the distribution of hour**
 
-
+In this figure, y1 and y2 represent Saturday and Sunday, respectively.
 
 ![This is an image](https://github.com/Jingwenyaooo/-/blob/main/p5.png)
 
-**Figure5:mean cnt of in holidays with the distribution of hour**
+**Figure5: mean cnt of in holidays with the distribution of hour**
 
-
+In this figure, y1 represents the change in the number of new bike shares during the holiday period, while y2 represents the change in the number of new bike shares not during the holiday period.
 
 ![This is an image](https://github.com/Jingwenyaooo/-/blob/main/p6.png)
 
-**Figure6:mean cnt of not in holidays with the distribution of hour**
+**Figure6: mean cnt of each month with the distribution of hour**
 
 
 
 ![This is an image](https://github.com/Jingwenyaooo/-/blob/main/p7.png)
 
-**Figure8:mean cnt of different month with the distribution of hour**
+**Figure7: mean cnt with the distribution of different month**
 
 
 
 ![This is an image](https://github.com/Jingwenyaooo/-/blob/main/p8.png)
 
-**Figure9:mean cnt with the distribution of month**
+**Figure8: mean cnt of each season with the distribution of hour**
 
 
 
