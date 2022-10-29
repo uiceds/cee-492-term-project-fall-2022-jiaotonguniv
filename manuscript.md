@@ -44,9 +44,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/f9c6ce5ed36023c6e05f3a1054c603e97e6cc59c/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/f9c6ce5ed36023c6e05f3a1054c603e97e6cc59c/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/f9c6ce5ed36023c6e05f3a1054c603e97e6cc59c/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/efec2b3074eebda93df3b4cfe3480a5e52ed45e0/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/efec2b3074eebda93df3b4cfe3480a5e52ed45e0/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/efec2b3074eebda93df3b4cfe3480a5e52ed45e0/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -68,9 +68,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/f9c6ce5ed36023c6e05f3a1054c603e97e6cc59c/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/efec2b3074eebda93df3b4cfe3480a5e52ed45e0/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@f9c6ce5](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/f9c6ce5ed36023c6e05f3a1054c603e97e6cc59c)
+from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@efec2b3](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/efec2b3074eebda93df3b4cfe3480a5e52ed45e0)
 on October 29, 2022.
 </em></small>
 
@@ -199,21 +199,21 @@ The result will be able to offer some suggestions for the decision maker of bike
 
 In this section,  most of factors attaches a bar chart indicating the distribution of the new bike share in London area and Taipei area. In order to achieve the goals of this project to analysis the influencial factors on the new bike share distribution, applying the process of Exploratory Data Analysis (EDA) is the way to develop the better understanding of this datasets and promote this project.
 
-(Hoping there will be more discription and introduction)
+**(Hoping there will be more discription and introduction)**
 
 ### Data Wrangling
 
-(delete me if u think there is no need for more discription, But for me, I guess there could have some intro or description... )
+**(delete me if u think there is no need for more discription, But for me, I guess there could have some intro or description... )**
 
 #### Different factors on the count of new bike shares
 
 There are different factors in the database such as time, windspeed, season, and so on. The group is interested in these arguments and try to find the impact of them on the count of new bike shares(cnt).
 
-#### Data cleaning process
+**Data cleaning process**
 
 The csv file with the London bike sharing dataset stored in is generic and need to be restructured before it can be used to anlysis its raw forms which are those variable connecting to factors influencing the number of new bike shares and its distribution.
 
-For the dataset of London Bike Share, it contains 17414 variables (columns) and 10 factors in its original form. Due to the factor called timestamp in original form is hard to analysis the bike share distribution with time.So shift it into five more specific factors into its final form. Factors went from 10 to 14 which as shown in the Table 4. Besides, to fully analysis the distribution of bike share happened in London, using the final form of datasets to arrange 7 subtables.
+For the dataset of London Bike Share, it contains 17414 variables (columns) and 10 factors in its original form. Due to the factor called timestamp in original form is hard to analysis the bike share distribution with time.So shift it into five more specific factors into its final form. Factors went from 10 to 14 which as shown in the Table 4. Besides, to fully analysis the distribution of bike share happened in London, using the final form of datasets to arrange 7 subtables using for analysis and visualization.
 
 Table 4: Description of New London Bike-Share form
 
@@ -234,25 +234,88 @@ Table 4: Description of New London Bike-Share form
 | dayofweek | distiguis the date of the bike share happens in the day of the week |
 | month| the month of the bike share happens in the data form of Int |
 
+**(delete me except u think those below subtables is useful for our documents content, as they print here is to help teamates have better understanding of this documents)**
+![This is an image](https://github.com/Jingwenyaooo/-/blob/main/sub1.png)
 
+mean cnt of general weekdays with the distribution of hour
+
+![This is an image](https://github.com/Jingwenyaooo/-/blob/main/sub2.png)
+
+mean cnt of general weekends with the distribution of hour
+
+![This is an image](https://github.com/Jingwenyaooo/-/blob/main/sub3.png)
+
+mean cnt of day of week in weekdays with the distribution of hour
+
+![This is an image](https://github.com/Jingwenyaooo/-/blob/main/sub4.png)
+
+mean cnt of day of week in weekends with the distribution of hour
+
+![This is an image](https://github.com/Jingwenyaooo/-/blob/main/sub5.png)
+
+mean cnt of wether in holidays with the distribution of hour
+
+![This is an image](https://github.com/Jingwenyaooo/-/blob/main/sub6.png)
+
+mean cnt of different month with the distribution of hour
+
+![This is an image](https://github.com/Jingwenyaooo/-/blob/main/sub7.png)
+
+mean cnt with the distribution of month
+
+**(delete me except u think those above subtables is useful for our documents content, as they print here is to help teamates have better understanding of this documents)**
 
 ### Analysis and Visualization
 
+#### London Bike Share
+
 ![This is an image](https://github.com/Jingwenyaooo/-/blob/main/p1.png)
+
+**Figure1:mean cnt of general weekdays with the distribution of hour**
+
+
 
 ![This is an image](https://github.com/Jingwenyaooo/-/blob/main/p2.png)
 
+**Figure2:mean cnt of general weekends with the distribution of hour**
+
+
+
 ![This is an image](https://github.com/Jingwenyaooo/-/blob/main/p3.png)
+
+**Figure3:mean cnt of day of week in weekdays with the distribution of hour**
+
+
 
 ![This is an image](https://github.com/Jingwenyaooo/-/blob/main/p4.png)
 
+**Figure4:mean cnt of day of week in weekends with the distribution of hour**
+
+
+
 ![This is an image](https://github.com/Jingwenyaooo/-/blob/main/p5.png)
+
+**Figure5:mean cnt of in holidays with the distribution of hour**
+
+
 
 ![This is an image](https://github.com/Jingwenyaooo/-/blob/main/p6.png)
 
+**Figure6:mean cnt of not in holidays with the distribution of hour**
+
+
+
 ![This is an image](https://github.com/Jingwenyaooo/-/blob/main/p7.png)
 
+**Figure8:mean cnt of different month with the distribution of hour**
+
+
+
 ![This is an image](https://github.com/Jingwenyaooo/-/blob/main/p8.png)
+
+**Figure9:mean cnt with the distribution of month**
+
+
 
 ## Predictive Modeling
 

@@ -5,12 +5,12 @@ byw
 CEE
 Champaign
 cnt
-CSV
+csv
 cyfcx
 Dataset
 datasets
 dayofweek
-discription
+Discription
 distiguis
 EDA
 Guo
@@ -28,9 +28,11 @@ Mulin
 schoolholiday
 spatiotemporal
 subtables
+teamates
 timespan
 Urbana
 weathercode
+wether
 windspeed
 Yao
 Yaojune
