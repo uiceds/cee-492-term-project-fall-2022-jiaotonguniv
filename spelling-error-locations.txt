@@ -46,6 +46,8 @@ content/01.abstract.md:102:anlysis
 content/01.abstract.md:102:csv
 content/01.abstract.md:102:dataset
 content/01.abstract.md:104:dataset
+content/01.abstract.md:104:datasets
+content/01.abstract.md:104:subtables
 content/01.abstract.md:110:cnt
 content/01.abstract.md:114:windspeed
 content/01.abstract.md:115:weathercode
@@ -53,6 +55,14 @@ content/01.abstract.md:116:isholiday
 content/01.abstract.md:117:isweekend
 content/01.abstract.md:122:dayofweek
 content/01.abstract.md:122:distiguis
+content/01.abstract.md:129:Jingwenyaooo
+content/01.abstract.md:131:Jingwenyaooo
+content/01.abstract.md:133:Jingwenyaooo
+content/01.abstract.md:135:Jingwenyaooo
+content/01.abstract.md:137:Jingwenyaooo
+content/01.abstract.md:139:Jingwenyaooo
+content/01.abstract.md:141:Jingwenyaooo
+content/01.abstract.md:143:Jingwenyaooo
 content/90.back-matter.md:7:AndersOhrn
 content/90.back-matter.md:7:bikeshare
 content/90.back-matter.md:7:datasets

@@ -44,9 +44,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/b8fd4c11866e4d22c9d5ebbdd35758b1520268eb/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/b8fd4c11866e4d22c9d5ebbdd35758b1520268eb/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/b8fd4c11866e4d22c9d5ebbdd35758b1520268eb/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/f9c6ce5ed36023c6e05f3a1054c603e97e6cc59c/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/f9c6ce5ed36023c6e05f3a1054c603e97e6cc59c/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/f9c6ce5ed36023c6e05f3a1054c603e97e6cc59c/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -68,9 +68,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/b8fd4c11866e4d22c9d5ebbdd35758b1520268eb/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/f9c6ce5ed36023c6e05f3a1054c603e97e6cc59c/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@b8fd4c1](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/b8fd4c11866e4d22c9d5ebbdd35758b1520268eb)
+from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@f9c6ce5](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/f9c6ce5ed36023c6e05f3a1054c603e97e6cc59c)
 on October 29, 2022.
 </em></small>
 
@@ -213,7 +213,7 @@ There are different factors in the database such as time, windspeed, season, and
 
 The csv file with the London bike sharing dataset stored in is generic and need to be restructured before it can be used to anlysis its raw forms which are those variable connecting to factors influencing the number of new bike shares and its distribution.
 
-For the dataset of London Bike Share, it contains 17414 variables (columns) and 10 factors in its original form. Due to the factor called timestamp in original form is hard to analysis the bike share distribution with time.So shift it into five more specific factors.Factors went from 10 to 14.
+For the dataset of London Bike Share, it contains 17414 variables (columns) and 10 factors in its original form. Due to the factor called timestamp in original form is hard to analysis the bike share distribution with time.So shift it into five more specific factors into its final form. Factors went from 10 to 14 which as shown in the Table 4. Besides, to fully analysis the distribution of bike share happened in London, using the final form of datasets to arrange 7 subtables.
 
 Table 4: Description of New London Bike-Share form
 
@@ -235,7 +235,24 @@ Table 4: Description of New London Bike-Share form
 | month| the month of the bike share happens in the data form of Int |
 
 
+
 ### Analysis and Visualization
+
+![This is an image](https://github.com/Jingwenyaooo/-/blob/main/p1.png)
+
+![This is an image](https://github.com/Jingwenyaooo/-/blob/main/p2.png)
+
+![This is an image](https://github.com/Jingwenyaooo/-/blob/main/p3.png)
+
+![This is an image](https://github.com/Jingwenyaooo/-/blob/main/p4.png)
+
+![This is an image](https://github.com/Jingwenyaooo/-/blob/main/p5.png)
+
+![This is an image](https://github.com/Jingwenyaooo/-/blob/main/p6.png)
+
+![This is an image](https://github.com/Jingwenyaooo/-/blob/main/p7.png)
+
+![This is an image](https://github.com/Jingwenyaooo/-/blob/main/p8.png)
 
 ## Predictive Modeling
 
