@@ -6,16 +6,15 @@ byw
 CEE
 Champaign
 cnt
-CSV
+csv
 cyfcx
-dataset
+Dataset
 datasets
 dayofweek
 discription
 distiguis
 EDA
 Guo
-hlaf
 influencial
 informations
 isholiday
@@ -26,7 +25,7 @@ Jingwen
 jingwenyaooo
 Kaggle
 Mavrodiev
-mulin
+Mulin
 schoolholiday
 spatiotemporal
 subtables
