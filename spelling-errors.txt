@@ -8,7 +8,7 @@ Champaign
 cnt
 CSV
 cyfcx
-Dataset
+dataset
 datasets
 dayofweek
 discription

@@ -44,9 +44,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/075ba7ab0570988fa56d4a91b38a14965367ca65/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/075ba7ab0570988fa56d4a91b38a14965367ca65/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/075ba7ab0570988fa56d4a91b38a14965367ca65/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/4b6ab1e4abfbca934e074c668237289303530c62/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/4b6ab1e4abfbca934e074c668237289303530c62/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/4b6ab1e4abfbca934e074c668237289303530c62/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -68,9 +68,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/075ba7ab0570988fa56d4a91b38a14965367ca65/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/4b6ab1e4abfbca934e074c668237289303530c62/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@075ba7a](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/075ba7ab0570988fa56d4a91b38a14965367ca65)
+from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@4b6ab1e](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/4b6ab1e4abfbca934e074c668237289303530c62)
 on October 29, 2022.
 </em></small>
 
@@ -293,31 +293,31 @@ In this figure, y1, y2, y3, y4 and y5 represent Monday, Tuesday, Wednesday, Thur
 
 **Figure4: mean cnt of day of week in weekends with the distribution of hour**
 
-In this figure, y1 and y2 represent Saturday and Sunday, respectively.
+In this figure, y1 and y2 represent Saturday and Sunday, respectively. The figure shows that the overall difference of new bike share between the two days of the weekend is not big, but the new bike share from 6:00 to 15:00 on Saturday is higher than that on weekdays. This phenomenon shows that although people's demand for bike share in London is roughly the same on both days of the weekend, people's travel demand is higher during the daytime on Saturday.
 
 ![This is an image](https://github.com/Jingwenyaooo/-/blob/main/p5.png)
 
 **Figure5: mean cnt of in holidays with the distribution of hour**
 
-In this figure, y1 represents the change in the number of new bike shares during the holiday period, while y2 represents the change in the number of new bike shares not during the holiday period.
+In this figure, y1 represents the change in the number of new bike shares during the holiday period, while y2 represents the change in the number of new bike shares not during the holiday period. In this figure, it can be found that the change in the distribution of people's new bike share during holidays is similar to the image of the change in the distribution of people's new bike share on weekends in Figure 2, and those not during holidays are similar to the image of the change in the distribution of people's new bike share on weekdays in Figure 1. In addition, the number of people's new bike shares in London during holidays is higher than that of weekdays during midday and late afternoon. This indicates that during weekdays, people's bike share demand is influenced by work commuting, i.e., it reaches a double peak during the peak commuting period; while during holidays, people's bike share demand peaks at noon and after noon, and even during noon (mealtime) is higher than that during weekdays, which can be guessed that people tend to go out for gathering during noon on holidays.
 
 ![This is an image](https://github.com/Jingwenyaooo/-/blob/main/p6.png)
 
 **Figure6: mean cnt of each month with the distribution of hour**
 
-
+In this figure, the overall distribution trend is similar to that in figure1 (hour-by-hour new bike share distribution over the workday), with large differences between months, especially between the April to October period and the November to March period. In addition, it can be seen that in the first half of the year, the overall demand for new bike share from 6:00 to 17:00 in London is higher than the level in the second half of the year.
 
 ![This is an image](https://github.com/Jingwenyaooo/-/blob/main/p7.png)
 
 **Figure7: mean cnt with the distribution of different month**
 
-
+According to this figure, it can be seen that among all time periods, the new bike share is relatively high from April to October, especially from June to August.
 
 ![This is an image](https://github.com/Jingwenyaooo/-/blob/main/p8.png)
 
 **Figure8: mean cnt of each season with the distribution of hour**
 
-
+According to this image, it can be seen that the demand for new bike share in London is relatively higher in summer and autumn overall, especially in summer. Winter is undoubtedly the lowest, but in this image it can be seen that the demand for new bike share is lower in spring than in autumn. It can be guessed that people are more willing to take bike share in the season of relatively higher temperature, and autumn is more suitable for bike share than spring in London area. In addition, people's bike share during the off-duty peak period is significantly higher during summer than not only during other seasons, but also during their off-duty peak period, a scenario that differs from all the weekday-related images described above.
 
 ## Predictive Modeling
 
