@@ -26,7 +26,7 @@ Jingwen
 jingwenyaooo
 Kaggle
 Mavrodiev
-Mulin
+mulin
 schoolholiday
 spatiotemporal
 subtables
