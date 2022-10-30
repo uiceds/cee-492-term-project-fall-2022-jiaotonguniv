@@ -9,13 +9,14 @@ cnt
 CSV
 cyfcx
 dataframe
-dataset
+Dataset
 datasets
 dayofweek
 dergees
-Discription
+discription
 distiguis
 EDA
+groupedbar
 Guo
 influencial
 informations
@@ -27,7 +28,7 @@ Jingwen
 jingwenyaooo
 Kaggle
 Mavrodiev
-Mulin
+mulin
 schoolholiday
 spatiotemporal
 subtables

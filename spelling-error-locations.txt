@@ -86,7 +86,8 @@ content/01.abstract.md:221:cnt
 content/01.abstract.md:223:dataframe
 content/01.abstract.md:223:temparature
 content/01.abstract.md:227:cnt
-content/01.abstract.md:231:cnt
+content/01.abstract.md:237:cnt
+content/01.abstract.md:239:groupedbar
 content/90.back-matter.md:7:AndersOhrn
 content/90.back-matter.md:7:bikeshare
 content/90.back-matter.md:7:datasets

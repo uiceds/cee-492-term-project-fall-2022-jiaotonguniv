@@ -44,9 +44,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/9e3accacf3ecfa10533f42b27eca931a651d7fd5/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/9e3accacf3ecfa10533f42b27eca931a651d7fd5/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/9e3accacf3ecfa10533f42b27eca931a651d7fd5/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/dc78fbda0623281635fae8767edfb2d3c015bd31/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/dc78fbda0623281635fae8767edfb2d3c015bd31/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/dc78fbda0623281635fae8767edfb2d3c015bd31/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -68,9 +68,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/9e3accacf3ecfa10533f42b27eca931a651d7fd5/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/dc78fbda0623281635fae8767edfb2d3c015bd31/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@9e3acca](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/9e3accacf3ecfa10533f42b27eca931a651d7fd5)
+from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@dc78fbd](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/dc78fbda0623281635fae8767edfb2d3c015bd31)
 on October 30, 2022.
 </em></small>
 
@@ -340,11 +340,17 @@ As the dataframe offers both the data of temperature and temperature "feels like
 
 This figure consists of holidays and weekdays. It is obviously that the weekdays has about one third higher average bike sharing counts than holidays, which proves that users choose the sharing bike more frequently on weekdays.
 
-**Figure13: mean cnt of distribution under 7 weather conditions**
+**Figure13: pie chart of distribution under 7 weather conditions**
 
 This pie chart clearly reveals the percentage of people utilizing bike sharing system. Basically, when the weather is good, people tend to utilize the bike sharing system more often, which is easy to understand. But after deeper investigations, evidences show that there is not a huge difference between "cloudy", "light rain" and "thunderstorm". It can be interpreted as when it is cloudy, people tend to feel a little bit reluctant to go outing compared with those warm and sunny days. But when those pedestrians are caught in the rain with no access to a car, they tend to have the thought of going home quickly. In this case, many of them would choose to ride a bike no matter it is "light rain" or "thunderstorm".
 
 ![](images/weatherpie.png)
+
+**Figure14: mean cnt of distribution under 7 weather conditions during weekdays and weekends per hour**
+
+This groupedbar chart shows the mean of people utilizing bike sharing system during weekdays and weekends. Most of the time, people tend to utilize bike sharing system more often during weekdays. However, when it comes to "cloudy" and "thunderstorm", people who ride shared bikes in the weekends are slightly more than that in the weekdays. It can be interpreted that when it is cloudy during weekdays, people may choose cars or buses to avoid potential rains. But when it comes to weekends, people tend to cherish every chance to go outing, resulting in an increase in shared bike usage.
+
+![](images/weatherbar.png)
 
 ## Predictive Modeling
 
