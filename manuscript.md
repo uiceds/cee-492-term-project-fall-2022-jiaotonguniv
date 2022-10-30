@@ -44,9 +44,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/dc78fbda0623281635fae8767edfb2d3c015bd31/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/dc78fbda0623281635fae8767edfb2d3c015bd31/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/dc78fbda0623281635fae8767edfb2d3c015bd31/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/63ab75746b3ce260e279b8a77383eb877c90b496/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/63ab75746b3ce260e279b8a77383eb877c90b496/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/63ab75746b3ce260e279b8a77383eb877c90b496/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -68,9 +68,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/dc78fbda0623281635fae8767edfb2d3c015bd31/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/63ab75746b3ce260e279b8a77383eb877c90b496/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@dc78fbd](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/dc78fbda0623281635fae8767edfb2d3c015bd31)
+from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@63ab757](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/63ab75746b3ce260e279b8a77383eb877c90b496)
 on October 30, 2022.
 </em></small>
 
@@ -348,7 +348,7 @@ This pie chart clearly reveals the percentage of people utilizing bike sharing s
 
 **Figure14: mean cnt of distribution under 7 weather conditions during weekdays and weekends per hour**
 
-This groupedbar chart shows the mean of people utilizing bike sharing system during weekdays and weekends. Most of the time, people tend to utilize bike sharing system more often during weekdays. However, when it comes to "cloudy" and "thunderstorm", people who ride shared bikes in the weekends are slightly more than that in the weekdays. It can be interpreted that when it is cloudy during weekdays, people may choose cars or buses to avoid potential rains. But when it comes to weekends, people tend to cherish every chance to go outing, resulting in an increase in shared bike usage.
+This groupedbar chart shows the mean of people utilizing bike sharing system during weekdays and weekends. Most of the time, people tend to utilize bike sharing system more often during weekdays. However, when it comes to "cloudy" and "thunderstorm", people who ride shared bikes in the weekends are slightly more than that in the weekdays. It can be interpreted that when it is cloudy during weekdays, people may choose cars or buses to avoid potential rains. But when it comes to weekends, people tend to cherish every chance to go outing, even is has the posibility to rain , resulting in an increase in shared bike usage. But when it is snowing, it becomes extremely hard to go outing, there is a dramatic drop in bike usage.
 
 ![](images/weatherbar.png)
 
