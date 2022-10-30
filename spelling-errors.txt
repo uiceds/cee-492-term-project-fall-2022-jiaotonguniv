@@ -7,10 +7,11 @@ byw
 CEE
 Champaign
 cnt
-CSV
+Covid
+csv
 cyfcx
 dataframe
-dataset
+Dataset
 datasets
 dayofweek
 dergees
@@ -20,7 +21,6 @@ EDA
 groupedbar
 Guo
 influencial
-informations
 isholiday
 ismonday
 istuesday
@@ -29,7 +29,7 @@ Jingwen
 jingwenyaooo
 Kaggle
 Mavrodiev
-mulin
+Mulin
 posibility
 schoolholiday
 spatiotemporal
