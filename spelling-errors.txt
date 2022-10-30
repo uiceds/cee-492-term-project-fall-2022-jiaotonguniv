@@ -8,12 +8,15 @@ Champaign
 cnt
 csv
 cyfcx
+dataframe
 Dataset
 datasets
 dayofweek
+dergees
 Discription
 distiguis
 EDA
+Fiogure
 Guo
 influencial
 informations
@@ -30,6 +33,8 @@ schoolholiday
 spatiotemporal
 subtables
 teamates
+temparature
+temperaure
 timespan
 Urbana
 weathercode
