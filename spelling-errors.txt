@@ -9,11 +9,11 @@ cnt
 csv
 cyfcx
 dataframe
-Dataset
+dataset
 datasets
 dayofweek
 dergees
-discription
+Discription
 distiguis
 EDA
 Guo
