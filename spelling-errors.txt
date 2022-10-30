@@ -7,10 +7,10 @@ byw
 CEE
 Champaign
 cnt
-csv
+CSV
 cyfcx
 dataframe
-Dataset
+dataset
 datasets
 dayofweek
 dergees
@@ -29,7 +29,7 @@ Jingwen
 jingwenyaooo
 Kaggle
 Mavrodiev
-mulin
+Mulin
 posibility
 schoolholiday
 spatiotemporal
