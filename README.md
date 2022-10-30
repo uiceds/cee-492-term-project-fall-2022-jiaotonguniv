@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/gh-pages) branch hosts the contents of this directory at <https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/>.
-The permalink for this webpage version is <https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/57c7a62190f94b6d6fb33b4329643ea9a4b151ec/>.
+The permalink for this webpage version is <https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/ecbf5711f12df2d14ce34312230a7dcdd24ff06e/>.
 To redirect to the permalink for the latest manuscript version at anytime, use the link <https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/freeze/>.
 
 ## Files
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`57c7a62190f94b6d6fb33b4329643ea9a4b151ec`](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/commit/57c7a62190f94b6d6fb33b4329643ea9a4b151ec).
+[`ecbf5711f12df2d14ce34312230a7dcdd24ff06e`](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/commit/ecbf5711f12df2d14ce34312230a7dcdd24ff06e).
