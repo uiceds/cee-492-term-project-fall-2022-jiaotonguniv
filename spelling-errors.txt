@@ -13,7 +13,7 @@ dataset
 datasets
 dayofweek
 dergees
-discription
+Discription
 distiguis
 EDA
 Guo
