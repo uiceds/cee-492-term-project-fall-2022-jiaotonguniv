@@ -9,7 +9,7 @@ cnt
 CSV
 cyfcx
 dataframe
-dataset
+Dataset
 datasets
 dayofweek
 dergees
@@ -27,7 +27,7 @@ Jingwen
 jingwenyaooo
 Kaggle
 Mavrodiev
-mulin
+Mulin
 schoolholiday
 spatiotemporal
 subtables
