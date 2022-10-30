@@ -44,9 +44,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/d1b98bdd023e2daed275939b662ee98f6991d42f/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/d1b98bdd023e2daed275939b662ee98f6991d42f/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/d1b98bdd023e2daed275939b662ee98f6991d42f/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/a7cbcaf013af72a7aecfe7a89c60f16f835b21a5/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/a7cbcaf013af72a7aecfe7a89c60f16f835b21a5/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/a7cbcaf013af72a7aecfe7a89c60f16f835b21a5/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -68,9 +68,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/d1b98bdd023e2daed275939b662ee98f6991d42f/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/a7cbcaf013af72a7aecfe7a89c60f16f835b21a5/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@d1b98bd](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/d1b98bdd023e2daed275939b662ee98f6991d42f)
+from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@a7cbcaf](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/a7cbcaf013af72a7aecfe7a89c60f16f835b21a5)
 on October 30, 2022.
 </em></small>
 
@@ -344,7 +344,7 @@ This figure consists of holidays and weekdays. It is obviously that the weekdays
 
 This pie chart clearly reveals the percentage of people utilizing bike sharing system. Basically, when the weather is good, people tend to utilize the bike sharing system more often, which is easy to understand. But after deeper investigations, evidences show that there is not a huge difference between "cloudy", "light rain" and "thunderstorm". It can be interpreted as when it is cloudy, people tend to feel a little bit reluctant to go outing compared with those warm and sunny days. But when those pedestrians are caught in the rain with no access to a car, they tend to have the thought of going home quickly. In this case, many of them would choose to ride a bike no matter it is "light rain" or "thunderstorm".
 
-![](images/Weather pie.png)
+![](images/weatherpie.png)
 
 ## Predictive Modeling
 
