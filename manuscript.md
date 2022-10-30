@@ -44,9 +44,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/521422cebdac64d7a1a5fbeaeb552cb6d2b87d50/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/521422cebdac64d7a1a5fbeaeb552cb6d2b87d50/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/521422cebdac64d7a1a5fbeaeb552cb6d2b87d50/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/5d8f88495aaa4dedc2f1a667f88279c74f049c56/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/5d8f88495aaa4dedc2f1a667f88279c74f049c56/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/5d8f88495aaa4dedc2f1a667f88279c74f049c56/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -68,9 +68,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/521422cebdac64d7a1a5fbeaeb552cb6d2b87d50/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/5d8f88495aaa4dedc2f1a667f88279c74f049c56/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@521422c](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/521422cebdac64d7a1a5fbeaeb552cb6d2b87d50)
+from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@5d8f884](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/5d8f88495aaa4dedc2f1a667f88279c74f049c56)
 on October 30, 2022.
 </em></small>
 
@@ -285,6 +285,7 @@ This figure shows how the new bike share demand distribute in different hours in
 ![](images/3.svg)
 
 **Figure3: mean cnt of day of week in weekdays with the distribution of hour**
+
 In this figure, the overall trend is consistent with the trend in Figure1, but according to this figure, we can conclude that the overall number of new bike shares on Monday and Friday is relatively low in each time period. It is worth noting that while the maximum peak in Figure1 is greater than 3000 but less than 4000, in this figure Tuesday, Wednesday and Thursday not only reach 4000, but also Tuesday and Thursday are the two days with higher relative quantities. In addition, the number of new bike shares is extraordinarily high at 22:00 on Wednesday, which is not only different from the trend in Figure1, but even almost three times higher than on other weekdays at the same moment.
 
 ![](images/4.svg)

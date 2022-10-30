@@ -6,7 +6,7 @@ byw
 CEE
 Champaign
 cnt
-csv
+CSV
 cyfcx
 dataframe
 Dataset
@@ -27,7 +27,7 @@ Jingwen
 jingwenyaooo
 Kaggle
 Mavrodiev
-mulin
+Mulin
 schoolholiday
 spatiotemporal
 subtables
