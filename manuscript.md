@@ -44,9 +44,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/a1d8ca6a054f19b089ec4219d5714db5329683d3/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/a1d8ca6a054f19b089ec4219d5714db5329683d3/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/a1d8ca6a054f19b089ec4219d5714db5329683d3/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/4102340ab37eca4c4f94990c3452e3cb8d10b5e9/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/4102340ab37eca4c4f94990c3452e3cb8d10b5e9/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/4102340ab37eca4c4f94990c3452e3cb8d10b5e9/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -68,9 +68,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/a1d8ca6a054f19b089ec4219d5714db5329683d3/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/4102340ab37eca4c4f94990c3452e3cb8d10b5e9/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@a1d8ca6](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/a1d8ca6a054f19b089ec4219d5714db5329683d3)
+from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@4102340](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/4102340ab37eca4c4f94990c3452e3cb8d10b5e9)
 on October 30, 2022.
 </em></small>
 
@@ -324,7 +324,7 @@ According to these two images, it can be seen that the demand for new bike share
 
 ![](images/temperature.png)
 
-**Fiogure10: mean cnt of each temperature
+**Figure10: mean cnt of each temperature**
 
 This image shows the change of new bike share in different temperaure. The number of sharing bikes increases with temperature totally. The minimum result is below zero Celsius degree and the maximum one is more than 30 Celsius degrees. However, this trend is not a strictly positive correlation. If the highest value in the plot is neglected, it can be found that the average counts comes down after the temperature is more than about 30 Celsius dergees. 
 
