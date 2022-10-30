@@ -44,9 +44,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/cbebf17453846dc0e5097165306ad22de496b78e/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/cbebf17453846dc0e5097165306ad22de496b78e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/cbebf17453846dc0e5097165306ad22de496b78e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/84337b9660f08c5ae69b4106267faec7a3f86ef2/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/84337b9660f08c5ae69b4106267faec7a3f86ef2/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/84337b9660f08c5ae69b4106267faec7a3f86ef2/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -68,9 +68,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/cbebf17453846dc0e5097165306ad22de496b78e/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/84337b9660f08c5ae69b4106267faec7a3f86ef2/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@cbebf17](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/cbebf17453846dc0e5097165306ad22de496b78e)
+from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@84337b9](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/84337b9660f08c5ae69b4106267faec7a3f86ef2)
 on October 30, 2022.
 </em></small>
 
@@ -112,7 +112,7 @@ on October 30, 2022.
 
 # Abstract
 
-## 1.0 Introduction
+## 1 Introduction
 
 ### Description
 
@@ -187,15 +187,15 @@ In addition to season and isweekend, from the timestamp feature we can extract m
 
 [London bikeshare](https://www.kaggle.com/datasets/hmavrodiev/london-bike-sharing-dataset/discussion?resource=download)
 
-### 1.2 Proposal "SPECIFIC"
+### 1.2 Proposal
 
-Recently, bike-sharing in big cities has become an important part of residents' daily life, and its role in urban transportation system has never been more significant. Looking at the spatiotemporal bike-sharing data in London, we could explore patterns, describe variations, or model the data in many different ways. From the two datasets, we may have a chance to take a peek at the residents' bike-renting behavior through many angles.
+Recently, bike-sharing in big cities has become an important part of residents' daily life, and its role in urban transportation system has never been more significant. Looking at the spatiotemporal bike-sharing data in London, the team could explore patterns, describe variations, or model the data in many different ways. From the two datasets, we may have a chance to take a peek at the residents' bike-renting behavior through many angles.
 
-"PREVIOUS" work has shown that weather is a key driver for variation in usage. <sup>[1]</sup> <sup>[2]</sup> By utilizing those datasets to analyze how extreme weather events like winter rains in London will affect bike-sharing system, it is safe to draw some conclusions to guide the process of making contingency plans. The locations of start-trip and end-trip is also considered to have the potential of revealing hot spots of bike-renting usage.
+Previous work has shown that weather is a key driver for variation in usage. <sup>[1]</sup> <sup>[2]</sup> By utilizing those datasets to analyze how extreme weather events like winter rains in London will affect bike-sharing system, it is safe to draw some conclusions to guide the process of making contingency plans. The locations of start-trip and end-trip is also considered to have the potential of revealing hot spots of bike-renting usage. Moreover, whether users choose sharing bikes or not is also affected by other factors, such as temperature, time, or even the day of week. For example, Londoners might be more willing to ride on the working day because of the limited time to work place.
 
-The result will be able to offer some suggestions for the decision maker of bike-sharing companies about the arrangement of bike density in different blocks, distribution between urban and rural areas and methods to tackle extreme weather conditions.
+The team plans to plot the relationship between the average bike sharing counts with those different kinds of factors. The result will be able to offer some suggestions for the decision maker of bike-sharing companies about the arrangement of bike density in different blocks, distribution between urban and rural areas and methods to tackle extreme weather conditions.
 
-## 2.0 Exploratory Data Analysis
+## 2 Exploratory Data Analysis
 
 In this section, most of factors attaches a bar chart indicating the distribution of the new bike sharing system in London. In order to achieve the goals of analysing the influencial factors on the new bike share distribution, applying the process of Exploratory Data Analysis (EDA) is a way to develop a better understanding of this dataset and promote the project.
 
