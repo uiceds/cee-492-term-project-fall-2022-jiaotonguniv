@@ -6,14 +6,14 @@ byw
 CEE
 Champaign
 cnt
-CSV
+csv
 cyfcx
 dataframe
-Dataset
+dataset
 datasets
 dayofweek
 dergees
-discription
+Discription
 distiguis
 EDA
 Guo
@@ -27,7 +27,7 @@ Jingwen
 jingwenyaooo
 Kaggle
 Mavrodiev
-Mulin
+mulin
 schoolholiday
 spatiotemporal
 subtables
