@@ -44,9 +44,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/07d7d18cf171f58cf7b8fe431d5428962ca30c31/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/07d7d18cf171f58cf7b8fe431d5428962ca30c31/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/07d7d18cf171f58cf7b8fe431d5428962ca30c31/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/9e3accacf3ecfa10533f42b27eca931a651d7fd5/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/9e3accacf3ecfa10533f42b27eca931a651d7fd5/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/9e3accacf3ecfa10533f42b27eca931a651d7fd5/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -68,9 +68,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/07d7d18cf171f58cf7b8fe431d5428962ca30c31/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/9e3accacf3ecfa10533f42b27eca931a651d7fd5/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@07d7d18](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/07d7d18cf171f58cf7b8fe431d5428962ca30c31)
+from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@9e3acca](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/9e3accacf3ecfa10533f42b27eca931a651d7fd5)
 on October 30, 2022.
 </em></small>
 
@@ -316,25 +316,25 @@ According to this figure, it can be seen that among all time periods, the new bi
 
 **Figure8: mean cnt of each season with the distribution of hour**
 
-![](images/season.png)
+![](images/season.svg)
 
 **Figure9: mean cnt of each season**
 
 According to these two images, it can be seen that the demand for new bike share in London is relatively higher in summer and autumn overall, especially in summer. Winter is undoubtedly the lowest, but in this image it can be seen that the demand for new bike share is lower in spring than in autumn. It can be guessed that people are more willing to take bike share in the season of relatively higher temperature, and autumn is more suitable for bike share than spring in London area. In addition, people's bike share during the off-duty peak period is significantly higher during summer than not only during other seasons, but also during their off-duty peak period, a scenario that differs from all the weekday-related images described above.
 
-![](images/temperature.png)
+![](images/temperature.svg)
 
 **Figure10: mean cnt of each temperature**
 
 This image shows the change of new bike share in different temperaure. The number of sharing bikes increases with temperature totally. The minimum result is below zero Celsius degree and the maximum one is more than 30 Celsius degrees. However, this trend is not a strictly positive correlation. If the highest value in the plot is neglected, it can be found that the average counts comes down after the temperature is more than about 30 Celsius dergees. 
 
-![](images/t_feels_like.png)
+![](images/t_feels_like.svg)
 
 **Figure11: mean cnt of each temperature "feels like"**
 
 As the dataframe offers both the data of temperature and temperature "feels like", it is possible to compare the impact of apparent temperature. The lowest and highest apparent temperature affect more on the bike sharing counts, comparing to the real temparature. It can be concluded that users are less willing to choose riding when the temperature is too high or too low. 
 
-![](images/is_holiday.png)
+![](images/is_holiday.svg)
 
 **Figure12: mean cnt of holidays and weekdays**
 
