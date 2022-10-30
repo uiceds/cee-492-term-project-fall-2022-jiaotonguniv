@@ -35,7 +35,8 @@ content/01.abstract.md:76:kaggle
 content/01.abstract.md:80:datasets
 content/01.abstract.md:80:spatiotemporal
 content/01.abstract.md:82:datasets
-content/01.abstract.md:88:datasets
+content/01.abstract.md:88:analysing
+content/01.abstract.md:88:dataset
 content/01.abstract.md:88:EDA
 content/01.abstract.md:88:influencial
 content/01.abstract.md:90:discription

@@ -44,9 +44,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/49af8213fc11daf96c36c1fbc41aba9d9688379d/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/49af8213fc11daf96c36c1fbc41aba9d9688379d/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/49af8213fc11daf96c36c1fbc41aba9d9688379d/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/db1fadf8eecb122ea4d760a292ad04f37f935485/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/db1fadf8eecb122ea4d760a292ad04f37f935485/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/db1fadf8eecb122ea4d760a292ad04f37f935485/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -68,9 +68,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/49af8213fc11daf96c36c1fbc41aba9d9688379d/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/db1fadf8eecb122ea4d760a292ad04f37f935485/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@49af821](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/49af8213fc11daf96c36c1fbc41aba9d9688379d)
+from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@db1fadf](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/db1fadf8eecb122ea4d760a292ad04f37f935485)
 on October 30, 2022.
 </em></small>
 
@@ -112,11 +112,11 @@ on October 30, 2022.
 
 # Abstract
 
-## Introduction
+## 1.0 Introduction
 
 ### Description
 
-#### Dataset:
+#### 1.1 Dataset:
 
 For this project, we are going to focus on the usage of bike sharing in London. The data come from two datasets, "London and Taipei Bike-Share Data" and "London bike sharing dataset." 
 
@@ -187,7 +187,7 @@ In addition to season and isweekend, from the timestamp feature we can extract m
 
 [London bikeshare](https://www.kaggle.com/datasets/hmavrodiev/london-bike-sharing-dataset/discussion?resource=download)
 
-## Proposal "SPECIFIC"
+## 2.0 Proposal "SPECIFIC"
 
 Recently, bike-sharing in big cities has become an important part of residents' daily life, and its role in urban transportation system has never been more significant. Looking at the spatiotemporal bike-sharing data in London, we could explore patterns, describe variations, or model the data in many different ways. From the two datasets, we may have a chance to take a peek at the residents' bike-renting behavior through many angles.
 
@@ -195,13 +195,13 @@ Recently, bike-sharing in big cities has become an important part of residents' 
 
 The result will be able to offer some suggestions for the decision maker of bike-sharing companies about the arrangement of bike density in different blocks, distribution between urban and rural areas and methods to tackle extreme weather conditions.
 
-## Exploratory Data Analysis
+## 2.1 Exploratory Data Analysis
 
-In this section,  most of factors attaches a bar chart indicating the distribution of the new bike share in London area and Taipei area. In order to achieve the goals of this project to analysis the influencial factors on the new bike share distribution, applying the process of Exploratory Data Analysis (EDA) is the way to develop the better understanding of this datasets and promote this project.
+In this section, most of factors attaches a bar chart indicating the distribution of the new bike sharing system in London. In order to achieve the goals of analysing the influencial factors on the new bike share distribution, applying the process of Exploratory Data Analysis (EDA) is a way to develop a better understanding of this dataset and promote the project.
 
 **(Hoping there will be more discription and introduction)**
 
-### Data Wrangling
+### 2.2 Data Wrangling
 
 **(delete me if u think there is no need for more discription, But for me, I guess there could have some intro or description... )**
 
@@ -264,9 +264,9 @@ mean cnt with the distribution of season
 
 **(delete me except u think those above subtables is useful for our documents content, as they print here is to help teamates have better understanding of this documents)**
 
-### Analysis and Visualization
+### 3.0 Analysis and Visualization
 
-#### London Bike Share
+#### 3.1 London Bike Share
 
 In this section, adapt mean cnt (the count of a new bike shares) to analysis how the new bike share demand as this mean cnt could better present the demand levels as possible.
 

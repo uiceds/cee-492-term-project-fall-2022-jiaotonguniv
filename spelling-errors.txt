@@ -1,4 +1,5 @@
 alomost
+analysing
 AndersOhrn
 anlysis
 bikeshare
@@ -6,14 +7,14 @@ byw
 CEE
 Champaign
 cnt
-csv
+CSV
 cyfcx
 dataframe
 Dataset
 datasets
 dayofweek
 dergees
-discription
+Discription
 distiguis
 EDA
 groupedbar
