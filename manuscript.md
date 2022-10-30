@@ -44,9 +44,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/1e3305542131927ea6c108a20c977e6627076740/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/1e3305542131927ea6c108a20c977e6627076740/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/1e3305542131927ea6c108a20c977e6627076740/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/ee10f0e4b81bee08b365d964a8c35a2ccf6e60e3/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/ee10f0e4b81bee08b365d964a8c35a2ccf6e60e3/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/ee10f0e4b81bee08b365d964a8c35a2ccf6e60e3/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -68,9 +68,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/1e3305542131927ea6c108a20c977e6627076740/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/ee10f0e4b81bee08b365d964a8c35a2ccf6e60e3/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@1e33055](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/1e3305542131927ea6c108a20c977e6627076740)
+from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@ee10f0e](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/ee10f0e4b81bee08b365d964a8c35a2ccf6e60e3)
 on October 30, 2022.
 </em></small>
 
@@ -116,11 +116,11 @@ on October 30, 2022.
 
 ### Description
 
-#### 1.1 Dataset:
+### 1.1 Dataset:
 
 For this project, we are going to focus on the usage of bike sharing in London. The data come from two datasets, "London and Taipei Bike-Share Data" and "London bike sharing dataset." 
 
-#### London and Taipei Bike-Share Data
+#### 1.1.1 London and Taipei Bike-Share Data
 
 The raw data is collected from the respective cities open data sites. 
 
@@ -145,7 +145,7 @@ Table 1: Discription of London and Taipei Bike-Share
 | start_station_name | name of start station |
 | start_rental_date_time | date and time of start rental |
 
-#### London bike sharing dataset
+#### 1.1.2 London bike sharing dataset
 
 This dataset is playing a more supporting role, as it helped providing informations on weather conditions. Although the timespan doesn't overlap too much with the first dataset (January 4th 2015 to January 3rd 2017), it gives the idea to incorporate weather conditions into consideration. In the future we may try to find weather datasets that fit the first dataset better to help analyzing.
 
@@ -181,7 +181,7 @@ Table 3: Description of weathercode
 
 In addition to season and isweekend, from the timestamp feature we can extract many separate time features - day of the week (as one scaled column or as seven columns of ismonday, istuesday etc.), month number, day of the month, week number, hour, minute. In combination with external data, we could add is_light for after dawn times and is_schoolholiday to match London school holiday times.
 
-#### Link of dataset:
+#### 1.1.3 Link of dataset:
 
 [London and Taipei bikeshare](https://www.kaggle.com/datasets/ajohrn/bikeshare-usage-in-london-and-taipei-network)
 
