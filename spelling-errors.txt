@@ -2,6 +2,7 @@ alomost
 analysing
 AndersOhrn
 anlysis
+basical
 bikeshare
 byw
 CEE
@@ -11,11 +12,11 @@ Covid
 csv
 cyfcx
 dataframe
-Dataset
+dataset
 datasets
 dayofweek
 dergees
-discription
+Discription
 distiguis
 EDA
 groupedbar

@@ -44,9 +44,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/9416f945c9ebd5ef7f163cb2c803b3953cd0f12c/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/9416f945c9ebd5ef7f163cb2c803b3953cd0f12c/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/9416f945c9ebd5ef7f163cb2c803b3953cd0f12c/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/c915fd6973515582ff7eaa4a078e15939794f495/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/c915fd6973515582ff7eaa4a078e15939794f495/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/c915fd6973515582ff7eaa4a078e15939794f495/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -68,9 +68,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/9416f945c9ebd5ef7f163cb2c803b3953cd0f12c/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/c915fd6973515582ff7eaa4a078e15939794f495/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@9416f94](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/9416f945c9ebd5ef7f163cb2c803b3953cd0f12c)
+from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@c915fd6](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/c915fd6973515582ff7eaa4a078e15939794f495)
 on October 30, 2022.
 </em></small>
 
@@ -190,7 +190,7 @@ The team plans to plot the relationship between the average bike sharing counts 
 
 ## 2 Exploratory Data Analysis
 
-In this section, most of factors attaches a bar chart indicating the distribution of the new bike sharing system in London. In order to achieve the goals of analysing the influencial factors on the new bike share distribution, applying the process of Exploratory Data Analysis (EDA) is a way to develop a better understanding of this dataset and promote the project.
+In this section, there are various factors contributing to the changes in sharing bike usage. To manage these data properly, bar charts are made to do basical analysis. In order to achieve the goals of analysing the influencial factors on the new bike share distribution, applying the process of Exploratory Data Analysis (EDA) is a way to develop a better understanding of this dataset and promote the project.
 
 **(Hoping there will be more discription and introduction)**
 

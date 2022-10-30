@@ -35,6 +35,7 @@ content/01.abstract.md:73:datasets
 content/01.abstract.md:73:spatiotemporal
 content/01.abstract.md:75:datasets
 content/01.abstract.md:81:analysing
+content/01.abstract.md:81:basical
 content/01.abstract.md:81:dataset
 content/01.abstract.md:81:EDA
 content/01.abstract.md:81:influencial
