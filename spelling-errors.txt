@@ -6,12 +6,12 @@ byw
 CEE
 Champaign
 cnt
-CSV
+csv
 cyfcx
 Dataset
 datasets
 dayofweek
-discription
+Discription
 distiguis
 EDA
 Guo
