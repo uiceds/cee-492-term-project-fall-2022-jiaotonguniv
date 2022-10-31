@@ -44,9 +44,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/fe647470608f27064ac5141c26483fb098a84e67/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/fe647470608f27064ac5141c26483fb098a84e67/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/fe647470608f27064ac5141c26483fb098a84e67/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/a72e91eba1b3ca912c45bb571d6a7de41c82c17a/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/a72e91eba1b3ca912c45bb571d6a7de41c82c17a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/a72e91eba1b3ca912c45bb571d6a7de41c82c17a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -68,9 +68,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/fe647470608f27064ac5141c26483fb098a84e67/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/a72e91eba1b3ca912c45bb571d6a7de41c82c17a/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@fe64747](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/fe647470608f27064ac5141c26483fb098a84e67)
+from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@a72e91e](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/a72e91eba1b3ca912c45bb571d6a7de41c82c17a)
 on October 31, 2022.
 </em></small>
 
@@ -304,12 +304,13 @@ Bike stops near tourist attractions can have another trait different than the sp
 
 ****
 
-![](images/cbdmay.png)
-![](images/hyde may.png)
+![](images/cbdmay.svg)
+
+![](images/hydemay.svg)
 
 **Figure12: The effect of Rain and National Holidays**
 
-In this figure, we can see the date is set on 05/06 ~ 05/12 and 05/13 ~ 05/29 (2019). 05/06 (Mon) is a national holiday in UK. Also, there are heavy rainfall during 2019/05/08~09. We can see the national holiday having drastic on usage in CBD, causing a giant difference between the two Mondays, 05/06 and 05/13. However Hyde Park was not that severely affected. From the figure we can also see less bike usgae on 2019/05/08~09, regardless the location. Comparing to the result in Figure11, it is safe to say that precipitation affects bike users in CBD more than low temperature. But is this phenomenon universal across London? Or is this a business district thing? We may need to look for other proofs.
+In this figure, we can see the date is set on 05/06 ~ 05/12 and 05/13 ~ 05/29 (2019). 05/06 (Mon) is a national holiday in UK. Also, there are heavy rainfall during 2019/05/08 ~ 09. We can see the national holiday having drastic on usage in CBD, causing a giant difference between the two Mondays, 05/06 and 05/13. However Hyde Park was not that severely affected. From the figure we can also see less bike usgae on 2019/05/08 ~ 09, regardless the location. Comparing to the result in Figure11, it is safe to say that precipitation affects bike users in CBD more than low temperature. But is this phenomenon universal across London? Or is this a business district thing? We may need to look for other proofs.
 
 
 #### 2.3.2 Variables for predicting
@@ -326,7 +327,7 @@ The main dataset (1.1.1 London.csv) although contains rich content, is too time-
 | Location | Characteristics of the bike stop location |
 | Surrounding | Renting availability in nearby stops |
 | Transport | Other means of transportation available |
-| Crime | Level of safety in the neiborhood  |
+| Crime | Level of safety in the neighborhood  |
 
 Due to the complexity of the problem, we would then narrow the observing area from London entirely to a certain area, hopefully containing schools, tourist attractions, business areas and residential area in order to give diversity to the problem.
 

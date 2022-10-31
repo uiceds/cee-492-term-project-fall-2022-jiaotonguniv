@@ -9,7 +9,7 @@ cnt
 Covid
 csv
 cyfcx
-Dataset
+dataset
 datasets
 Guo
 isholiday
@@ -20,9 +20,8 @@ Jingwen
 jingwenyaooo
 Kaggle
 Mavrodiev
-Mulin
+mulin
 neccesary
-neiborhood
 revealations
 schoolholiday
 spatiotemporal

@@ -73,9 +73,9 @@
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/fe647470608f27064ac5141c26483fb098a84e67/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/fe647470608f27064ac5141c26483fb098a84e67/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/fe647470608f27064ac5141c26483fb098a84e67/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/a72e91eba1b3ca912c45bb571d6a7de41c82c17a/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/a72e91eba1b3ca912c45bb571d6a7de41c82c17a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/a72e91eba1b3ca912c45bb571d6a7de41c82c17a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -89,9 +89,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/fe647470608f27064ac5141c26483fb098a84e67/">permalink</a>)
+(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/a72e91eba1b3ca912c45bb571d6a7de41c82c17a/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/fe647470608f27064ac5141c26483fb098a84e67">uiceds/cee-492-term-project-fall-2022-jiaotonguniv@fe64747</a>
+from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/a72e91eba1b3ca912c45bb571d6a7de41c82c17a">uiceds/cee-492-term-project-fall-2022-jiaotonguniv@a72e91e</a>
 on October 31, 2022.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -364,10 +364,14 @@ Queen Street 1, Bank : Located in the central of business districts . (Will be l
 <p>In this figure, we can see the date is set on 12/02 ~ 12/08 and 06/17 ~ 06/23 (2019). They are both regular non-holiday weeks with little to none precipitation. Although we almost came a conclusion that usage in winter is almost always lower than that of summer, in the busy business district, we can hardly tell the impact from weather.On the other hand, bike-share usage took a great hit from summer to winter in Hyde Park. Meaning tourist activities are significantly lower in cold times.</p>
 <p>Bike stops near tourist attractions can have another trait different than the speculations we made from observing large trends. We can see in June, Hyde Park attracts large amount of bike usage in weekends. This serves as a reminder that weekdays do not always have larger usage than weekends when predicting.</p>
 <hr />
-<p><img src="images/cbdmay.png" />
-<img src="images/hyde%20may.png" /></p>
+<figure>
+<img src="images/cbdmay.svg" />
+</figure>
+<figure>
+<img src="images/hydemay.svg" />
+</figure>
 <p><strong>Figure12: The effect of Rain and National Holidays</strong></p>
-<p>In this figure, we can see the date is set on 05/06 ~ 05/12 and 05/13 ~ 05/29 (2019). 05/06 (Mon) is a national holiday in UK. Also, there are heavy rainfall during 2019/05/08~09. We can see the national holiday having drastic on usage in CBD, causing a giant difference between the two Mondays, 05/06 and 05/13. However Hyde Park was not that severely affected. From the figure we can also see less bike usgae on 2019/05/08~09, regardless the location. Comparing to the result in Figure11, it is safe to say that precipitation affects bike users in CBD more than low temperature. But is this phenomenon universal across London? Or is this a business district thing? We may need to look for other proofs.</p>
+<p>In this figure, we can see the date is set on 05/06 ~ 05/12 and 05/13 ~ 05/29 (2019). 05/06 (Mon) is a national holiday in UK. Also, there are heavy rainfall during 2019/05/08 ~ 09. We can see the national holiday having drastic on usage in CBD, causing a giant difference between the two Mondays, 05/06 and 05/13. However Hyde Park was not that severely affected. From the figure we can also see less bike usgae on 2019/05/08 ~ 09, regardless the location. Comparing to the result in Figure11, it is safe to say that precipitation affects bike users in CBD more than low temperature. But is this phenomenon universal across London? Or is this a business district thing? We may need to look for other proofs.</p>
 <h4 id="variables-for-predicting">2.3.2 Variables for predicting</h4>
 <p>The main dataset (1.1.1 London.csv) although contains rich content, is too time-consuming to perform a thorough exploratory data analysis right now. But until the next step, it would be neccesary to look for deeper connections between the dots. For now, combining large trends and micro trends, we have thought of the following variables for predicting bike-share usage:</p>
 <table>
@@ -412,7 +416,7 @@ Queen Street 1, Bank : Located in the central of business districts . (Will be l
 </tr>
 <tr class="odd">
 <td>Crime</td>
-<td>Level of safety in the neiborhood</td>
+<td>Level of safety in the neighborhood</td>
 </tr>
 </tbody>
 </table>
