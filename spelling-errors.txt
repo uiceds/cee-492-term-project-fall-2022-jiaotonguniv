@@ -1,8 +1,6 @@
 alomost
-analysing
 AndersOhrn
 anlysis
-basical
 bikeshare
 byw
 CEE
@@ -16,12 +14,10 @@ dataset
 datasets
 dayofweek
 dergees
-Discription
+discription
 distiguis
-EDA
 groupedbar
 Guo
-influencial
 isholiday
 ismonday
 istuesday

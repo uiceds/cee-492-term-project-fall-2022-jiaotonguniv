@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2022-10-30'
+date-meta: '2022-10-31'
 author-meta:
 - Mulin Wan
 - Jingwen Yao
@@ -21,8 +21,8 @@ header-includes: |-
   <meta name="citation_title" content="Bike-Share Usage in London Network Analysis" />
   <meta property="og:title" content="Bike-Share Usage in London Network Analysis" />
   <meta property="twitter:title" content="Bike-Share Usage in London Network Analysis" />
-  <meta name="dc.date" content="2022-10-30" />
-  <meta name="citation_publication_date" content="2022-10-30" />
+  <meta name="dc.date" content="2022-10-31" />
+  <meta name="citation_publication_date" content="2022-10-31" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -44,9 +44,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/c915fd6973515582ff7eaa4a078e15939794f495/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/c915fd6973515582ff7eaa4a078e15939794f495/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/c915fd6973515582ff7eaa4a078e15939794f495/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/f2e4bef930c8e0260802543dc62e33cf7ea5e9f4/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/f2e4bef930c8e0260802543dc62e33cf7ea5e9f4/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/f2e4bef930c8e0260802543dc62e33cf7ea5e9f4/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -68,10 +68,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/c915fd6973515582ff7eaa4a078e15939794f495/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/f2e4bef930c8e0260802543dc62e33cf7ea5e9f4/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@c915fd6](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/c915fd6973515582ff7eaa4a078e15939794f495)
-on October 30, 2022.
+from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@f2e4bef](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/f2e4bef930c8e0260802543dc62e33cf7ea5e9f4)
+on October 31, 2022.
 </em></small>
 
 ## Authors
@@ -122,9 +122,9 @@ In this project, our goal is to understand how various conditions affect the usa
 
 #### 1.1.1 London and Taipei Bike-Share Data
 
-This dataset contains every single bike rental transaction in the London area from 2017 until the Covid outbreak. Each transaction provides the following information:
+This dataset contains every single bike rental transaction in a total of 802 bike-sharing stops in the London area from 2017 until the Covid outbreak. Each transaction provides the following information:
 
-Table 1: Discription of London.csv
+Table 1: Description of London.csv
 
 | Object | Description |
 | --- | --- |
@@ -144,7 +144,7 @@ Table 1: Discription of London.csv
 This dataset shows how many bike-sharing transactions took place in each hour in 2015 to 2017. Comparing to the first dataset, this one is more compact since it does not contain individual information. However, it helped providing information on weather conditions. Although the timespan doesn't overlap with the first dataset, it encourages us to find timespan-matching weather data to help with further analysis.
 
 
-Table 2: Description of London Bike-Share
+Table 2: Description of London_merged.csv
 
 | Object | Description |
 | --- | --- |
@@ -184,26 +184,22 @@ In addition to season and isweekend, from the timestamp feature we can extract m
 
 Recently, bike-sharing in big cities has become an important part of residents' daily life, and its role in urban transportation system has never been more significant. Looking at the spatiotemporal bike-sharing data in London, we could explore patterns, describe variations, or model the data in many different ways. From the two datasets, we may have a chance to take a peek at the residents' bike-renting behavior through many angles.
 
-Previous work has shown that weather is a key driver for variation in usage. <sup>[1]</sup> <sup>[2]</sup> By utilizing those datasets to analyze how extreme weather events like winter rains in London will affect bike-sharing system, it is safe to draw some conclusions to guide the process of making contingency plans. The locations of start-trip and end-trip is also considered to have the potential of revealing hot spots of bike-renting usage. Moreover, whether users choose sharing bikes or not is also affected by other factors, such as temperature, time, or even the day of week. For example, Londoners might be more willing to ride on the working day because of the limited time to work place.
+Previous work has shown that weather is a key driver for variation in usage. <sup>[1]</sup> <sup>[2]</sup> Aside from weather, We believe there are a lot more important factors such as peak/off-peak hours, weekday/weekend, etc. By utilizing these datasets, we hope to find as many correlations between the users behavior and various factors. 
 
-The team plans to plot the relationship between the average bike sharing counts with those different kinds of factors. The result will be able to offer some suggestions for the decision maker of bike-sharing companies about the arrangement of bike density in different blocks, distribution between urban and rural areas and methods to tackle extreme weather conditions.
+We plan to start by looking at the trends. How does weather or other factors affect the London area overall? Although the answer could be found in both datasets, the structure of the second dataset(see 1.1.2 London bike sharing dataset) would make the job easier if we were only looking at big trends. Then we would look at the microscopic data provided by the first dataset(1.1.1 London and Taipei Bike-Share Data), and hope it would support our claims.
+
+Lastly, after each correlation is explored, we will try to formulate a model that would help us predict the hourly bike-sharing usage in the stops. Our objective is to give a usage forecast in order to help users manage their travel time, and for service providers to better dispatch bikes to maintain service quality.
 
 ## 2 Exploratory Data Analysis
 
-In this section, there are various factors contributing to the changes in sharing bike usage. To manage these data properly, bar charts are made to do basical analysis. In order to achieve the goals of analysing the influencial factors on the new bike share distribution, applying the process of Exploratory Data Analysis (EDA) is a way to develop a better understanding of this dataset and promote the project.
-
-**(Hoping there will be more discription and introduction)**
+In this section, we look at different factors affecting the usage of the bike sharing system in London. Each factors that we are interested is plotted along with the average usage per hour.
 
 ### 2.1 Data Wrangling
 
 **(delete me if u think there is no need for more discription, But for me, I guess there could have some intro or description... )**
 
-#### 2.1.1 Different factors on the count of new bike shares
-
-There are different factors in the database such as time, windspeed, season, and so on. The group is interested in these arguments and try to find the impact of them on the count of new bike shares(cnt).
-
-**Data cleaning process**
-
+#### 2.1.1 Data cleaning process
+****
 The csv file with the London bike sharing dataset stored in is generic and need to be restructured before it can be used to anlysis its raw forms which are those variable connecting to factors influencing the number of new bike shares and its distribution.
 
 For the dataset of London Bike Share, it contains 17414 variables (columns) and 10 factors in its original form. Due to the factor called timestamp in original form is hard to analysis the bike share distribution with time.So shift it into five more specific factors into its final form. Factors went from 10 to 14 which as shown in the Table 4. Besides, to fully analysis the distribution of bike share happened in London, using the final form of datasets to arrange 7 subtables using for analysis and visualization.
