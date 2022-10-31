@@ -44,9 +44,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/819cba57d665d3692c3518004c4939360a82a556/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/819cba57d665d3692c3518004c4939360a82a556/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/819cba57d665d3692c3518004c4939360a82a556/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/059cbc50df09783930793942cad0a1ff5f59b690/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/059cbc50df09783930793942cad0a1ff5f59b690/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/059cbc50df09783930793942cad0a1ff5f59b690/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -68,9 +68,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/819cba57d665d3692c3518004c4939360a82a556/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/059cbc50df09783930793942cad0a1ff5f59b690/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@819cba5](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/819cba57d665d3692c3518004c4939360a82a556)
+from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@059cbc5](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/059cbc50df09783930793942cad0a1ff5f59b690)
 on October 31, 2022.
 </em></small>
 
@@ -186,7 +186,7 @@ Recently, bike-sharing in big cities has become an important part of residents' 
 
 Previous work has shown that weather is a key driver for variation in usage. <sup>[1]</sup> <sup>[2]</sup> Aside from weather, We believe there are a lot more important factors such as peak/off-peak hours, weekday/weekend, bike-stop location etc. By utilizing these datasets, we hope to find as many correlations between the users behavior and various factors. 
 
-We plan to start by looking at the trends. How does weather or other factors affect the London area overall? Although the answer could be found in both datasets, the structure of the second dataset(see 1.1.2 London bike sharing dataset) would make the job easier if we were only looking at big trends. Then we would look at the microscopic data provided by the first dataset(1.1.1 London and Taipei Bike-Share Data), and hope it would support our claims.
+We plan to start by looking at the trends. How does weather or other factors affect the London area overall? Although the answer could be found in both datasets, the structure of the second dataset(see 1.1.2 London_merged.csv) would make the job easier if we were only looking at big trends. Then we would look at the microscopic data provided by the first dataset(1.1.1 London.csv), and hope it would support our claims.
 
 Lastly, after each correlation is explored, we will try to formulate a model that would help us predict the hourly bike-sharing usage in the stops. Our objective is to give a usage forecast in order to help users manage their travel time, and for service providers to better dispatch bikes to maintain service quality.
 
@@ -260,18 +260,35 @@ In the dataset, temperatures over 34 degree Celsius are all recorded as 34. If w
 ****
 ![](images/weatherpie.png)
 
-**Figure13: Bike-share usage under 7 weather conditions**
+**Figure9: Bike-share usage under 7 weather conditions**
 
 This pie chart shows the how users utilize the bike sharing system in different weather conditions. Basically, when the weather is good, people tend to utilize the bike sharing system more often, which is easy to understand. In London, raining doesn't bother this city that much since Londoners have developed a certain life style or fashion to accommodate their unique weather condition. This phenomenon can also be spotted right here,since there is not a huge difference in usage between "cloudy", "light rain" and "thunderstorm". 
 
 
+****
 #### 2.2.2 Micro trends (Individual behaviors varying with bike stop locations)
-In this section, we look at how different factors affect the average usage per hour in 2015-2016. 
+
+In the previous section, we have come up with some speculations, such as:
+
+  During weekdays, usage during rush hours are often higher than non-peak hours.
+  Usage in weekdays are often higher than weekends.
+  Usage in warmer days are often higher than colder days.
+
+But as we move closer the the actual stop-by-stop prediction, we need to understand how the location and the characteristc of each stop changes how the large trends' impact on those stops. The main dataset (1.1.1 London.csv) provides a chance to look extremely closely to certain stops in certain time spans, for us to verify out speculations, or to discover new revealations.
 
 
 
+**Figure10: Bike-share stops in London area**
 
-## Predictive Modeling
+In the dataset there are 802 stops, as shown in the figure above. We will be looking at two stops:
+
+  Triangle Car Park, Hyde Park : Located right in the middle of the famous tourist attraction Hyde Park.
+  Queen Street 1, Bank : Located in the central of business districts.
+  
+And we will see how different conditions affect them respectively.
+
+
+### 2.3 Predictive Modeling
 
 
 

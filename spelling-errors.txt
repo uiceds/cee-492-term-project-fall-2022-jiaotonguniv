@@ -3,6 +3,7 @@ bikeshare
 byw
 CEE
 Champaign
+characteristc
 cnt
 Covid
 csv
@@ -19,6 +20,7 @@ jingwenyaooo
 Kaggle
 Mavrodiev
 mulin
+revealations
 schoolholiday
 spatiotemporal
 timespan
