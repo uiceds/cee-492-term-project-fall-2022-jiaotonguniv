@@ -44,9 +44,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/f2e4bef930c8e0260802543dc62e33cf7ea5e9f4/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/f2e4bef930c8e0260802543dc62e33cf7ea5e9f4/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/f2e4bef930c8e0260802543dc62e33cf7ea5e9f4/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/8039b1de3253e19d3e8804ea62777b61161d7929/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/8039b1de3253e19d3e8804ea62777b61161d7929/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/8039b1de3253e19d3e8804ea62777b61161d7929/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -68,9 +68,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/f2e4bef930c8e0260802543dc62e33cf7ea5e9f4/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/8039b1de3253e19d3e8804ea62777b61161d7929/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@f2e4bef](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/f2e4bef930c8e0260802543dc62e33cf7ea5e9f4)
+from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@8039b1d](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/8039b1de3253e19d3e8804ea62777b61161d7929)
 on October 31, 2022.
 </em></small>
 
@@ -141,7 +141,7 @@ Table 1: Description of London.csv
 
 #### 1.1.2 London bike sharing dataset
 
-This dataset shows how many bike-sharing transactions took place in each hour in 2015 to 2017. Comparing to the first dataset, this one is more compact since it does not contain individual information. However, it helped providing information on weather conditions. Although the timespan doesn't overlap with the first dataset, it encourages us to find timespan-matching weather data to help with further analysis.
+This dataset shows how many bike-sharing transactions took place in each hour in 2015 to 2016. Comparing to the first dataset, this one is more compact since it does not contain individual information. However, it helped providing information on weather conditions. Although the timespan doesn't overlap with the first dataset, it encourages us to find timespan-matching weather data to help with further analysis.
 
 
 Table 2: Description of London_merged.csv
@@ -151,7 +151,7 @@ Table 2: Description of London_merged.csv
 | timestamp  | timestamp field for grouping the data |
 | cnt | the count of a new bike shares |
 | t1 | real temperature in Celsius |
-| t2 | temperature in Celsius "feels like" |
+| t2 | apparent temperature in Celsius |
 | hum | humidity in percentage |
 | windspeed | wind speed in km/h |
 | isholiday | boolean field - 1 holiday / 0 non holiday - refers to bank holidays |
@@ -184,7 +184,7 @@ In addition to season and isweekend, from the timestamp feature we can extract m
 
 Recently, bike-sharing in big cities has become an important part of residents' daily life, and its role in urban transportation system has never been more significant. Looking at the spatiotemporal bike-sharing data in London, we could explore patterns, describe variations, or model the data in many different ways. From the two datasets, we may have a chance to take a peek at the residents' bike-renting behavior through many angles.
 
-Previous work has shown that weather is a key driver for variation in usage. <sup>[1]</sup> <sup>[2]</sup> Aside from weather, We believe there are a lot more important factors such as peak/off-peak hours, weekday/weekend, etc. By utilizing these datasets, we hope to find as many correlations between the users behavior and various factors. 
+Previous work has shown that weather is a key driver for variation in usage. <sup>[1]</sup> <sup>[2]</sup> Aside from weather, We believe there are a lot more important factors such as peak/off-peak hours, weekday/weekend, bike-stop location etc. By utilizing these datasets, we hope to find as many correlations between the users behavior and various factors. 
 
 We plan to start by looking at the trends. How does weather or other factors affect the London area overall? Although the answer could be found in both datasets, the structure of the second dataset(see 1.1.2 London bike sharing dataset) would make the job easier if we were only looking at big trends. Then we would look at the microscopic data provided by the first dataset(1.1.1 London and Taipei Bike-Share Data), and hope it would support our claims.
 
@@ -192,112 +192,57 @@ Lastly, after each correlation is explored, we will try to formulate a model tha
 
 ## 2 Exploratory Data Analysis
 
-In this section, we look at different factors affecting the usage of the bike sharing system in London. Each factors that we are interested is plotted along with the average usage per hour.
+In this section, we look at different factors affecting the usage of the bike sharing system in London. Each factors that we are interested is plotted along with the average usage per hour. Then we look for micro trends in specific bike-stop that contradicts with the big trends we found.
 
 ### 2.1 Data Wrangling
 
-**(delete me if u think there is no need for more discription, But for me, I guess there could have some intro or description... )**
-
 #### 2.1.1 Data cleaning process
 ****
-The csv file with the London bike sharing dataset stored in is generic and need to be restructured before it can be used to anlysis its raw forms which are those variable connecting to factors influencing the number of new bike shares and its distribution.
+Both of the csv files needed to be restructured in some ways before the analyzing process. For instance, the exact time is stored as strings: 
 
-For the dataset of London Bike Share, it contains 17414 variables (columns) and 10 factors in its original form. Due to the factor called timestamp in original form is hard to analysis the bike share distribution with time.So shift it into five more specific factors into its final form. Factors went from 10 to 14 which as shown in the Table 4. Besides, to fully analysis the distribution of bike share happened in London, using the final form of datasets to arrange 7 subtables using for analysis and visualization.
+"2015/1/4  12:00:00 AM"
 
-Table 4: Description of New London Bike-Share form
-
-| Object | Description |
-| --- | --- |
-| cnt | the count of a new bike shares |
-| t1 | real temperature in Celsius |
-| t2 | temperature in Celsius "feels like" |
-| hum | humidity in percentage |
-| windspeed | wind speed in km/h |
-| weathercode | different weather condition|
-| isholiday | boolean field - 1 holiday / 0 non holiday - refers to bank holidays |
-| isweekend | boolean field - 1 if the day is weekend / 0 if a working day |
-| season | category (0-spring; 1-summer; 2-autumn; 3-winter) |
-| date | the date of the bike share happens in the data form of Dates |
-| year | the year of the bike share happens in the data form of Int |
-| hour | the specific time to be observed of the bike share happens in the data form of Time |
-| dayofweek | distiguis the date of the bike share happens in the day of the week |
-| month| the month of the bike share happens in the data form of Int |
-
-**(delete me except u think those below subtables is useful for our documents content, as they print here is to help teamates have better understanding of this documents)**
-![](images/sub1.png)
-
-mean cnt of general weekdays with the distribution of hour
-![](images/sub2.png)
-
-mean cnt of general weekends with the distribution of hour
-
-![](images/sub3.png)
-
-mean cnt of day of week in weekdays with the distribution of hour
-
-![](images/sub4.png)
-
-mean cnt of day of week in weekends with the distribution of hour
-
-![](images/sub5.png)
-
-mean cnt of wether in holidays with the distribution of hour
-
-![](images/sub6.png)
-
-mean cnt of different month with the distribution of hour
-
-![](images/sub7.png)
-
-mean cnt with the distribution of season
-
-**(delete me except u think those above subtables is useful for our documents content, as they print here is to help teamates have better understanding of this documents)**
+Information such as date and time could be extracted from within. The somehow trickier part is the day-of-the-week. We add a certain number to the date and take the remainder after divided by 7 to get the day-of-the-week.
 
 ### 2.2 Analysis and Visualization
 
-#### 2.2.1 London Bike Share
+#### Large trends
 
-In this section, adapt mean cnt (the count of a new bike shares) to analysis how the new bike share demand as this mean cnt could better present the demand levels as possible.
+In this section, we look at how different factors affect the average usage per hour in 2015-2016. 
 
 ![](images/1.svg)
 
-**Figure1: mean cnt of general weekdays with the distribution of hour**
+**Figure1: Average hourly usage on weekdays**
 
-This figure shows how the new bike share demand distribute in different hours in a weekday. According to the image, it can be clearly concluded that during the working day, the change of demand for borrowed cars shows a double-peaked image during the day, and the peak period of commuting can greatly affect the number of new borrowed cars, and the maximum peak of borrowed cars in a day appears around 8:30 which is higher than3000, and the minimum peak appears around 3:30 which is alomost 0.
+This figure shows how average bike-sharing usage distribute in different hours in a weekday. In the image, one could easily spot a double-peaked distribution. This comes with no surprise - the rush hour in weekdays generates a lot of commuting demands, and apparently people turn to bike-sharing in these hours. On average, over three thousand people rented a bike at 08:30 everyday, the busiest time in terms of bike-sharing usage.
 
 ![](images/2.svg)
 
-**Figure2: mean cnt of general weekends with the distribution of hour**
+**Figure2: Average hourly usage on weekends**
 
-This figure shows how the new bike share demand distribute in different hours in a weekend day. Based on the images, it is clear that during the weekend, the demand for rental cars varies in a single wave throughout the day, with the demand for travel in London mainly between 11:00 and 20:00, peaking around 15:00 and reaching a 
+This figure shows how the new bike share demand distribute in different hours in weekends. Base on the image, we can speculate that Londoners are most active between 11:00 and 19:00 on weekends. 
 
 ![](images/3.svg)
 
-**Figure3: mean cnt of day of week in weekdays with the distribution of hour**
+**Figure3: Average hourly usage between different weekdays**
 
-In this figure, the overall trend is consistent with the trend in Figure1, but according to this figure, we can conclude that the overall number of new bike shares on Monday and Friday is relatively low in each time period. It is worth noting that while the maximum peak in Figure1 is greater than 3000 but less than 4000, in this figure Tuesday, Wednesday and Thursday not only reach 4000, but also Tuesday and Thursday are the two days with higher relative quantities. In addition, the number of new bike shares is extraordinarily high at 22:00 on Wednesday, which is not only different from the trend in Figure1, but even almost three times higher than on other weekdays at the same moment.
+This figure generally agrees with Figure1. During rush hours, bike-sharing usage climates. There are not many conclusions to make according to this figure, except that usage characteristics are mostly the same during Tuesday to Thursday. Consider a two-working-day span that lies in Tuesday to Thursday, with nearly identical weather conditions, we could speculate that these two days would have similar bike-sharing usage. Mondays and Fridays on the other hand, are seen to have slight difference to their weekday counterparts. 
 
 ![](images/4.svg)
 
-**Figure4: mean cnt of day of week in weekends with the distribution of hour**
+**Figure4: Average hourly usage between different days in the weekend**
 
-The figure shows that the overall difference of new bike share between the two days of the weekend is not big, but the new bike share from 6:00 to 15:00 on Saturday is higher than that on weekdays. This phenomenon shows that although people's demand for bike share in London is roughly the same on both days of the weekend, people's travel demand is higher during the daytime on Saturday.
-
-![](images/5.svg)
-
-**Figure5: mean cnt of in holidays with the distribution of hour**
-
-In this figure, it can be found that the change in the distribution of people's new bike share during holidays is similar to the image of the change in the distribution of people's new bike share on weekends in Figure 2, and those not during holidays are similar to the image of the change in the distribution of people's new bike share on weekdays in Figure 1. In addition, the number of people's new bike shares in London during holidays is higher than that of weekdays during midday and late afternoon. This indicates that during weekdays, people's bike share demand is influenced by work commuting, i.e., it reaches a double peak during the peak commuting period; while during holidays, people's bike share demand peaks at noon and after noon, and even during noon (mealtime) is higher than that during weekdays, which can be guessed that people tend to go out for gathering during noon on holidays.
+The figure shows that the overall difference of new bike share between the two days of the weekend is not big except one logical difference: since Monday is a working day, Sunday's usage at night can be seen to be smaller than Saturday.
 
 ![](images/6.svg)
 
-**Figure6: mean cnt of each month with the distribution of hour**
+**Figure5: mean cnt of each month with the distribution of hour**
 
 In this figure, the overall distribution trend is similar to that in figure1 (hour-by-hour new bike share distribution over the workday), with large differences between months, especially between the April to October period and the November to March period. In addition, it can be seen that in the first half of the year, the overall demand for new bike share from 6:00 to 17:00 in London is higher than the level in the second half of the year.
 
 ![](images/7.svg)
 
-**Figure7: mean cnt with the distribution of different month**
+**Figure6: mean cnt with the distribution of different month**
 
 According to this figure, it can be seen that among all time periods, the new bike share is relatively high from April to October, especially from June to August.
 

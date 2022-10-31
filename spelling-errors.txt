@@ -1,6 +1,4 @@
-alomost
 AndersOhrn
-anlysis
 bikeshare
 byw
 CEE
@@ -12,10 +10,7 @@ cyfcx
 dataframe
 dataset
 datasets
-dayofweek
 dergees
-discription
-distiguis
 groupedbar
 Guo
 isholiday
@@ -30,14 +25,11 @@ Mulin
 posibility
 schoolholiday
 spatiotemporal
-subtables
-teamates
 temparature
 temperaure
 timespan
 Urbana
 weathercode
-wether
 windspeed
 Yao
 Yaojune
