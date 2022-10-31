@@ -44,9 +44,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/35e29780e72df99995f47f3bc771290482f78b9c/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/35e29780e72df99995f47f3bc771290482f78b9c/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/35e29780e72df99995f47f3bc771290482f78b9c/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/29dbf32aef4f7c7f49b23977bde78c4e9572a9d5/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/29dbf32aef4f7c7f49b23977bde78c4e9572a9d5/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/29dbf32aef4f7c7f49b23977bde78c4e9572a9d5/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -68,9 +68,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/35e29780e72df99995f47f3bc771290482f78b9c/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/29dbf32aef4f7c7f49b23977bde78c4e9572a9d5/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@35e2978](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/35e29780e72df99995f47f3bc771290482f78b9c)
+from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@29dbf32](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/29dbf32aef4f7c7f49b23977bde78c4e9572a9d5)
 on October 31, 2022.
 </em></small>
 
@@ -212,6 +212,8 @@ In this section, we look at how different factors affect the average usage per h
 
 
 ****
+
+
 ![](images/1.svg)
 
 **Figure1: Hourly average usage on weekdays**
@@ -220,6 +222,8 @@ This figure shows how average bike-sharing usage distribute in different hours i
 
 
 ****
+
+
 ![](images/2.svg)
 
 **Figure2: Hourly average usage on weekends**
@@ -228,6 +232,8 @@ This figure shows how the new bike share demand distribute in different hours in
 
 
 ****
+
+
 ![](images/3.svg)
 
 **Figure3: Hourly average usage between different weekdays**
@@ -236,6 +242,8 @@ This figure generally agrees with Figure1. During rush hours, bike-sharing usage
 
 
 ****
+
+
 ![](images/4.svg)
 
 **Figure4: Hourly average usage between different days in the weekend**
@@ -244,6 +252,8 @@ The figure shows that the overall difference of new bike share between the two d
 
 
 ****
+
+
 ![](images/7.svg)
 
 **Figure5: Average usage/hour between different months**
@@ -252,6 +262,8 @@ In this figure, the hourly trend is still similar to that in figure1. Meaning in
 
 
 ****
+
+
 ![](images/8.svg)
 
 **Figure6: Hourly average usage between seasons**
@@ -264,6 +276,8 @@ According to these two images, it can be seen that the demand for new bike share
 
 
 ****
+
+
 ![](images/temperature.svg)
 
 **Figure8: Average usage/hour in different temperatures**
@@ -273,6 +287,7 @@ In the dataset, temperatures over 34 degree Celsius are all recorded as 34. If w
 
 ****
 
+
 ![](images/weatherpie.png)
 
 **Figure9: Bike-share usage under 7 weather conditions**
@@ -281,6 +296,7 @@ This pie chart shows the how users utilize the bike sharing system in different 
 
 
 ****
+
 
 ### 2.3 Predictive Modeling
 
@@ -309,6 +325,7 @@ And we will see how different conditions affect them respectively.
 
 ****
 
+
 ![](images/jundec.svg)
 
 **Figure11: CBD and Hyde Park Comparison, Winter versus Summer**
@@ -318,6 +335,7 @@ In this figure, we can see the date is set on 12/02 ~ 12/08 and 06/17 ~ 06/23 (2
 Bike stops near tourist attractions can have another trait different than the speculations we made from observing large trends. We can see in June, Hyde Park attracts large amount of bike usage in weekends. This serves as a reminder that weekdays do not always have larger usage than weekends when predicting.
 
 ****
+
 
 ![](images/cbdmay.svg)
 
