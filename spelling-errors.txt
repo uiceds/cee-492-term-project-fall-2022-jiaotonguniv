@@ -1,6 +1,7 @@
 AndersOhrn
 bikeshare
 byw
+CBD
 CEE
 Champaign
 characteristc
@@ -8,7 +9,7 @@ cnt
 Covid
 csv
 cyfcx
-dataset
+Dataset
 datasets
 Guo
 isholiday
@@ -20,11 +21,14 @@ jingwenyaooo
 Kaggle
 Mavrodiev
 mulin
+neccesary
+neiborhood
 revealations
 schoolholiday
 spatiotemporal
 timespan
 Urbana
+usgae
 weathercode
 windspeed
 Yao

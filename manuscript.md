@@ -44,9 +44,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/27841257abc8d0338f966dbf0b77277c779a34c0/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/27841257abc8d0338f966dbf0b77277c779a34c0/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/27841257abc8d0338f966dbf0b77277c779a34c0/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/605975e75fa76347344553d4ccfae70c761e08fe/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/605975e75fa76347344553d4ccfae70c761e08fe/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/605975e75fa76347344553d4ccfae70c761e08fe/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -68,9 +68,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/27841257abc8d0338f966dbf0b77277c779a34c0/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/605975e75fa76347344553d4ccfae70c761e08fe/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@2784125](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/27841257abc8d0338f966dbf0b77277c779a34c0)
+from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@605975e](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/605975e75fa76347344553d4ccfae70c761e08fe)
 on October 31, 2022.
 </em></small>
 
@@ -266,7 +266,10 @@ This pie chart shows the how users utilize the bike sharing system in different 
 
 
 ****
-#### 2.2.2 Micro trends (Individual behaviors varying with bike stop locations)
+
+### 2.3 Predictive Modeling
+
+#### 2.3.1 Spotting micro trends (Individual behaviors varying with bike stop locations)
 
 In the previous section, we have come up with some speculations, such as:
 
@@ -276,20 +279,56 @@ In the previous section, we have come up with some speculations, such as:
 
 But as we move closer the the actual stop-by-stop prediction, we need to understand how the location and the characteristc of each stop changes how the large trends' impact on those stops. The main dataset (1.1.1 London.csv) provides a chance to look extremely closely to certain stops in certain time spans, for us to verify out speculations, or to discover new revealations.
 
+
 ![](images/LBS.png)
+
 
 **Figure10: Bike-share stops in London area**
 
 In the dataset there are 802 stops, as shown in the figure above. We will be looking at two stops:
 
-  Triangle Car Park, Hyde Park : Located right in the middle of the famous tourist attraction Hyde Park.
-  Queen Street 1, Bank : Located in the central of business districts.
+  Triangle Car Park, Hyde Park : Located right in the middle of the famous tourist attraction Hyde Park. (Will be later denoted as Hyde)
+  Queen Street 1, Bank : Located in the central of business districts . (Will be later denoted as CBD)
   
 And we will see how different conditions affect them respectively.
 
+****
 
-### 2.3 Predictive Modeling
+![](images/jundec.svg)
 
+**Figure11: CBD and Hyde Park Comparison, Winter versus Summer**
+
+In this figure, we can see the date is set on 12/02 ~ 12/08 and 06/17 ~ 06/23 (2019). They are both regular non-holiday weeks with little to none precipitation. Although we almost came a conclusion that usage in winter is almost always lower than that of summer, in the busy business district, we can hardly tell the impact from weather.On the other hand, bike-share usage took a great hit from summer to winter in Hyde Park. Meaning tourist activities are significantly lower in cold times. 
+
+Bike stops near tourist attractions can have another trait different than the speculations we made from observing large trends. We can see in June, Hyde Park attracts large amount of bike usage in weekends. This serves as a reminder that weekdays do not always have larger usage than weekends when predicting.
+
+****
+
+![](images/cbdmay.png)
+![](images/hyde may.png)
+
+**Figure12: The effect of Rain and National Holidays**
+
+In this figure, we can see the date is set on 05/06 ~ 05/12 and 05/13 ~ 05/29 (2019). 05/06 (Mon) is a national holiday in UK. Also, there are heavy rainfall during 2019/05/08~09. We can see the national holiday having drastic on usage in CBD, causing a giant difference between the two Mondays, 05/06 and 05/13. However Hyde Park was not that severely affected. From the figure we can also see less bike usgae on 2019/05/08~09, regardless the location. Comparing to the result in Figure11, it is safe to say that precipitation affects bike users in CBD more than low temperature. But is this phenomenon universal across London? Or is this a business district thing? We may need to look for other proofs.
+
+
+#### 2.3.2 Variables for predicting
+
+The main dataset (1.1.1 London.csv) although contains rich content, is too time-consuming to perform a thorough exploratory data analysis right now. But until the next step, it would be neccesary to look for deeper connections between the dots. For now, combining large trends and micro trends, we have thought of the following variables for predicting bike-share usage:
+
+| Variables | Description |
+| --- | --- |
+| Time  | What time of the day |
+| Day | What day of the week |
+| Holiday | Is it a holiday or not |
+| Temp | Temperature in Celsius |
+| Light | Whether there is still daylight |
+| Location | Characteristics of the bike stop location |
+| Surrounding | Renting availability in nearby stops |
+| Transport | Other means of transportation available |
+| Crime | Level of safety in the neiborhood  |
+
+Due to the complexity of the problem, we would then narrow the observing area from London entirely to a certain area, hopefully containing schools, tourist attractions, business areas and residential area in order to give diversity to the problem.
 
 
 
