@@ -44,9 +44,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/d1c03eab0910ecdf6d4cd9257ea4203c80995899/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/d1c03eab0910ecdf6d4cd9257ea4203c80995899/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/d1c03eab0910ecdf6d4cd9257ea4203c80995899/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/819cba57d665d3692c3518004c4939360a82a556/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/819cba57d665d3692c3518004c4939360a82a556/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/819cba57d665d3692c3518004c4939360a82a556/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -68,9 +68,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/d1c03eab0910ecdf6d4cd9257ea4203c80995899/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/819cba57d665d3692c3518004c4939360a82a556/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@d1c03ea](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/d1c03eab0910ecdf6d4cd9257ea4203c80995899)
+from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@819cba5](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/819cba57d665d3692c3518004c4939360a82a556)
 on October 31, 2022.
 </em></small>
 
@@ -206,80 +206,70 @@ Information such as date and time could be extracted from within. The somehow tr
 
 ### 2.2 Analysis and Visualization
 
-#### Large trends
+#### 2.2.1 Large trends
 
 In this section, we look at how different factors affect the average usage per hour in 2015-2016. 
 ****
 ![](images/1.svg)
 
-**Figure1: Average hourly usage on weekdays**
+**Figure1: Hourly average usage on weekdays**
 
 This figure shows how average bike-sharing usage distribute in different hours in a weekday. In the image, one could easily spot a double-peaked distribution. This comes with no surprise - the rush hour in weekdays generates a lot of commuting demands, and apparently people turn to bike-sharing in these hours. On average, over three thousand people rented a bike at 08:30 everyday, the busiest time in terms of bike-sharing usage.
 ****
 ![](images/2.svg)
 
-**Figure2: Average hourly usage on weekends**
+**Figure2: Hourly average usage on weekends**
 
 This figure shows how the new bike share demand distribute in different hours in weekends. Base on the image, we can speculate that Londoners are most active between 11:00 and 19:00 on weekends. 
 ****
 ![](images/3.svg)
 
-**Figure3: Average hourly usage between different weekdays**
+**Figure3: Hourly average usage between different weekdays**
 
 This figure generally agrees with Figure1. During rush hours, bike-sharing usage climates. There are not many conclusions to make according to this figure, except that usage characteristics are mostly the same during Tuesday to Thursday. Consider a two-working-day span that lies in Tuesday to Thursday, with nearly identical weather conditions, we could speculate that these two days would have similar bike-sharing usage. Mondays and Fridays on the other hand, are seen to have slight difference to their weekday counterparts. 
 ****
 ![](images/4.svg)
 
-**Figure4: Average hourly usage between different days in the weekend**
+**Figure4: Hourly average usage between different days in the weekend**
 
 The figure shows that the overall difference of new bike share between the two days of the weekend is not big except one logical difference: since Monday is a working day, Sunday's usage at night can be seen to be smaller than Saturday.
 ****
 ![](images/7.svg)
 
-**Figure5: Average hourly usage between different months**
+**Figure5: Average usage/hour between different months**
 
 In this figure, the hourly trend is still similar to that in figure1. Meaning in a given day regardless of the month, rush hour still generates the most bike-share usage. However, large differences between months could be spotted, especially between the April to October period and the November to March period. We can easily come to a conclusion that users are less willing to ride a bike in the cold.
 
 ****
 ![](images/8.svg)
 
-**Figure8: mean cnt of each season with the distribution of hour**
-****
+**Figure6: Hourly average usage between seasons**
+
 ![](images/season.svg)
 
-**Figure9: mean cnt of each season**
+**Figure7: Average usage/hour between seasons**
 
-According to these two images, it can be seen that the demand for new bike share in London is relatively higher in summer and autumn overall, especially in summer. Winter is undoubtedly the lowest, but in this image it can be seen that the demand for new bike share is lower in spring than in autumn. It can be guessed that people are more willing to take bike share in the season of relatively higher temperature, and autumn is more suitable for bike share than spring in London area. In addition, people's bike share during the off-duty peak period is significantly higher during summer than not only during other seasons, but also during their off-duty peak period, a scenario that differs from all the weekday-related images described above.
+According to these two images, it can be seen that the demand for new bike share in London is relatively higher in summer and autumn overall, especially in summer. Winter is undoubtedly the lowest, but in this image it can be seen that the demand for new bike share is lower in spring than in autumn. We can speculate that people are more willing to rent a bike in the season of relatively higher temperature, and the weather in autumn is more suitable for bike share than spring in the London area. 
 ****
 ![](images/temperature.svg)
 
-**Figure10: mean cnt of each temperature**
+**Figure8: Average usage/hour in different temperatures**
 
-This image shows the change of new bike share in different temperaure. The number of sharing bikes increases with temperature totally. The minimum result is below zero Celsius degree and the maximum one is more than 30 Celsius degrees. However, this trend is not a strictly positive correlation. If the highest value in the plot is neglected, it can be found that the average counts comes down after the temperature is more than about 30 Celsius dergees. 
-****
-![](images/t_feels_like.svg)
+In the dataset, temperatures over 34 degree Celsius are all recorded as 34. If we neglect the last bar, we can see that bike-sharing usage gradually increases until the temperature reaches 30, and then went downwards. 
 
-**Figure11: mean cnt of each temperature "feels like"**
-
-As the dataframe offers both the data of temperature and temperature "feels like", it is possible to compare the impact of apparent temperature. The lowest and highest apparent temperature affect more on the bike sharing counts, comparing to the real temparature. It can be concluded that users are less willing to choose riding when the temperature is too high or too low. 
-****
-![](images/is_holiday.svg)
-
-**Figure12: mean cnt of holidays and weekdays**
-
-This figure consists of holidays and weekdays. It is obviously that the weekdays has about one third higher average bike sharing counts than holidays, which proves that users choose the sharing bike more frequently on weekdays.
-
-**Figure13: pie chart of distribution under 7 weather conditions**
-
-This pie chart clearly reveals the percentage of people utilizing bike sharing system. Basically, when the weather is good, people tend to utilize the bike sharing system more often, which is easy to understand. But after deeper investigations, evidences show that there is not a huge difference between "cloudy", "light rain" and "thunderstorm". It can be interpreted as when it is cloudy, people tend to feel a little bit reluctant to go outing compared with those warm and sunny days. But when those pedestrians are caught in the rain with no access to a car, they tend to have the thought of going home quickly. In this case, many of them would choose to ride a bike no matter it is "light rain" or "thunderstorm".
 ****
 ![](images/weatherpie.png)
 
-**Figure14: mean cnt of distribution under 7 weather conditions during weekdays and weekends per hour**
+**Figure13: Bike-share usage under 7 weather conditions**
 
-This groupedbar chart shows the mean of people utilizing bike sharing system during weekdays and weekends. Most of the time, people tend to utilize bike sharing system more often during weekdays. However, when it comes to "cloudy" and "thunderstorm", people who ride shared bikes in the weekends are slightly more than that in the weekdays. It can be interpreted that when it is cloudy during weekdays, people may choose cars or buses to avoid potential rains. But when it comes to weekends, people tend to cherish every chance to go outing, even is has the posibility to rain , resulting in an increase in shared bike usage. But when it is snowing, it becomes extremely hard to go outing, there is a dramatic decrease in bike usage.
-****
-![](images/weatherbar.png)
+This pie chart shows the how users utilize the bike sharing system in different weather conditions. Basically, when the weather is good, people tend to utilize the bike sharing system more often, which is easy to understand. In London, raining doesn't bother this city that much since Londoners have developed a certain life style or fashion to accommodate their unique weather condition. This phenomenon can also be spotted right here,since there is not a huge difference in usage between "cloudy", "light rain" and "thunderstorm". 
+
+
+#### 2.2.2 Micro trends (Individual behaviors varying with bike stop locations)
+In this section, we look at how different factors affect the average usage per hour in 2015-2016. 
+
+
+
 
 ## Predictive Modeling
 

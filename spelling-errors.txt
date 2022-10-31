@@ -7,11 +7,8 @@ cnt
 Covid
 csv
 cyfcx
-dataframe
-Dataset
+dataset
 datasets
-dergees
-groupedbar
 Guo
 isholiday
 ismonday
@@ -21,12 +18,9 @@ Jingwen
 jingwenyaooo
 Kaggle
 Mavrodiev
-Mulin
-posibility
+mulin
 schoolholiday
 spatiotemporal
-temparature
-temperaure
 timespan
 Urbana
 weathercode
