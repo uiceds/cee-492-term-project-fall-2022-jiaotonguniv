@@ -9,7 +9,7 @@ cnt
 Covid
 csv
 cyfcx
-Dataset
+dataset
 datasets
 Guo
 isholiday
