@@ -44,9 +44,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/95b12b009e99f80464b6ad0c9d12caa7d56b2d56/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/95b12b009e99f80464b6ad0c9d12caa7d56b2d56/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/95b12b009e99f80464b6ad0c9d12caa7d56b2d56/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/b5d06ff5a5ae8e5e764a2972d0e738bfcf8c990f/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/b5d06ff5a5ae8e5e764a2972d0e738bfcf8c990f/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/b5d06ff5a5ae8e5e764a2972d0e738bfcf8c990f/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -68,9 +68,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/95b12b009e99f80464b6ad0c9d12caa7d56b2d56/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/b5d06ff5a5ae8e5e764a2972d0e738bfcf8c990f/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@95b12b0](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/95b12b009e99f80464b6ad0c9d12caa7d56b2d56)
+from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@b5d06ff](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/b5d06ff5a5ae8e5e764a2972d0e738bfcf8c990f)
 on November 19, 2022.
 </em></small>
 
@@ -224,7 +224,7 @@ Figure1 shows how average bike-sharing usage distribute in different hours in a 
 ****
 
 
-![](images/2.svg)
+![](images/a2.svg)
 
 **Figure2: Hourly average usage on weekends**
 
@@ -234,7 +234,7 @@ Figure2 shows how the new bike share demand distribute in different hours in wee
 ****
 
 
-![](images/3.svg)
+![](images/a3.svg)
 
 **Figure3: Hourly average usage between different weekdays**
 
@@ -244,7 +244,7 @@ Figure3 generally agrees with Figure1. During rush hours, bike-sharing usage cli
 ****
 
 
-![](images/4.svg)
+![](images/a4.svg)
 
 **Figure4: Hourly average usage between different days in the weekend**
 
@@ -254,7 +254,7 @@ Figure4 shows that the overall difference of new bike share between the two days
 ****
 
 
-![](images/7.svg)
+![](images/a5.svg)
 
 **Figure5: Average usage/hour between different months**
 
@@ -264,7 +264,7 @@ In figure 5, the hourly trend is still similar to that in figure1. Meaning in a 
 ****
 
 
-![](images/8.svg)
+![](images/a6.svg)
 
 **Figure6: Hourly average usage between seasons**
 
