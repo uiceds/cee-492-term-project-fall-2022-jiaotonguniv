@@ -18,6 +18,69 @@
     div.column{display: inline-block; vertical-align: top; width: 50%;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
     div.csl-bib-body { }
     div.csl-entry {
       clear: both;
@@ -73,9 +136,9 @@
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/9211c880915eec8943d354544e4e3b4459f15c85/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/9211c880915eec8943d354544e4e3b4459f15c85/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/9211c880915eec8943d354544e4e3b4459f15c85/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/ed8e3f75b1f9b3bc98d7cbd24c1412dd325e0efb/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/ed8e3f75b1f9b3bc98d7cbd24c1412dd325e0efb/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/ed8e3f75b1f9b3bc98d7cbd24c1412dd325e0efb/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -89,9 +152,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/9211c880915eec8943d354544e4e3b4459f15c85/">permalink</a>)
+(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/ed8e3f75b1f9b3bc98d7cbd24c1412dd325e0efb/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/9211c880915eec8943d354544e4e3b4459f15c85">uiceds/cee-492-term-project-fall-2022-jiaotonguniv@9211c88</a>
+from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/ed8e3f75b1f9b3bc98d7cbd24c1412dd325e0efb">uiceds/cee-492-term-project-fall-2022-jiaotonguniv@ed8e3f7</a>
 on November 19, 2022.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -431,6 +494,62 @@ Queen Street 1, Bank : Located in the central of business districts . (Will be l
 </tbody>
 </table>
 <p>Due to the complexity of the problem, we would then narrow the observing area from London entirely to a certain area, hopefully containing schools, tourist attractions, business areas and residential area in order to give diversity to the problem.</p>
+<h2 id="preliminary-predictive-modeling">3 Preliminary Predictive Modeling</h2>
+<h3 id="train-a-regression-model">3.1 Train a Regression Model</h3>
+<h4 id="splitting-the-data">3.1.1 Splitting the data</h4>
+<p>As the data has been explored, the next step is to train a regression model and predict the bike sharing number(cnt):</p>
+<p>’‘’python
+X = df.drop(“cnt”, axis=1)
+y = df[“cnt”]
+print(’Parameters:’,X[:10])
+’’’
+<img src="images/Parameters.png" /></p>
+<p><strong>Figure13: Splitting The Bike Sharing Number From Other Parameters</strong></p>
+<p>To validate the training model, we split the dataset into two subsets; the first set is used to train the model, and the second(and smaller) one is used to validate the model by comparing the predicted labels to the known labels. The data is randomly split to about 7:3. We realize it by the <code>train_test_split</code> function in the ‘scikitlearn’ library in python. And the result is four datasets:</p>
+<ul>
+<li><strong>X_train</strong>: The feature values we’ll use to train the model</li>
+<li><strong>y_train</strong>: The corresponding labels we’ll use to train the model</li>
+<li><strong>X_test</strong>: The feature values we’ll use to validate the model</li>
+<li><strong>y_test</strong>: The corresponding labels we’ll use to validate the model</li>
+</ul>
+<p>The next step is to train the model with a proper regression method. The group used a linear regression algorithm, which is basic and commonly used, to find a linear relationship between X and y.</p>
+<h4 id="scaling-training">3.1.2 Scaling &amp; Training</h4>
+<p>Scaling is also a preparation step for machine learning. By scaling the numeric columns in the dataset to a common scale with the standardization method, the distribution could have a unit standard deviation. ‘sklearn.preprocessing’ and ‘sklearn.linear_model’ package provide a convenient algorithm to realize the model:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Fit a linear regression model on the training set</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>model <span class="op">=</span> LinearRegression().fit(X_train, y_train)</span></code></pre></div>
+<h3 id="evaluate-trained-model">3.2 Evaluate Trained Model</h3>
+<figure>
+<img src="images/predict&amp;actual_cnt.png" />
+</figure>
+<p><strong>Figure14: Predicted and Actual Bike Sharing Number of Linear Regression</strong></p>
+<p>It is a generally diagonal trend with several deviation values. The group uses mean square error to identify our model’s error level, and the result is 814512. One reasonable explanation is linear regression can only clearly show the data trend, but it cannot cover too much data in a dataset. To improve the power of our model, the group also uses the decision tree method, and the result of MSE is 97082:</p>
+<figure>
+<img src="images/decision%20tree.png" />
+</figure>
+<p><strong>Figure15: Predicted and Actual Bike Sharing Number of Decision Tree</strong></p>
+<p>A more intuitive way to compare the improvement of the model is using the coefficient of determination(R-squared).</p>
+<table>
+<thead>
+<tr class="header">
+<th>Evaluation Metrics</th>
+<th>Linear Regression</th>
+<th>Decision Tree</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>MSE</td>
+<td>814512</td>
+<td>97082</td>
+</tr>
+<tr class="even">
+<td>R^2</td>
+<td>0.31</td>
+<td>0.91</td>
+</tr>
+</tbody>
+</table>
+<p>As the R^2 is more than 90% now, the improvement of the model is obvious.</p>
 <h2 class="page_break_before" id="references">References</h2>
 <!-- Explicitly insert bibliography here -->
 <div id="refs" role="doc-bibliography">
