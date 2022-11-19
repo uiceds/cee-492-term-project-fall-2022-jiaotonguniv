@@ -136,9 +136,9 @@
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/c73b63e9ac173c3091d2edb66068c4d288040a59/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/c73b63e9ac173c3091d2edb66068c4d288040a59/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/c73b63e9ac173c3091d2edb66068c4d288040a59/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/5cc428f15dbf8d2f2d67f0c0cf0fe4ac7bb1378c/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/5cc428f15dbf8d2f2d67f0c0cf0fe4ac7bb1378c/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/5cc428f15dbf8d2f2d67f0c0cf0fe4ac7bb1378c/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -152,9 +152,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/c73b63e9ac173c3091d2edb66068c4d288040a59/">permalink</a>)
+(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/5cc428f15dbf8d2f2d67f0c0cf0fe4ac7bb1378c/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/c73b63e9ac173c3091d2edb66068c4d288040a59">uiceds/cee-492-term-project-fall-2022-jiaotonguniv@c73b63e</a>
+from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/5cc428f15dbf8d2f2d67f0c0cf0fe4ac7bb1378c">uiceds/cee-492-term-project-fall-2022-jiaotonguniv@5cc428f</a>
 on November 19, 2022.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -414,8 +414,8 @@ CEE, University of Illinois Urbana-Champaign
 <p><strong>Figure9: Bike-share usage under 7 weather conditions</strong></p>
 <p>This pie chart shows the how users utilize the bike sharing system in different weather conditions. Basically, when the weather is good, people tend to utilize the bike sharing system more often, which is easy to understand. In London, raining doesn’t bother this city that much since Londoners have developed a certain life style or fashion to accommodate their unique weather condition. This phenomenon can also be spotted right here,since there is not a huge difference in usage between “cloudy”, “light rain” and “thunderstorm”.</p>
 <hr />
-<h3 id="predictive-modeling">2.3 Predictive Modeling</h3>
-<h4 id="spotting-micro-trends-individual-behaviors-varying-with-bike-stop-locations">2.3.1 Spotting micro trends (Individual behaviors varying with bike stop locations)</h4>
+<h2 id="predictive-modeling">3 Predictive Modeling</h2>
+<h3 id="spotting-micro-trends-individual-behaviors-varying-with-bike-stop-locations">3.1 Spotting micro trends (Individual behaviors varying with bike stop locations)</h3>
 <p>In the previous section, we have come up with some speculations, such as:</p>
 <p>During weekdays, usage during rush hours are often higher than non-peak hours.
 Usage in weekdays are often higher than weekends.
@@ -445,7 +445,7 @@ Queen Street 1, Bank : Located in the central of business districts . (Will be l
 </figure>
 <p><strong>Figure12: The effect of Rain and National Holidays</strong></p>
 <p>In figure12, we can see the date is set on 05/06 ~ 05/12 and 05/13 ~ 05/29 (2019). 05/06 (Mon) is a national holiday in UK. Also, there are heavy rainfall during 2019/05/08 ~ 09. We can see the national holiday having drastic on usage in CBD, causing a giant difference between the two Mondays, 05/06 and 05/13. However Hyde Park was not that severely affected. From the figure we can also see less bike usage on 2019/05/08 ~ 09, regardless the location. Comparing to the result in Figure11, it is safe to say that precipitation affects bike users in CBD more than low temperature. But is this phenomenon universal across London? Or is this a business district thing? We may need to look for other proofs.</p>
-<h4 id="variables-for-predicting">2.3.2 Variables for predicting</h4>
+<h3 id="variables-for-predicting">3.2 Variables for predicting</h3>
 <p>The main data set (1.1.1 London.csv) although contains rich content, is too time-consuming to perform a thorough exploratory data analysis right now. But until the next step, it would be neccesary to look for deeper connections between the dots. For now, combining large trends and micro trends, we have thought of the following variables for predicting bike-share usage:</p>
 <table>
 <thead>
@@ -494,15 +494,12 @@ Queen Street 1, Bank : Located in the central of business districts . (Will be l
 </tbody>
 </table>
 <p>Due to the complexity of the problem, we would then narrow the observing area from London entirely to a certain area, hopefully containing schools, tourist attractions, business areas and residential area in order to give diversity to the problem.</p>
-<h2 id="preliminary-predictive-modeling">3 Preliminary Predictive Modeling</h2>
-<h3 id="train-a-regression-model">3.1 Train a Regression Model</h3>
-<h4 id="splitting-the-data">3.1.1 Splitting the data</h4>
+<h3 id="train-a-regression-model">3.3 Train a Regression Model</h3>
+<h4 id="splitting-the-data">3.3.1 Splitting the data</h4>
 <p>As the data has been explored, the next step is to train a regression model and predict the bike sharing number(cnt):</p>
-<p>’‘’python
-X = df.drop(“cnt”, axis=1)
-y = df[“cnt”]
-print(’Parameters:’,X[:10])
-’’’</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>X <span class="op">=</span> df.drop(<span class="st">&quot;cnt&quot;</span>, axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> df[<span class="st">&quot;cnt&quot;</span>]</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;Parameters:&#39;</span>,X[:<span class="dv">10</span>])</span></code></pre></div>
 <figure>
 <img src="images/Parameters.png" />
 </figure>
@@ -515,11 +512,11 @@ print(’Parameters:’,X[:10])
 <li><strong>y_test</strong>: The corresponding labels we’ll use to validate the model</li>
 </ul>
 <p>The next step is to train the model with a proper regression method. The group used a linear regression algorithm, which is basic and commonly used, to find a linear relationship between X and y.</p>
-<h4 id="scaling-training">3.1.2 Scaling &amp; Training</h4>
+<h4 id="scaling-training">3.3.2 Scaling &amp; Training</h4>
 <p>Scaling is also a preparation step for machine learning. By scaling the numeric columns in the data set to a common scale with the standardization method, the distribution could have a unit standard deviation. ‘sklearn.preprocessing’ and ‘sklearn.linear_model’ package provide a convenient algorithm to realize the model:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Fit a linear regression model on the training set</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>model <span class="op">=</span> LinearRegression().fit(X_train, y_train)</span></code></pre></div>
-<h3 id="evaluate-trained-model">3.2 Evaluate Trained Model</h3>
+<div class="sourceCode" id="cb2"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Fit a linear regression model on the training set</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>model <span class="op">=</span> LinearRegression().fit(X_train, y_train)</span></code></pre></div>
+<h3 id="evaluate-trained-model">3.4 Evaluate Trained Model</h3>
 <p><img src=https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/blob/main/content/images/predict%26actual_cnt.png width="400" height="300" /></p>
 <p><strong>Figure14: Predicted and Actual Bike Sharing Number of Linear Regression</strong></p>
 <p>It is a generally diagonal trend with several deviation values. The group uses mean square error to identify our model’s error level, and the result is 814512. One reasonable explanation is linear regression can only clearly show the data trend, but it cannot cover too much data in a data set. To improve the power of our model, the group also uses the decision tree method, and the result of MSE is 97082:</p>
