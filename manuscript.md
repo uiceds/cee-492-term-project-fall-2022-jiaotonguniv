@@ -44,9 +44,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/f2edab2ddd875856acaf7078710b02b423b4ae37/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/f2edab2ddd875856acaf7078710b02b423b4ae37/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/f2edab2ddd875856acaf7078710b02b423b4ae37/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/26e76cb0a2c7da78b9725f80043f17c3f6d986ae/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/26e76cb0a2c7da78b9725f80043f17c3f6d986ae/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/26e76cb0a2c7da78b9725f80043f17c3f6d986ae/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -68,9 +68,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/f2edab2ddd875856acaf7078710b02b423b4ae37/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/26e76cb0a2c7da78b9725f80043f17c3f6d986ae/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@f2edab2](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/f2edab2ddd875856acaf7078710b02b423b4ae37)
+from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@26e76cb](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/26e76cb0a2c7da78b9725f80043f17c3f6d986ae)
 on November 19, 2022.
 </em></small>
 
@@ -270,6 +270,10 @@ In figure 5, the hourly trend is still similar to that in figure1. Meaning in a 
 
 <img src=https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/blob/main/content/images/season_renew.svg width="600" height="600" />
 
+![
+**A vector `.svg` image loaded from GitHub.**
+](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/blob/main/content/images/season_renew.svg?sanitize=true){#fig:vector-image height=2.5in .white}
+
 **Figure7: Average usage/hour between seasons**
 
 According to figure6 and figure7, it can be seen that the demand for new bike share in London is relatively higher in summer and autumn overall, especially in summer. Winter is undoubtedly the lowest, but in this image it can be seen that the demand for new bike share is lower in spring than in autumn. We can speculate that people are more willing to rent a bike in the season of relatively higher temperature, and the weather in autumn is more suitable for bike share than spring in the London area. 
@@ -408,7 +412,7 @@ model = LinearRegression().fit(X_train, y_train)
 It is a generally diagonal trend with several deviation values. The group uses mean square error to identify our model's error level, and the result is 814512. One reasonable explanation is linear regression can only clearly show the data trend, but it cannot cover too much data in a data set. To improve the power of our model, the group also uses the decision tree method, and the result of MSE is 97082:
 
 <img src=https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/blob/main/content/images/decision_tree.png width="400" height="300" />
-![](images/decision_tree.png width="400" height="300")
+![](images/decision_tree.png)
 **Figure15: Predicted and Actual Bike Sharing Number of Decision Tree**
 
 A more intuitive way to compare the improvement of the model is using the coefficient of determination(R-squared). 
