@@ -1,5 +1,4 @@
 AndersOhrn
-bikeshare
 byw
 CBD
 CEE
@@ -10,7 +9,6 @@ Covid
 csv
 cyfcx
 dataset
-datasets
 df
 Guo
 isholiday
@@ -25,14 +23,11 @@ MSE
 Mulin
 neccesary
 preprocessing
-revealations
 schoolholiday
 scikitlearn
 sklearn
 spatiotemporal
-timespan
 Urbana
-usgae
 weathercode
 windspeed
 Yao
