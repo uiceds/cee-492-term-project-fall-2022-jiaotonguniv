@@ -44,9 +44,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/3a98b4aa2c9cb70055963ab193a579a597881105/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/3a98b4aa2c9cb70055963ab193a579a597881105/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/3a98b4aa2c9cb70055963ab193a579a597881105/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/cb086bc8c1a22dba83aee6e907f3c8af01e1ad95/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/cb086bc8c1a22dba83aee6e907f3c8af01e1ad95/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/cb086bc8c1a22dba83aee6e907f3c8af01e1ad95/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -68,9 +68,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/3a98b4aa2c9cb70055963ab193a579a597881105/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/cb086bc8c1a22dba83aee6e907f3c8af01e1ad95/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@3a98b4a](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/3a98b4aa2c9cb70055963ab193a579a597881105)
+from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@cb086bc](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/cb086bc8c1a22dba83aee6e907f3c8af01e1ad95)
 on November 19, 2022.
 </em></small>
 
@@ -270,7 +270,6 @@ In figure 5, the hourly trend is still similar to that in figure1. Meaning in a 
 
 <img src=https://raw.githubusercontent.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/26e76cb0a2c7da78b9725f80043f17c3f6d986ae/content/images/season_renew.svg width="500" height="500" />
 
-
 **Figure7: Average usage/hour between seasons**
 
 According to figure6 and figure7, it can be seen that the demand for new bike share in London is relatively higher in summer and autumn overall, especially in summer. Winter is undoubtedly the lowest, but in this image it can be seen that the demand for new bike share is lower in spring than in autumn. We can speculate that people are more willing to rent a bike in the season of relatively higher temperature, and the weather in autumn is more suitable for bike share than spring in the London area. 
@@ -428,6 +427,6 @@ As the R^2 is more than 90% now, the improvement of the model is obvious.
 <div id="refs"></div>
 
 
-##### [1] AndersOhrn (2020) Bike-share usage in London and Taipei Network, Kaggle. Available at: https://www.kaggle.com/datasets/ajohrn/bikeshare-usage-in-london-and-taipei-network (Accessed: October 24, 2022). 
+###### [1] AndersOhrn (2020) Bike-share usage in London and Taipei Network, Kaggle. Available at: https://www.kaggle.com/datasets/ajohrn/bikeshare-usage-in-london-and-taipei-network (Accessed: October 24, 2022). 
 
-##### [2] Mavrodiev, H. (2019) London Bike Sharing Dataset, Kaggle. Available at: https://www.kaggle.com/datasets/hmavrodiev/london-bike-sharing-dataset/discussion?resource=download (Accessed: October 24, 2022). 
+###### [2] Mavrodiev, H. (2019) London Bike Sharing Dataset, Kaggle. Available at: https://www.kaggle.com/datasets/hmavrodiev/london-bike-sharing-dataset/discussion?resource=download (Accessed: October 24, 2022). 
