@@ -19,7 +19,7 @@ jingwenyaooo
 Kaggle
 Mavrodiev
 MSE
-Mulin
+mulin
 neccesary
 preprocessing
 schoolholiday
