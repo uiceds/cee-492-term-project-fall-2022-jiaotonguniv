@@ -44,9 +44,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/2a5cb70d06ca4e7786c3f7bdab30ac6c0b7abd8e/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/2a5cb70d06ca4e7786c3f7bdab30ac6c0b7abd8e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/2a5cb70d06ca4e7786c3f7bdab30ac6c0b7abd8e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/3a98b4aa2c9cb70055963ab193a579a597881105/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/3a98b4aa2c9cb70055963ab193a579a597881105/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/3a98b4aa2c9cb70055963ab193a579a597881105/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -68,9 +68,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/2a5cb70d06ca4e7786c3f7bdab30ac6c0b7abd8e/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/3a98b4aa2c9cb70055963ab193a579a597881105/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@2a5cb70](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/2a5cb70d06ca4e7786c3f7bdab30ac6c0b7abd8e)
+from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@3a98b4a](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/3a98b4aa2c9cb70055963ab193a579a597881105)
 on November 19, 2022.
 </em></small>
 
@@ -198,7 +198,7 @@ In this section, we look at different factors affecting the usage of the bike sh
 
 #### 2.1.1 Data cleaning process
 
-Both of the csv files needed to be restructured in some ways before the analyzing process. For instance, the exact time is stored as strings: 
+Both of the csv files need to be restructured in some ways before the analyzing process. For instance, the exact time is stored as strings: 
 
 "2015/1/4  12:00:00 AM"
 
@@ -208,7 +208,7 @@ Information such as date and time could be extracted from within. The somehow tr
 
 #### 2.2.1 Large trends
 
-In this section, we look at how different factors affect the average usage per hour in 2015-2016. 
+In this section, we hope to find out how different factors affect the average usage per hour in 2015-2016. 
 
 
 ****
@@ -269,6 +269,7 @@ In figure 5, the hourly trend is still similar to that in figure1. Meaning in a 
 **Figure6: Hourly average usage between seasons**
 
 <img src=https://raw.githubusercontent.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/26e76cb0a2c7da78b9725f80043f17c3f6d986ae/content/images/season_renew.svg width="500" height="500" />
+
 
 **Figure7: Average usage/hour between seasons**
 
@@ -381,7 +382,7 @@ print('Parameters:',X[:10])
 
 **Figure13: Splitting The Bike Sharing Number From Other Parameters**
 
-To validate the training model, we split the data set into two subsets; the first set is used to train the model, and the second(and smaller) one is used to validate the model by comparing the predicted labels to the known labels. The data is randomly split to about 7:3. We realize it by the `train_test_split` function in the 'scikitlearn' library in python. And the result is four data sets:
+To validate the training model, we split the data set into two subsets; the first subset is used to train the model, and the second(and smaller) one is used to validate the model by comparing the predicted labels to the known labels. The data is randomly split to about 7:3. We realize it by the `train_test_split` function in the 'scikitlearn' library in python. And the result is four data sets:
 
 - **X_train**: The feature values we'll use to train the model
 - **y_train**: The corresponding labels we'll use to train the model
