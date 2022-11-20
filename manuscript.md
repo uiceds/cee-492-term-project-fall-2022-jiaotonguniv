@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2022-11-19'
+date-meta: '2022-11-20'
 author-meta:
 - Mulin Wan
 - Jingwen Yao
@@ -21,8 +21,8 @@ header-includes: |-
   <meta name="citation_title" content="Bike-Share Usage in London Network Analysis" />
   <meta property="og:title" content="Bike-Share Usage in London Network Analysis" />
   <meta property="twitter:title" content="Bike-Share Usage in London Network Analysis" />
-  <meta name="dc.date" content="2022-11-19" />
-  <meta name="citation_publication_date" content="2022-11-19" />
+  <meta name="dc.date" content="2022-11-20" />
+  <meta name="citation_publication_date" content="2022-11-20" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -44,9 +44,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/cb086bc8c1a22dba83aee6e907f3c8af01e1ad95/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/cb086bc8c1a22dba83aee6e907f3c8af01e1ad95/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/cb086bc8c1a22dba83aee6e907f3c8af01e1ad95/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/ef5997d86876fbe85c5743c7b4e208d88995b186/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/ef5997d86876fbe85c5743c7b4e208d88995b186/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/ef5997d86876fbe85c5743c7b4e208d88995b186/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -68,10 +68,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/cb086bc8c1a22dba83aee6e907f3c8af01e1ad95/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/ef5997d86876fbe85c5743c7b4e208d88995b186/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@cb086bc](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/cb086bc8c1a22dba83aee6e907f3c8af01e1ad95)
-on November 19, 2022.
+from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@ef5997d](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/ef5997d86876fbe85c5743c7b4e208d88995b186)
+on November 20, 2022.
 </em></small>
 
 ## Authors
