@@ -5,13 +5,14 @@ CEE
 Champaign
 characteristc
 cnt
-Conclussion
+conclussion
 Covid
 csv
 cyfcx
-Dataset
+dataset
 Dsicussion
 Guo
+imoprove
 isholiday
 ismonday
 istuesday
@@ -21,7 +22,7 @@ jingwenyaooo
 Kaggle
 Mavrodiev
 MSE
-mulin
+Mulin
 neccesary
 preprocessing
 schoolholiday
