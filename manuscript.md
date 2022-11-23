@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2022-11-22'
+date-meta: '2022-11-23'
 author-meta:
 - Mulin Wan
 - Jingwen Yao
@@ -21,8 +21,8 @@ header-includes: |-
   <meta name="citation_title" content="Bike-Share Usage in London Network Analysis" />
   <meta property="og:title" content="Bike-Share Usage in London Network Analysis" />
   <meta property="twitter:title" content="Bike-Share Usage in London Network Analysis" />
-  <meta name="dc.date" content="2022-11-22" />
-  <meta name="citation_publication_date" content="2022-11-22" />
+  <meta name="dc.date" content="2022-11-23" />
+  <meta name="citation_publication_date" content="2022-11-23" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -44,9 +44,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/f4634efcf510dcdf32a5a66c47265f13e4160a3b/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/f4634efcf510dcdf32a5a66c47265f13e4160a3b/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/f4634efcf510dcdf32a5a66c47265f13e4160a3b/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/dd2a4c970b727eca2498b70fd9c52db8924f9790/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/dd2a4c970b727eca2498b70fd9c52db8924f9790/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/dd2a4c970b727eca2498b70fd9c52db8924f9790/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -68,10 +68,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/f4634efcf510dcdf32a5a66c47265f13e4160a3b/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/dd2a4c970b727eca2498b70fd9c52db8924f9790/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@f4634ef](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/f4634efcf510dcdf32a5a66c47265f13e4160a3b)
-on November 22, 2022.
+from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@dd2a4c9](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/dd2a4c970b727eca2498b70fd9c52db8924f9790)
+on November 23, 2022.
 </em></small>
 
 ## Authors
@@ -419,6 +419,28 @@ A more intuitive way to compare the improvement of the model is using the coeffi
 | R^2 | 0.31 | 0.91 |
 
 As the R^2 is more than 90% now, the improvement of the model is obvious.
+
+### 3.5 Model Discussion and Conclussion
+
+In conclussion, the results of the model suggested that:
+
+1.
+
+2.
+
+3.
+
+## 4 Dsicussion
+
+### 4.1 Research Discussion
+
+(Were you able to answer your research question or support/refute your hypothesis? If not, why not?)
+
+### 4.2 Future Study
+
+First of all, this model is just a preliminary analysis or a starting point. For future study, we could try to:
+
+(What would be your next steps if you were to continue this line of inquiry after the semester is over? (There can always be next steps, regardless of whether you have been able to answer your question or not.)
 
 
 ## References {.page_break_before}
