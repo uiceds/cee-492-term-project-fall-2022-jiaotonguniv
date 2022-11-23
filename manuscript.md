@@ -44,9 +44,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/dd2a4c970b727eca2498b70fd9c52db8924f9790/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/dd2a4c970b727eca2498b70fd9c52db8924f9790/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/dd2a4c970b727eca2498b70fd9c52db8924f9790/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/085a514ad6ecd738d79d468815f3b5a59cbacacf/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/085a514ad6ecd738d79d468815f3b5a59cbacacf/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/085a514ad6ecd738d79d468815f3b5a59cbacacf/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -68,9 +68,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/dd2a4c970b727eca2498b70fd9c52db8924f9790/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/085a514ad6ecd738d79d468815f3b5a59cbacacf/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@dd2a4c9](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/dd2a4c970b727eca2498b70fd9c52db8924f9790)
+from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@085a514](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/085a514ad6ecd738d79d468815f3b5a59cbacacf)
 on November 23, 2022.
 </em></small>
 
@@ -424,11 +424,13 @@ As the R^2 is more than 90% now, the improvement of the model is obvious.
 
 In conclussion, the results of the model suggested that:
 
-1.
+1.In London's thriving commercial areas, bicycle use is more influenced by seasonal factors than by weather conditions, with much lower use in the cold season than in the summer season.
 
-2.
+2.Bicycle use in London's thriving commercial areas is more influenced by precipitation than by low temperatures.
 
-3.
+3.In London's tourist attraction areas, bicycle use is not only influenced by seasonal factors but also by whether it is on a weekend, showing that weekday use is not always greater than weekend use.
+
+4.Using time of day, Day of week, holiday, temperature, wide, location, surrounding rental availability, availability of other transportation, and nearby safety level as influencing factors for prediction, the decision tree can explore the effect of these influencing factors together affecting bicycle usage with higher accuracy.
 
 ## 4 Dsicussion
 
