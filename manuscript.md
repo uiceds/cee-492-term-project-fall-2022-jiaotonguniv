@@ -44,9 +44,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/9ad213db344d8994b4a46a2454f1d1fb6fb05f01/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/9ad213db344d8994b4a46a2454f1d1fb6fb05f01/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/9ad213db344d8994b4a46a2454f1d1fb6fb05f01/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/ddbb2ae63c4e14e1ccb0c2ed628dfdda48637a5a/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/ddbb2ae63c4e14e1ccb0c2ed628dfdda48637a5a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/ddbb2ae63c4e14e1ccb0c2ed628dfdda48637a5a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -68,9 +68,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/9ad213db344d8994b4a46a2454f1d1fb6fb05f01/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/ddbb2ae63c4e14e1ccb0c2ed628dfdda48637a5a/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@9ad213d](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/9ad213db344d8994b4a46a2454f1d1fb6fb05f01)
+from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@ddbb2ae](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/ddbb2ae63c4e14e1ccb0c2ed628dfdda48637a5a)
 on November 24, 2022.
 </em></small>
 
@@ -436,7 +436,10 @@ In conclussion, the results of the model suggested that:
 
 ## 4 Dsicussion
 
-Based on what was done in previous sections, 
+Based on what was done in previous sections, we have completed a preliminary forecast for the number of shared bikes that will be used in any given 1 hour time-period with a reasonable accuracy. Regaring to helping 
+
+Our objective is to apply and optimize Machine Learning models that accurately forecast the number of ride-sharing bikes that will be used in any given 1 hour time-period and help users manage their travel time, as well as for service providers to better dispatch bikes to maintain service quality, using the information that is currently available (such as weather, season, etc.) about that time/day.
+
 
 (Were you able to answer your research question or support/refute your hypothesis? If not, why not?我觉得这一部分可以一段话进行阐述，有的总结可以添加到3.5中，我觉得3.5可以在你写的时候由你再度进行修改)
 

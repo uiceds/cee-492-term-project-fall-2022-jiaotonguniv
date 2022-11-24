@@ -10,7 +10,7 @@ Coronavirus
 Covid
 csv
 cyfcx
-dataset
+Dataset
 Dsicussion
 Guo
 imoprove
@@ -23,9 +23,10 @@ jingwenyaooo
 Kaggle
 Mavrodiev
 MSE
-Mulin
+mulin
 neccesary
 preprocessing
+Regaring
 schoolholiday
 scikitlearn
 sklearn
