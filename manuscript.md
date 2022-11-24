@@ -44,9 +44,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/9adde140d7e2aa85a11bb13539ee89a466ba1eeb/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/9adde140d7e2aa85a11bb13539ee89a466ba1eeb/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/9adde140d7e2aa85a11bb13539ee89a466ba1eeb/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/9ad213db344d8994b4a46a2454f1d1fb6fb05f01/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/9ad213db344d8994b4a46a2454f1d1fb6fb05f01/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/9ad213db344d8994b4a46a2454f1d1fb6fb05f01/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -68,9 +68,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/9adde140d7e2aa85a11bb13539ee89a466ba1eeb/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/9ad213db344d8994b4a46a2454f1d1fb6fb05f01/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@9adde14](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/9adde140d7e2aa85a11bb13539ee89a466ba1eeb)
+from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@9ad213d](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/9ad213db344d8994b4a46a2454f1d1fb6fb05f01)
 on November 24, 2022.
 </em></small>
 
@@ -184,9 +184,9 @@ In addition to season and isweekend, from the timestamp feature we can extract m
 
 Recently, bike-sharing in big cities has become an important part of residents' daily life, and its role in urban transportation system has never been more significant. Around the world, there are more than 500 bike-sharing schemes. By making bicycles available for short-distance excursions in metropolitan areas, such systems often attempt to minimize traffic, noise, and air pollution. They do this by encouraging people to use them instead of motorized vehicles. The number of users on any given day can vary greatly for such systems. Looking at the spatiotemporal bike-sharing data in London, we could explore patterns, describe variations, or model the data in many different ways. From the two data sets, we may have a chance to take a peek at the residents' bike-renting behavior through many angles.
 
-Previous work has shown that weather is a key driver for variation in usage. <sup>[1]</sup> <sup>[2]</sup><sup>[3]</sup> Aside from weather, We believe there are a lot more important factors such as peak/off-peak hours, weekday/weekend, bike-stop location etc. By utilizing these data sets, we hope to find as many correlations between the users behavior and various factors. 
+Previous work has shown that weather is a key driver for variation in usage. <sup>[1]</sup><sup>[2]</sup><sup>[3]</sup> Aside from weather, We believe there are a lot more important factors such as peak/off-peak hours, weekday/weekend, bike-stop location etc. By utilizing these data sets, we hope to find as many correlations between the users behavior and various factors. 
 
-We assume that the outcomes and models from the prediction and modeling analyses utilizing data collected prior to the New Crown pandemic are still relevant now.
+We assume that the outcomes and models from the prediction and modeling analyses utilizing data collected before Coronavirus pandemic are still valid now.
 
 We plan to start by looking at the trends. How does weather or other factors affect the London area overall? Although the answer could be found in both data sets, the structure of the second data set(see 1.1.2 London_merged.csv) would make the job easier if we were only looking at big trends. Then we would look at the microscopic data provided by the first data set(1.1.1 London.csv), and hope it would support our claims.
 
@@ -435,6 +435,8 @@ In conclussion, the results of the model suggested that:
 4.Using time of day, Day of week, holiday, temperature, wide, location, surrounding rental availability, availability of other transportation, and nearby safety level as influencing factors for prediction, the decision tree can explore the effect of these influencing factors together affecting bicycle usage with higher accuracy.
 
 ## 4 Dsicussion
+
+Based on what was done in previous sections, 
 
 (Were you able to answer your research question or support/refute your hypothesis? If not, why not?我觉得这一部分可以一段话进行阐述，有的总结可以添加到3.5中，我觉得3.5可以在你写的时候由你再度进行修改)
 

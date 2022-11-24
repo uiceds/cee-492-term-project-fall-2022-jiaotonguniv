@@ -6,6 +6,7 @@ Champaign
 characteristc
 cnt
 conclussion
+Coronavirus
 Covid
 csv
 cyfcx

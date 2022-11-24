@@ -17,6 +17,7 @@ content/01.abstract.md:67:kaggle
 content/01.abstract.md:69:dataset
 content/01.abstract.md:69:kaggle
 content/01.abstract.md:73:spatiotemporal
+content/01.abstract.md:77:Coronavirus
 content/01.abstract.md:79:csv
 content/01.abstract.md:79:csv
 content/01.abstract.md:91:csv
@@ -43,7 +44,7 @@ content/01.abstract.md:308:MSE
 content/01.abstract.md:313:Conclussion
 content/01.abstract.md:315:conclussion
 content/01.abstract.md:325:Dsicussion
-content/01.abstract.md:333:imoprove
+content/01.abstract.md:335:imoprove
 content/90.back-matter.md:7:AndersOhrn
 content/90.back-matter.md:7:kaggle
 content/90.back-matter.md:7:Kaggle
