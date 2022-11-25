@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2022-11-24'
+date-meta: '2022-11-25'
 author-meta:
 - Mulin Wan
 - Jingwen Yao
@@ -21,8 +21,8 @@ header-includes: |-
   <meta name="citation_title" content="Bike-Share Usage in London Network Analysis" />
   <meta property="og:title" content="Bike-Share Usage in London Network Analysis" />
   <meta property="twitter:title" content="Bike-Share Usage in London Network Analysis" />
-  <meta name="dc.date" content="2022-11-24" />
-  <meta name="citation_publication_date" content="2022-11-24" />
+  <meta name="dc.date" content="2022-11-25" />
+  <meta name="citation_publication_date" content="2022-11-25" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -44,9 +44,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/ddbb2ae63c4e14e1ccb0c2ed628dfdda48637a5a/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/ddbb2ae63c4e14e1ccb0c2ed628dfdda48637a5a/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/ddbb2ae63c4e14e1ccb0c2ed628dfdda48637a5a/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/7f27cf286ac801b6bb8bf658092b7832a44f8715/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/7f27cf286ac801b6bb8bf658092b7832a44f8715/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/7f27cf286ac801b6bb8bf658092b7832a44f8715/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -68,10 +68,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/ddbb2ae63c4e14e1ccb0c2ed628dfdda48637a5a/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/7f27cf286ac801b6bb8bf658092b7832a44f8715/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@ddbb2ae](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/ddbb2ae63c4e14e1ccb0c2ed628dfdda48637a5a)
-on November 24, 2022.
+from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@7f27cf2](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/7f27cf286ac801b6bb8bf658092b7832a44f8715)
+on November 25, 2022.
 </em></small>
 
 ## Authors
@@ -422,17 +422,19 @@ A more intuitive way to compare the improvement of the model is using the coeffi
 
 As the R^2 is more than 90% now, the improvement of the model is obvious.
 
-### 3.5 Model Discussion and Conclussion
+### 3.5 Model Discussion and Conclusion
 
 In conclussion, the results of the model suggested that:
 
-1.In London's thriving commercial areas, bicycle use is more influenced by seasonal factors than by weather conditions, with much lower use in the cold season than in the summer season.
+1.In Central Business Districts in London, seasonal and weather factors are less influential. According to our hypothesis, it is the population around the block and economic activity density that decide how many bikes are needed to fulfill the demands.
 
-2.Bicycle use in London's thriving commercial areas is more influenced by precipitation than by low temperatures.
+2.In tourist attraction areas, weather and temperature are considered as key factors. With lower temperature and worse weather conditions, people are reluctant to use shared bikes.
+
+3.Besides, in tourist attraction areas, there is usually a greater usage of shared bikes during the weekends, which gives us a hint that weekday usage is not always greater than that in the weekends. 
 
 3.In London's tourist attraction areas, bicycle use is not only influenced by seasonal factors but also by whether it is on a weekend, showing that weekday use is not always greater than weekend use.
 
-4.Using time of day, Day of week, holiday, temperature, wide, location, surrounding rental availability, availability of other transportation, and nearby safety level as influencing factors for prediction, the decision tree can explore the effect of these influencing factors together affecting bicycle usage with higher accuracy.
+4.Using time of day, day of week, holiday, temperature, wide, location, surrounding rental availability, availability of other transportation, and nearby safety level as influencing factors for prediction, the decision tree can explore the effect of these influencing factors together affecting bicycle usage with higher accuracy.
 
 ## 4 Dsicussion
 
