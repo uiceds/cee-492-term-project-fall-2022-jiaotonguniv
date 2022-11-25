@@ -13,7 +13,7 @@ cyfcx
 dataset
 Dsicussion
 Guo
-imoprove
+Imoprove
 isholiday
 ismonday
 istuesday
@@ -21,6 +21,7 @@ isweekend
 Jingwen
 jingwenyaooo
 Kaggle
+limitted
 Mavrodiev
 MSE
 mulin

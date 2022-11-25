@@ -42,9 +42,12 @@ content/01.abstract.md:298:MSE
 content/01.abstract.md:300:cee
 content/01.abstract.md:308:MSE
 content/01.abstract.md:315:conclussion
-content/01.abstract.md:327:Dsicussion
-content/01.abstract.md:329:Regaring
-content/01.abstract.md:340:imoprove
+content/01.abstract.md:325:Dsicussion
+content/01.abstract.md:327:Regaring
+content/01.abstract.md:333:Imoprove
+content/01.abstract.md:337:dataset
+content/01.abstract.md:337:dataset
+content/01.abstract.md:337:limitted
 content/90.back-matter.md:7:AndersOhrn
 content/90.back-matter.md:7:kaggle
 content/90.back-matter.md:7:Kaggle
