@@ -24,7 +24,7 @@ Kaggle
 limitted
 Mavrodiev
 MSE
-mulin
+Mulin
 neccesary
 preprocessing
 Regaring

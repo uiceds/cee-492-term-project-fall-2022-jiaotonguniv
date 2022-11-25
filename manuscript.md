@@ -44,9 +44,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/d65e49d265ec8a00dedb6aa866bd261f630ef08f/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/d65e49d265ec8a00dedb6aa866bd261f630ef08f/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/d65e49d265ec8a00dedb6aa866bd261f630ef08f/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/c94a320abdc672797877bfc0a141bedf4eb6b360/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/c94a320abdc672797877bfc0a141bedf4eb6b360/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/c94a320abdc672797877bfc0a141bedf4eb6b360/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -68,9 +68,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/d65e49d265ec8a00dedb6aa866bd261f630ef08f/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/c94a320abdc672797877bfc0a141bedf4eb6b360/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@d65e49d](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/d65e49d265ec8a00dedb6aa866bd261f630ef08f)
+from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@c94a320](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/c94a320abdc672797877bfc0a141bedf4eb6b360)
 on November 25, 2022.
 </em></small>
 
@@ -442,7 +442,7 @@ However, there are still many progress to make in future study to make the model
 
 First of all, this model is just a preliminary analysis or a starting point. For future study, we could try to:
 
-1. Imoprove our ML model.（上述结论第四条中所述与3.4模型存在将所有因素纳入建模，但未分别指出各个因素对单车使用辆的影响！！这个是咱们模型的缺陷，这个可能需要这里进行把这个圆回去）
+1. Imoprove our ML model.
 Our model has combined all of the factors together with the same weight, which is not very accurate when it comes to determining the main influential factor when arranging shared bikes. Further work on finding out how does each factor influence the outcome should be done to make the model more accurate.
 
 2. Expand the scale.
