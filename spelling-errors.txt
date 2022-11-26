@@ -20,13 +20,11 @@ isweekend
 Jingwen
 jingwenyaooo
 Kaggle
-limitted
 Mavrodiev
 MSE
 mulin
 neccesary
 preprocessing
-Regaring
 schoolholiday
 scikitlearn
 sklearn

@@ -44,9 +44,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/d941e095d2706b437b0c40ed6ffa7ef2207d72e6/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/d941e095d2706b437b0c40ed6ffa7ef2207d72e6/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/d941e095d2706b437b0c40ed6ffa7ef2207d72e6/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/8f666cbb58bddd738b5e8ddb2b1b3862e4d13f97/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/8f666cbb58bddd738b5e8ddb2b1b3862e4d13f97/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/8f666cbb58bddd738b5e8ddb2b1b3862e4d13f97/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -68,9 +68,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/d941e095d2706b437b0c40ed6ffa7ef2207d72e6/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/8f666cbb58bddd738b5e8ddb2b1b3862e4d13f97/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@d941e09](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/d941e095d2706b437b0c40ed6ffa7ef2207d72e6)
+from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@8f666cb](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/8f666cbb58bddd738b5e8ddb2b1b3862e4d13f97)
 on November 26, 2022.
 </em></small>
 
@@ -426,27 +426,27 @@ As the R^2 is more than 90% now, the improvement of the model is obvious.
 
 In conclussion, the results of the model suggested that:
 
-1.In Central Business Districts in London, seasonal and weather factors are less influential. According to our hypothesis, it is the population around the block and economic activity density that decide how many bikes are needed to fulfill the demands.
+1. In Central Business Districts in London, seasonal and weather factors are less influential. According to our hypothesis, it is the population around the block and economic activity density that decide how many bikes are needed to fulfill the demands.
 
-2.In tourist attraction areas, weather and temperature are considered as key factors. With lower temperature and worse weather conditions, people are reluctant to use shared bikes.
+2. In tourist attraction areas, weather and temperature are considered as key factors. With lower temperatures and worse weather conditions, people are reluctant to use shared bikes.
 
-3.Besides, in tourist attraction areas, there is usually a greater usage of shared bikes during the weekends, which gives us a hint that weekday usage is not always greater than that in the weekends. Under this consideration, service providers need to have at least two strategies to cope with the amount of bikes provided in each station.
+3. Besides, in tourist attraction areas, there is usually a greater usage of shared bikes during the weekends, which gives us a hint that weekday usage is not always greater than that in the weekends. Under this consideration, service providers need to have at least two strategies to cope with the amount of bikes provided in each station.
 
-4.Using time of day, day of week, holiday, temperature, wide, location, surrounding rental availability, availability of other transportation, and nearby safety level are all influential factors for prediction. We choose to apply the decision tree to explore the effects of these influential factors on the number of shared bikes. In this way, we can improve the accuracy of the model, getting better results, helping both the users and service providers. 
+4. Using time of day, day of the week, holiday, temperature, wide, location, surrounding rental availability, availability of other transportation, and nearby safety level are all influential factors for prediction. We choose to apply the decision tree to explore the effects of these influential factors on the number of shared bikes. In this way, we can improve the accuracy of the model, getting better results, and helping both the users and service providers. 
 
 ## 4 Dsicussion
 
-Based on what was done in previous sections, we have completed a preliminary forecast for the number of shared bikes that will be used in any given 1 hour time-period with a reasonable accuracy. Regaring to helping the service provider, we have also given some ideas about bike distribution in each station, providing some help in maintaining service quality, which basically achieved our objective.
+Based on what was done in previous sections, we have completed a preliminary forecast for the number of shared bikes that will be used in any given 1 hour time period with reasonable accuracy. Regarding to helping the service provider, we have also given some ideas about bike distribution in each station, providing some help in maintaining service quality, which basically achieved our objective.
 
-However, there are still many progress to make in future study to make the model more accurate, having more constructive opinions, possessing more guidance value.
+However, there are still much progress to make in a future study to make the model more accurate, have more constructive opinions, and possess more guidance value.
 
 First of all, this model is just a preliminary analysis or a starting point. For future study, we could try to:
 
 1. Improve our ML model.
-Our model has combined all of the factors together with the same weight, which is not very accurate when it comes to determining the main influential factor when arranging shared bikes. Further work on finding out how does each factor influence the outcome should be done to make the model more accurate.
+Our model has combined all of the factors together with the same weight, which is not very accurate when it comes to determining the main influential factor when arranging shared bikes. Further work on finding out how each factor influences the outcome should be done to make the model more accurate.
 
 2. Expand the scale.
-In order to find out the patterns quicker, we chose to use a limitted dataset, which is not comprehensive enough. In the future, we will expand the dataset to include more circumstances to optimize the model.
+In order to find out the patterns quicker, we chose to use a limited dataset, which is not comprehensive enough. In the future, we will expand the dataset to include more circumstances to optimize the model.
 
 3. Generate more ideas.
 The model is made to aid the service providers with arranging bikes efficiently and spending less time when selecting a new bike station. In the future, we will take more geographic information, political information, economical information and cultural information into consideration, making predictions about which place is eager to have a bike station and how many bikes should be provided at least.
