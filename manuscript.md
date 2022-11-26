@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2022-11-25'
+date-meta: '2022-11-26'
 author-meta:
 - Mulin Wan
 - Jingwen Yao
@@ -21,8 +21,8 @@ header-includes: |-
   <meta name="citation_title" content="Bike-Share Usage in London Network Analysis" />
   <meta property="og:title" content="Bike-Share Usage in London Network Analysis" />
   <meta property="twitter:title" content="Bike-Share Usage in London Network Analysis" />
-  <meta name="dc.date" content="2022-11-25" />
-  <meta name="citation_publication_date" content="2022-11-25" />
+  <meta name="dc.date" content="2022-11-26" />
+  <meta name="citation_publication_date" content="2022-11-26" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -44,9 +44,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/c94a320abdc672797877bfc0a141bedf4eb6b360/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/c94a320abdc672797877bfc0a141bedf4eb6b360/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/c94a320abdc672797877bfc0a141bedf4eb6b360/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/d941e095d2706b437b0c40ed6ffa7ef2207d72e6/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/d941e095d2706b437b0c40ed6ffa7ef2207d72e6/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/d941e095d2706b437b0c40ed6ffa7ef2207d72e6/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -68,10 +68,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/c94a320abdc672797877bfc0a141bedf4eb6b360/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/d941e095d2706b437b0c40ed6ffa7ef2207d72e6/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@c94a320](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/c94a320abdc672797877bfc0a141bedf4eb6b360)
-on November 25, 2022.
+from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@d941e09](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/d941e095d2706b437b0c40ed6ffa7ef2207d72e6)
+on November 26, 2022.
 </em></small>
 
 ## Authors
@@ -442,13 +442,13 @@ However, there are still many progress to make in future study to make the model
 
 First of all, this model is just a preliminary analysis or a starting point. For future study, we could try to:
 
-1. Imoprove our ML model.
+1. Improve our ML model.
 Our model has combined all of the factors together with the same weight, which is not very accurate when it comes to determining the main influential factor when arranging shared bikes. Further work on finding out how does each factor influence the outcome should be done to make the model more accurate.
 
 2. Expand the scale.
 In order to find out the patterns quicker, we chose to use a limitted dataset, which is not comprehensive enough. In the future, we will expand the dataset to include more circumstances to optimize the model.
 
-3. Giving more ideas.
+3. Generate more ideas.
 The model is made to aid the service providers with arranging bikes efficiently and spending less time when selecting a new bike station. In the future, we will take more geographic information, political information, economical information and cultural information into consideration, making predictions about which place is eager to have a bike station and how many bikes should be provided at least.
 
 

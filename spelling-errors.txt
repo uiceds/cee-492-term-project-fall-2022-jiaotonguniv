@@ -13,7 +13,6 @@ cyfcx
 dataset
 Dsicussion
 Guo
-Imoprove
 isholiday
 ismonday
 istuesday
@@ -24,7 +23,7 @@ Kaggle
 limitted
 Mavrodiev
 MSE
-Mulin
+mulin
 neccesary
 preprocessing
 Regaring
