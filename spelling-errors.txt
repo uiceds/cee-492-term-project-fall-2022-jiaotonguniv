@@ -10,8 +10,7 @@ Coronavirus
 Covid
 csv
 cyfcx
-dataset
-Dsicussion
+Dataset
 Guo
 isholiday
 ismonday
@@ -22,7 +21,7 @@ jingwenyaooo
 Kaggle
 Mavrodiev
 MSE
-mulin
+Mulin
 neccesary
 preprocessing
 schoolholiday

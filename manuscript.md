@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2022-11-26'
+date-meta: '2022-12-01'
 author-meta:
 - Mulin Wan
 - Jingwen Yao
@@ -21,8 +21,8 @@ header-includes: |-
   <meta name="citation_title" content="Bike-Share Usage in London Network Analysis" />
   <meta property="og:title" content="Bike-Share Usage in London Network Analysis" />
   <meta property="twitter:title" content="Bike-Share Usage in London Network Analysis" />
-  <meta name="dc.date" content="2022-11-26" />
-  <meta name="citation_publication_date" content="2022-11-26" />
+  <meta name="dc.date" content="2022-12-01" />
+  <meta name="citation_publication_date" content="2022-12-01" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -44,9 +44,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/8f666cbb58bddd738b5e8ddb2b1b3862e4d13f97/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/8f666cbb58bddd738b5e8ddb2b1b3862e4d13f97/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/8f666cbb58bddd738b5e8ddb2b1b3862e4d13f97/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/ec479aee3a94307ac38e12505e721eda72ba723d/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/ec479aee3a94307ac38e12505e721eda72ba723d/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/ec479aee3a94307ac38e12505e721eda72ba723d/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -68,10 +68,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/8f666cbb58bddd738b5e8ddb2b1b3862e4d13f97/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/ec479aee3a94307ac38e12505e721eda72ba723d/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@8f666cb](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/8f666cbb58bddd738b5e8ddb2b1b3862e4d13f97)
-on November 26, 2022.
+from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@ec479ae](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/ec479aee3a94307ac38e12505e721eda72ba723d)
+on December 1, 2022.
 </em></small>
 
 ## Authors
@@ -434,7 +434,7 @@ In conclussion, the results of the model suggested that:
 
 4. Using time of day, day of the week, holiday, temperature, wide, location, surrounding rental availability, availability of other transportation, and nearby safety level are all influential factors for prediction. We choose to apply the decision tree to explore the effects of these influential factors on the number of shared bikes. In this way, we can improve the accuracy of the model, getting better results, and helping both the users and service providers. 
 
-## 4 Dsicussion
+## 4 Discussion
 
 Based on what was done in previous sections, we have completed a preliminary forecast for the number of shared bikes that will be used in any given 1 hour time period with reasonable accuracy. Regarding to helping the service provider, we have also given some ideas about bike distribution in each station, providing some help in maintaining service quality, which basically achieved our objective.
 
