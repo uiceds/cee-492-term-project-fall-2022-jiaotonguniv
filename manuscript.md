@@ -44,9 +44,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/7263f32d4a2639bee0ec3ff5d9607249ffa2067d/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/7263f32d4a2639bee0ec3ff5d9607249ffa2067d/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/7263f32d4a2639bee0ec3ff5d9607249ffa2067d/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/e2ce0a84ab2596b4981b09a6b89d5bbf784bef12/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/e2ce0a84ab2596b4981b09a6b89d5bbf784bef12/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/e2ce0a84ab2596b4981b09a6b89d5bbf784bef12/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -68,9 +68,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/7263f32d4a2639bee0ec3ff5d9607249ffa2067d/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/e2ce0a84ab2596b4981b09a6b89d5bbf784bef12/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@7263f32](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/7263f32d4a2639bee0ec3ff5d9607249ffa2067d)
+from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@e2ce0a8](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/e2ce0a84ab2596b4981b09a6b89d5bbf784bef12)
 on December 2, 2022.
 </em></small>
 
@@ -118,23 +118,54 @@ on December 2, 2022.
 
 ### 1.1 Proposal
 
-Recently, bike-sharing in big cities has become an important part of residents' daily life, and its role in urban transportation system has never been more significant. Around the world, there are more than 500 bike-sharing schemes. By making bicycles available for short-distance excursions in metropolitan areas, such systems often attempt to minimize traffic, noise, and air pollution. They do this by encouraging people to use them instead of motorized vehicles. The number of users on any given day can vary greatly for such systems. Looking at the spatiotemporal bike-sharing data in London, we could explore patterns, describe variations, or model the data in many different ways. From the two data sets, we may have a chance to take a peek at the residents' bike-renting behavior through many angles.
+Recently, bike-sharing in big cities has become an important part of residents' daily life, and its role in urban transportation system has never been more significant. By making bicycles available for short-distance excursions in metropolitan areas, governments hope that traffic, noise, and air pollution could reduce as the usage of motorized vehicles decreased. However, it takes great effort to maintain a well-funcioned bike sharing system. To ensure that citizens could have constant access to the bikes, predicting the usage and dispatching bikes across different stops become crucial since one can easily imagine that usage would vary across different time and space. There are a lot of machine learning projects done on predicting total bike share usage in an entire city, this research plans to build on that and try to develop a usage predicting model on a single-stop scale, which is relatively rare at the moment.
 
-Previous work has shown that weather is a key driver for variation in usage. <sup>[1]</sup><sup>[2]</sup><sup>[3]</sup> Aside from weather, We believe there are a lot more important factors such as peak/off-peak hours, weekday/weekend, bike-stop location etc. By utilizing these data sets, we hope to find as many correlations between the users behavior and various factors. 
-
-We assume that the outcomes and models from the prediction and modeling analyses utilizing data collected before Coronavirus pandemic are still valid now.
-
-We plan to start by looking at the trends. How does weather or other factors affect the London area overall? Although the answer could be found in both data sets, the structure of the second data set(see 1.1.2 London_merged.csv) would make the job easier if we were only looking at big trends. Then we would look at the microscopic data provided by the first data set(1.1.1 London.csv), and hope it would support our claims.
-
-Lastly, after each correlation is explored, we will try to formulate a Machine Learning model that would help us predict the hourly bike-sharing usage in the stops. Our objective is to apply and optimize Machine Learning models that accurately forecast the number of ride-sharing bikes that will be used in any given 1 hour time-period and help users manage their travel time, as well as for service providers to better dispatch bikes to maintain service quality, using the information that is currently available (such as weather, season, etc.) about that time/day.
+We choose London as the area to work on. Looking at the spatiotemporal bike-sharing data in London, we could explore patterns, describe variations, or model the data in many different ways. From the two data sets, we may have a chance to take a peek at the residents' bike-renting behavior through many angles. Previous work has shown that weather is a key driver for variation in usage. <sup>[1]</sup><sup>[2]</sup><sup>[3]</sup> Aside from weather, We believe there are a lot more important factors such as peak/off-peak hours, weekday/weekend, bike-stop location etc. By utilizing these data sets, we hope to find as many correlations between the users behavior and various factors. Also, since we are working on data collected before the outbreak of the coronavirus, we assume that peoples' behavior showned in the datasets are still valid now. The datassets would be introduced in the following sections, including why do we choose them and how we are going to implement them in our research.
 
 ### 1.2 Data set:
 
-In this project, our goal is to understand how various conditions affect the usage of public bicycle sharing system. We picked London area as the observing site. The main data came from two data sets on Kaggle, titled "London and Taipei Bike-Share Data" and "London bike sharing data set." 
+The two main datasets were downloaded from Kaggle, titled "London bike sharing data set" and "London and Taipei Bike-Share Data." 
 
-#### 1.2.1 London and Taipei Bike-Share Data
 
-This data set contains every single bike rental transaction in a total of 802 bike-sharing stops in the London area from 2017 until the Covid outbreak. Each transaction provides the following information:
+#### 1.2.1 London bike sharing data set
+
+This dataset shows how many bike-sharing transactions took place in the entire London area each hour in 2015 to 2016. Because the usage in this dataset is the summation across all the stops in the city, we could have a more general feel of how major variables such as weather condiions and time affect bike share usage, excluding the effect of the location of the stop on its usage.
+
+
+Table 1: Description of London_merged.csv
+
+| Object | Description |
+| --- | --- |
+| timestamp  | timestamp field for grouping the data |
+| cnt | the count of a bike sharing |
+| t1 | real temperature in Celsius |
+| t2 | apparent temperature in Celsius |
+| hum | humidity in percentage |
+| windspeed | wind speed in km/h |
+| isholiday | boolean field - 1 holiday / 0 non holiday - refers to bank holidays |
+| isweekend | boolean field - 1 if the day is weekend / 0 if a working day |
+| season | category (0-spring; 1-summer; 2-autumn; 3-winter) |
+| weathercode | different weather condition|
+
+Table 2: Description of weathercode
+
+| weathercode | Description |
+| --- | --- |
+| 1 | clear; mostly clear but have some values with haze/fog|
+| 2 | scattered clouds / few clouds|
+| 3 | broken clouds|
+| 4 | clear; cloudy|
+| 7 | clear; light rain shower / rain / light rain|
+| 10 | clear; rain with thunderstorm|
+| 26 | snowfall|
+| 90 | freezing fog |
+
+
+#### 1.2.2 London and Taipei Bike-Share Data
+
+This data set contains every single bike rental transaction in a total of 802 bike-sharing stops in the London area from 2017 until the Covid outbreak. This dataset gives us the microscoptic view, also allowing us to verify the results we got from analyzing the first dataset in each stop. Most importantly, we now have a chance to create a predictive model on a single-stop scale.
+
+Each transaction provides the following information:
 
 Table 1: Description of London.csv
 
@@ -151,40 +182,9 @@ Table 1: Description of London.csv
 | start_station_name | name of start station |
 | start_rental_date_time | date and time of start rental |
 
-#### 1.2.2 London bike sharing data set
 
-This data set shows how many bike-sharing transactions took place in each hour in 2015 to 2016. Comparing to the first data set, this one is more compact since it does not contain individual information. However, it helped providing information on weather conditions. Although the time span doesn't overlap with the first data set, it encourages us to find time span matching weather data to help with further analysis.
+Our final goal is to apply and optimize machine learning models that accurately forecast the number of ride-sharing bikes that will be used in any given 1 hour time-period and help users manage their travel time, as well as for service providers to better dispatch bikes to maintain service quality, using the information available.
 
-
-Table 2: Description of London_merged.csv
-
-| Object | Description |
-| --- | --- |
-| timestamp  | timestamp field for grouping the data |
-| cnt | the count of a bike sharing |
-| t1 | real temperature in Celsius |
-| t2 | apparent temperature in Celsius |
-| hum | humidity in percentage |
-| windspeed | wind speed in km/h |
-| isholiday | boolean field - 1 holiday / 0 non holiday - refers to bank holidays |
-| isweekend | boolean field - 1 if the day is weekend / 0 if a working day |
-| season | category (0-spring; 1-summer; 2-autumn; 3-winter) |
-| weathercode | different weather condition|
-
-Table 3: Description of weathercode
-
-| weathercode | Description |
-| --- | --- |
-| 1 | clear; mostly clear but have some values with haze/fog|
-| 2 | scattered clouds / few clouds|
-| 3 | broken clouds|
-| 4 | clear; cloudy|
-| 7 | clear; light rain shower / rain / light rain|
-| 10 | clear; rain with thunderstorm|
-| 26 | snowfall|
-| 90 | freezing fog |
-
-In addition to season and isweekend, from the timestamp feature we can extract many separate time features - day of the week (as one scaled column or as seven columns of ismonday, istuesday etc.), month number, day of the month, week number, hour, minute. In combination with external data, we could add is_light for after dawn times and is_schoolholiday to match London school holiday times.
 
 #### 1.2.3 Link of dataset:
 
@@ -195,7 +195,7 @@ In addition to season and isweekend, from the timestamp feature we can extract m
 
 ## 2 Exploratory Data Analysis
 
-In this section, we look at different factors affecting the usage of the bike sharing system in London. Each factors that we are interested is plotted along with the average usage per hour. Then we look for micro trends in specific bike-stop that contradicts with the big trends we found.
+In this section, we look at different factors affecting the usage of the bike sharing system in London. We first plot the average usage per hour in the first dataset(1.2.1 London bike sharing data set) along with the factors that we are interested. Then we look for micro trends in specific bike-stop that contradicts with the big trends we found.
 
 ### 2.1 Data Wrangling
 
@@ -206,6 +206,7 @@ Both of the csv files need to be restructured in some ways before the analyzing 
 "2015/1/4  12:00:00 AM"
 
 Information such as date and time could be extracted from within. The somehow trickier part is the day-of-the-week. We add a certain number to the date and take the remainder after divided by 7 to get the day-of-the-week.
+
 
 ### 2.2 Analysis and Visualization
 
@@ -300,7 +301,7 @@ This pie chart shows the how users utilize the bike sharing system in different 
 
 ****
 
-#### 2.2.1.2 Spotting micro trends (Individual behaviors varying with bike stop locations)
+#### 2.2.2 Contradictions with the major trends (Individual behaviors varying across bike stop locations)
 
 In the previous section, we have come up with some speculations, such as:
 
@@ -308,7 +309,7 @@ In the previous section, we have come up with some speculations, such as:
   Usage in weekdays are often higher than weekends.
   Usage in warmer days are often higher than colder days.
 
-But as we move closer the the actual stop-by-stop prediction, we need to understand how the location and the characteristc of each stop changes how the large trends' impact on those stops. The main data set (1.1.1 London.csv) provides a chance to look extremely closely to certain stops in certain time spans, for us to verify out speculations, or to discover new revelation.
+But as we move closer the the actual stop-by-stop prediction, we need to understand how the location and the characteristc of each stop changes how the large trends' impact on those stops. The main data set (1.2.2 London.csv) provides a chance to look extremely closely to certain stops in certain time spans, for us to verify out speculations, or to discover new revelation.
 
 
 ![](images/LBS.png)
@@ -347,48 +348,43 @@ In figure12, we can see the date is set on 05/06 ~ 05/12 and 05/13 ~ 05/19 (2019
 
 ****
 
+
 ## 3 Predictive Modeling
 
-### 3.1 Variables for predicting
+We have chosen the following three stops to perform the prediction. They are Storey's Gate (N.o. 762), Abingdon Green (N.o. 582) and Abbey Orchard Street (N.o. 108). The three stops form a triangle with no other stops near them. This triangle is located near the iconic Big Ben and Westminster Abbey.
 
-The main data set (1.1.1 London.csv) although contains rich content, is too time-consuming to perform a thorough exploratory data analysis right now. But until the next step, it would be neccesary to look for deeper connections between the dots. For now, combining large trends and micro trends, we have thought of the following variables for predicting bike-share usage:
+### 3.1 Existing variables for predicting
+
+Based on the data and information we are able to gather, these are the varibales to begin with.
 
 | Variables | Description |
 | --- | --- |
-| Time  | What time of the day |
-| Day | What day of the week |
-| Holiday | Is it a holiday or not |
-| Temp | Temperature in Celsius |
-| Light | Whether there is still daylight |
-| Location | Characteristics of the bike stop location |
-| Surrounding | Renting availability in nearby stops |
-| Transport | Other means of transportation available |
-| Crime | Level of safety in the neighborhood  |
+| yr  | 2017,18 or 19|
+| season | What season of the year |
+| mnth | What month of the year |
+| weekday | What day of the week |
+| hr | What time of the day |
+| holiday | Is the day a holiday or not |
+| workingday | Is the day a working day or not |
+| temp | Temperature in Celsius |
+| precipitation | The amount of precipitation  |
 
-Due to the complexity of the problem, we would then narrow the observing area from London entirely to a certain area, hopefully containing schools, tourist attractions, business areas and residential area in order to give diversity to the problem.
+### 3.2 New variables, one-hot encoding and feature scaling
+
+We believe that the usage in the previous hour in the same stop and the neighboring stops would also help predicting the usage in the next hour, so three columns were added to the dataset, which is 762_lag, 583_lag and 108_lag.
+
+***ROUGH (will add more content in final draft)
+
+Categorical data such as yr, season, mnth, weekday, hr, holiday, workingdat should be handled by one-hot encoding to help the model work better.
+
+Other variables such as temperature and precipitation should be scaled.
 
 
-### 3.3 Train a Regression Model
+### 3.3 Training
 
 #### 3.3.1 Splitting the data
 
 As the data has been explored, the next step is to train a regression model and predict the bike sharing number(cnt):
-
-```python
-X = df.drop("cnt", axis=1)
-y = df["cnt"]
-print('Parameters:',X[:5])
-```
-
-| t1 | t2 | hum | wind_speed | is_holiday | is_weekend | month | day | hour | weather_1.0 | weather_2.0 | weather_3.0 | weather_4.0 | weather_7.0 | weather_10.0 | weather_26.0 | season_0.0 | season_1.0 | season_2.0 | season_3.0 |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 3.0 | 2.0 | 93.0 | 6.0 | 0.0 | 1.0 | 1 | 4 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
-| 3.0 | 2.5 | 96.5 | 5.0 | 0.0 | 1.0 | 1 | 4 | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
-| 2.5 | 2.5 | 96.5 | 0.0 | 0.0 | 1.0 | 1 | 4 | 2 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
-| 2.0 | 2.0 | 100.0 | 0.0 | 0.0 | 1.0 | 1 | 4 | 3 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
-| 2.0 | 0.0 | 93.0 | 6.5 | 0.0 | 1.0 | 1 | 4 | 4 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
-
-**Figure13: Splitting The Bike Sharing Number From Other Parameters**
 
 To validate the training model, we split the data set into two subsets; the first subset is used to train the model, and the second(and smaller) one is used to validate the model by comparing the predicted labels to the known labels. The data is randomly split to about 7:3. We realize it by the `train_test_split` function in the 'scikitlearn' library in python. And the result is four data sets:
 
@@ -399,14 +395,6 @@ To validate the training model, we split the data set into two subsets; the firs
 
 The next step is to train the model with a proper regression method. The group used  a linear regression algorithm, which is basic and commonly used, to find a linear relationship between X and y. 
 
-#### 3.3.2 Scaling & Training
-
-Scaling is also a preparation step for machine learning. By scaling the numeric columns in the data set to a common scale with the standardization method, the distribution could have a unit standard deviation. 'sklearn.preprocessing' and 'sklearn.linear_model' package provide a convenient algorithm to realize the model:
-
-```python
-# Fit a linear regression model on the training set
-model = LinearRegression().fit(X_train, y_train)
-```
 
 ### 3.4 Evaluate Trained Model
 
@@ -422,6 +410,8 @@ It is a generally diagonal trend with several deviation values. The group uses m
 
 A more intuitive way to compare the improvement of the model is using the coefficient of determination(R-squared). 
 
+***ROUGH (will add more content in final draft: overfitting/underfitting)
+
 | Evaluation Metrics | Linear Regression | Decision Tree |
 | --- | --- | --- |
 | MSE | 814512 | 97082 |
@@ -429,19 +419,36 @@ A more intuitive way to compare the improvement of the model is using the coeffi
 
 As the R^2 is more than 90% now, the improvement of the model is obvious.
 
+***ROUGH (will add more content in final draft: overfitting/underfitting and discussion)
+
+<img width="584" alt="image" src="https://user-images.githubusercontent.com/112497612/205402680-ea8c8cc1-235a-41e0-9264-753fb9dd8c45.png">
+
+
+**Figure15: Best prediction results for the three stops**
+
+
+| Stop | 762 | 583 | 108 |
+| Model used | Random Forest |
+| R^2 | 0.68 | 0.56 | 0.72 |
+
+
+**Table: Best prediction results for the three stops**
+
+
 ### 3.5 Model Discussion and Conclusion
 
-In conclussion, the results of the model suggested that:
+***ROUGH (will add more content in final draft)
 
-1. In Central Business Districts in London, seasonal and weather factors are less influential. According to our hypothesis, it is the population around the block and economic activity density that decide how many bikes are needed to fulfill the demands.
+Why are results worse for individual stop predictions?
 
-2. In tourist attraction areas, weather and temperature are considered as key factors. With lower temperatures and worse weather conditions, people are reluctant to use shared bikes.
+1. Because we are not able to get hourly weather data for 2017~2019, so we right now we assume weather conditions are uniform through the day, obviously that won't be correct.
+2. Too many 0-usage hours and small sample size, compared to the first dataset which record the usage across the whole city.
+3. ... to be replenish in the final draft
 
-3. Besides, in tourist attraction areas, there is usually a greater usage of shared bikes during the weekends, which gives us a hint that weekday usage is not always greater than that in the weekends. Under this consideration, service providers need to have at least two strategies to cope with the amount of bikes provided in each station.
-
-4. Using time of day, day of the week, holiday, temperature, wide, location, surrounding rental availability, availability of other transportation, and nearby safety level are all influential factors for prediction. We choose to apply the decision tree to explore the effects of these influential factors on the number of shared bikes. In this way, we can improve the accuracy of the model, getting better results, and helping both the users and service providers. 
-
+ 
 ## 4 Discussion
+
+***ROUGH (will add more content in final draft)
 
 Based on what was done in previous sections, we have completed a preliminary forecast for the number of shared bikes that will be used in any given 1 hour time period with reasonable accuracy. Regarding to helping the service provider, we have also given some ideas about bike distribution in each station, providing some help in maintaining service quality, which basically achieved our objective.
 
@@ -449,13 +456,17 @@ However, there are still much progress to make in a future study to make the mod
 
 First of all, this model is just a preliminary analysis or a starting point. For future study, we could try to:
 
-1. Improve our ML model.
+1.In order to solve the problem of small sample sizes, we could try to group stops with similar traits(school/ business/ tourist) together and predict them as a whole (using k-means or other methods).
+
+2. We could also predict the count of users returning the bikes, and create an alarm system when a stop has low bike amount (Numbers of bike at full capacity - (Rent counts - Return Counts))
+
+3. Improve our ML model.
 Our model has combined all of the factors together with the same weight, which is not very accurate when it comes to determining the main influential factor when arranging shared bikes. Further work on finding out how each factor influences the outcome should be done to make the model more accurate.
 
-2. Expand the scale.
+4. Expand the scale.
 In order to find out the patterns quicker, we chose to use a limited dataset, which is not comprehensive enough. In the future, we will expand the dataset to include more circumstances to optimize the model.
 
-3. Generate more ideas.
+5. Generate more ideas.
 The model is made to aid the service providers with arranging bikes efficiently and spending less time when selecting a new bike station. In the future, we will take more geographic information, political information, economical information and cultural information into consideration, making predictions about which place is eager to have a bike station and how many bikes should be provided at least.
 
 
