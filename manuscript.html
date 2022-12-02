@@ -8,7 +8,7 @@
   <meta name="author" content="Jingwen Yao" />
   <meta name="author" content="Yunze Guo" />
   <meta name="author" content="Bo-Yang Wang" />
-  <meta name="dcterms.date" content="2022-12-01" />
+  <meta name="dcterms.date" content="2022-12-02" />
   <meta name="keywords" content="markdown, publishing, manubot" />
   <title>Bike-Share Usage in London Network Analysis</title>
   <style>
@@ -113,8 +113,8 @@
   <meta name="citation_title" content="Bike-Share Usage in London Network Analysis" />
   <meta property="og:title" content="Bike-Share Usage in London Network Analysis" />
   <meta property="twitter:title" content="Bike-Share Usage in London Network Analysis" />
-  <meta name="dc.date" content="2022-12-01" />
-  <meta name="citation_publication_date" content="2022-12-01" />
+  <meta name="dc.date" content="2022-12-02" />
+  <meta name="citation_publication_date" content="2022-12-02" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -136,9 +136,9 @@
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/ec479aee3a94307ac38e12505e721eda72ba723d/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/ec479aee3a94307ac38e12505e721eda72ba723d/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/ec479aee3a94307ac38e12505e721eda72ba723d/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/767623910c87e0776ba4271ae757e2771b56b047/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/767623910c87e0776ba4271ae757e2771b56b047/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/767623910c87e0776ba4271ae757e2771b56b047/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -152,10 +152,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/ec479aee3a94307ac38e12505e721eda72ba723d/">permalink</a>)
+(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/767623910c87e0776ba4271ae757e2771b56b047/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/ec479aee3a94307ac38e12505e721eda72ba723d">uiceds/cee-492-term-project-fall-2022-jiaotonguniv@ec479ae</a>
-on December 1, 2022.
+from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/767623910c87e0776ba4271ae757e2771b56b047">uiceds/cee-492-term-project-fall-2022-jiaotonguniv@7676239</a>
+on December 2, 2022.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -500,10 +500,167 @@ Queen Street 1, Bank : Located in the central of business districts . (Will be l
 <p>As the data has been explored, the next step is to train a regression model and predict the bike sharing number(cnt):</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>X <span class="op">=</span> df.drop(<span class="st">&quot;cnt&quot;</span>, axis<span class="op">=</span><span class="dv">1</span>)</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> df[<span class="st">&quot;cnt&quot;</span>]</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;Parameters:&#39;</span>,X[:<span class="dv">10</span>])</span></code></pre></div>
-<figure>
-<img src="images/Parameters.png" />
-</figure>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;Parameters:&#39;</span>,X[:<span class="dv">5</span>])</span></code></pre></div>
+<table>
+<colgroup>
+<col style="width: 4%" />
+<col style="width: 4%" />
+<col style="width: 4%" />
+<col style="width: 4%" />
+<col style="width: 4%" />
+<col style="width: 4%" />
+<col style="width: 4%" />
+<col style="width: 4%" />
+<col style="width: 4%" />
+<col style="width: 4%" />
+<col style="width: 4%" />
+<col style="width: 4%" />
+<col style="width: 4%" />
+<col style="width: 4%" />
+<col style="width: 4%" />
+<col style="width: 4%" />
+<col style="width: 4%" />
+<col style="width: 4%" />
+<col style="width: 4%" />
+<col style="width: 4%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>t1</th>
+<th>t2</th>
+<th>hum</th>
+<th>wind_speed</th>
+<th>is_holiday</th>
+<th>is_weekend</th>
+<th>month</th>
+<th>day</th>
+<th>hour</th>
+<th>weather_1.0</th>
+<th>weather_2.0</th>
+<th>weather_3.0</th>
+<th>weather_4.0</th>
+<th>weather_7.0</th>
+<th>weather_10.0</th>
+<th>weather_26.0</th>
+<th>season_0.0</th>
+<th>season_1.0</th>
+<th>season_2.0</th>
+<th>season_3.0</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>3.0</td>
+<td>2.0</td>
+<td>93.0</td>
+<td>6.0</td>
+<td>0.0</td>
+<td>1.0</td>
+<td>1</td>
+<td>4</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td>3.0</td>
+<td>2.5</td>
+<td>96.5</td>
+<td>5.0</td>
+<td>0.0</td>
+<td>1.0</td>
+<td>1</td>
+<td>4</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td>2.5</td>
+<td>2.5</td>
+<td>96.5</td>
+<td>0.0</td>
+<td>0.0</td>
+<td>1.0</td>
+<td>1</td>
+<td>4</td>
+<td>2</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td>2.0</td>
+<td>2.0</td>
+<td>100.0</td>
+<td>0.0</td>
+<td>0.0</td>
+<td>1.0</td>
+<td>1</td>
+<td>4</td>
+<td>3</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td>2.0</td>
+<td>0.0</td>
+<td>93.0</td>
+<td>6.5</td>
+<td>0.0</td>
+<td>1.0</td>
+<td>1</td>
+<td>4</td>
+<td>4</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
 <p><strong>Figure13: Splitting The Bike Sharing Number From Other Parameters</strong></p>
 <p>To validate the training model, we split the data set into two subsets; the first subset is used to train the model, and the second(and smaller) one is used to validate the model by comparing the predicted labels to the known labels. The data is randomly split to about 7:3. We realize it by the <code>train_test_split</code> function in the ‘scikitlearn’ library in python. And the result is four data sets:</p>
 <ul>

@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2022-12-01'
+date-meta: '2022-12-02'
 author-meta:
 - Mulin Wan
 - Jingwen Yao
@@ -21,8 +21,8 @@ header-includes: |-
   <meta name="citation_title" content="Bike-Share Usage in London Network Analysis" />
   <meta property="og:title" content="Bike-Share Usage in London Network Analysis" />
   <meta property="twitter:title" content="Bike-Share Usage in London Network Analysis" />
-  <meta name="dc.date" content="2022-12-01" />
-  <meta name="citation_publication_date" content="2022-12-01" />
+  <meta name="dc.date" content="2022-12-02" />
+  <meta name="citation_publication_date" content="2022-12-02" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -44,9 +44,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/ec479aee3a94307ac38e12505e721eda72ba723d/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/ec479aee3a94307ac38e12505e721eda72ba723d/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/ec479aee3a94307ac38e12505e721eda72ba723d/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/767623910c87e0776ba4271ae757e2771b56b047/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/767623910c87e0776ba4271ae757e2771b56b047/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/767623910c87e0776ba4271ae757e2771b56b047/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -68,10 +68,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/ec479aee3a94307ac38e12505e721eda72ba723d/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/767623910c87e0776ba4271ae757e2771b56b047/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@ec479ae](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/ec479aee3a94307ac38e12505e721eda72ba723d)
-on December 1, 2022.
+from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@7676239](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/767623910c87e0776ba4271ae757e2771b56b047)
+on December 2, 2022.
 </em></small>
 
 ## Authors
@@ -376,10 +376,16 @@ As the data has been explored, the next step is to train a regression model and 
 ```python
 X = df.drop("cnt", axis=1)
 y = df["cnt"]
-print('Parameters:',X[:10])
+print('Parameters:',X[:5])
 ```
 
-![](images/Parameters.png)
+| t1 | t2 | hum | wind_speed | is_holiday | is_weekend | month | day | hour | weather_1.0 | weather_2.0 | weather_3.0 | weather_4.0 | weather_7.0 | weather_10.0 | weather_26.0 | season_0.0 | season_1.0 | season_2.0 | season_3.0 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 3.0 | 2.0 | 93.0 | 6.0 | 0.0 | 1.0 | 1 | 4 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
+| 3.0 | 2.5 | 96.5 | 5.0 | 0.0 | 1.0 | 1 | 4 | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
+| 2.5 | 2.5 | 96.5 | 0.0 | 0.0 | 1.0 | 1 | 4 | 2 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
+| 2.0 | 2.0 | 100.0 | 0.0 | 0.0 | 1.0 | 1 | 4 | 3 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
+| 2.0 | 0.0 | 93.0 | 6.5 | 0.0 | 1.0 | 1 | 4 | 4 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
 
 **Figure13: Splitting The Bike Sharing Number From Other Parameters**
 
