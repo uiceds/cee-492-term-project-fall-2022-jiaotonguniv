@@ -136,9 +136,9 @@
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/767623910c87e0776ba4271ae757e2771b56b047/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/767623910c87e0776ba4271ae757e2771b56b047/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/767623910c87e0776ba4271ae757e2771b56b047/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/7263f32d4a2639bee0ec3ff5d9607249ffa2067d/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/7263f32d4a2639bee0ec3ff5d9607249ffa2067d/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/7263f32d4a2639bee0ec3ff5d9607249ffa2067d/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -152,9 +152,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/767623910c87e0776ba4271ae757e2771b56b047/">permalink</a>)
+(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/7263f32d4a2639bee0ec3ff5d9607249ffa2067d/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/767623910c87e0776ba4271ae757e2771b56b047">uiceds/cee-492-term-project-fall-2022-jiaotonguniv@7676239</a>
+from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/7263f32d4a2639bee0ec3ff5d9607249ffa2067d">uiceds/cee-492-term-project-fall-2022-jiaotonguniv@7263f32</a>
 on December 2, 2022.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -189,9 +189,15 @@ CEE, University of Illinois Urbana-Champaign
 <h1 id="abstract">Abstract</h1>
 <h2 id="introduction">1 Introduction</h2>
 <h3 id="description">Description</h3>
-<h3 id="data-set">1.1 Data set:</h3>
+<h3 id="proposal">1.1 Proposal</h3>
+<p>Recently, bike-sharing in big cities has become an important part of residents’ daily life, and its role in urban transportation system has never been more significant. Around the world, there are more than 500 bike-sharing schemes. By making bicycles available for short-distance excursions in metropolitan areas, such systems often attempt to minimize traffic, noise, and air pollution. They do this by encouraging people to use them instead of motorized vehicles. The number of users on any given day can vary greatly for such systems. Looking at the spatiotemporal bike-sharing data in London, we could explore patterns, describe variations, or model the data in many different ways. From the two data sets, we may have a chance to take a peek at the residents’ bike-renting behavior through many angles.</p>
+<p>Previous work has shown that weather is a key driver for variation in usage. <sup>[1]</sup><sup>[2]</sup><sup>[3]</sup> Aside from weather, We believe there are a lot more important factors such as peak/off-peak hours, weekday/weekend, bike-stop location etc. By utilizing these data sets, we hope to find as many correlations between the users behavior and various factors.</p>
+<p>We assume that the outcomes and models from the prediction and modeling analyses utilizing data collected before Coronavirus pandemic are still valid now.</p>
+<p>We plan to start by looking at the trends. How does weather or other factors affect the London area overall? Although the answer could be found in both data sets, the structure of the second data set(see 1.1.2 London_merged.csv) would make the job easier if we were only looking at big trends. Then we would look at the microscopic data provided by the first data set(1.1.1 London.csv), and hope it would support our claims.</p>
+<p>Lastly, after each correlation is explored, we will try to formulate a Machine Learning model that would help us predict the hourly bike-sharing usage in the stops. Our objective is to apply and optimize Machine Learning models that accurately forecast the number of ride-sharing bikes that will be used in any given 1 hour time-period and help users manage their travel time, as well as for service providers to better dispatch bikes to maintain service quality, using the information that is currently available (such as weather, season, etc.) about that time/day.</p>
+<h3 id="data-set">1.2 Data set:</h3>
 <p>In this project, our goal is to understand how various conditions affect the usage of public bicycle sharing system. We picked London area as the observing site. The main data came from two data sets on Kaggle, titled “London and Taipei Bike-Share Data” and “London bike sharing data set.”</p>
-<h4 id="london-and-taipei-bike-share-data">1.1.1 London and Taipei Bike-Share Data</h4>
+<h4 id="london-and-taipei-bike-share-data">1.2.1 London and Taipei Bike-Share Data</h4>
 <p>This data set contains every single bike rental transaction in a total of 802 bike-sharing stops in the London area from 2017 until the Covid outbreak. Each transaction provides the following information:</p>
 <p>Table 1: Description of London.csv</p>
 <table>
@@ -244,7 +250,7 @@ CEE, University of Illinois Urbana-Champaign
 </tr>
 </tbody>
 </table>
-<h4 id="london-bike-sharing-data-set">1.1.2 London bike sharing data set</h4>
+<h4 id="london-bike-sharing-data-set">1.2.2 London bike sharing data set</h4>
 <p>This data set shows how many bike-sharing transactions took place in each hour in 2015 to 2016. Comparing to the first data set, this one is more compact since it does not contain individual information. However, it helped providing information on weather conditions. Although the time span doesn’t overlap with the first data set, it encourages us to find time span matching weather data to help with further analysis.</p>
 <p>Table 2: Description of London_merged.csv</p>
 <table>
@@ -345,15 +351,9 @@ CEE, University of Illinois Urbana-Champaign
 </tbody>
 </table>
 <p>In addition to season and isweekend, from the timestamp feature we can extract many separate time features - day of the week (as one scaled column or as seven columns of ismonday, istuesday etc.), month number, day of the month, week number, hour, minute. In combination with external data, we could add is_light for after dawn times and is_schoolholiday to match London school holiday times.</p>
-<h4 id="link-of-dataset">1.1.3 Link of dataset:</h4>
+<h4 id="link-of-dataset">1.2.3 Link of dataset:</h4>
 <p><a href="https://www.kaggle.com/datasets/ajohrn/bikeshare-usage-in-london-and-taipei-network">London and Taipei bike sharing</a></p>
 <p><a href="https://www.kaggle.com/datasets/hmavrodiev/london-bike-sharing-dataset/discussion?resource=download">London bike sharing</a></p>
-<h3 id="proposal">1.2 Proposal</h3>
-<p>Recently, bike-sharing in big cities has become an important part of residents’ daily life, and its role in urban transportation system has never been more significant. Around the world, there are more than 500 bike-sharing schemes. By making bicycles available for short-distance excursions in metropolitan areas, such systems often attempt to minimize traffic, noise, and air pollution. They do this by encouraging people to use them instead of motorized vehicles. The number of users on any given day can vary greatly for such systems. Looking at the spatiotemporal bike-sharing data in London, we could explore patterns, describe variations, or model the data in many different ways. From the two data sets, we may have a chance to take a peek at the residents’ bike-renting behavior through many angles.</p>
-<p>Previous work has shown that weather is a key driver for variation in usage. <sup>[1]</sup><sup>[2]</sup><sup>[3]</sup> Aside from weather, We believe there are a lot more important factors such as peak/off-peak hours, weekday/weekend, bike-stop location etc. By utilizing these data sets, we hope to find as many correlations between the users behavior and various factors.</p>
-<p>We assume that the outcomes and models from the prediction and modeling analyses utilizing data collected before Coronavirus pandemic are still valid now.</p>
-<p>We plan to start by looking at the trends. How does weather or other factors affect the London area overall? Although the answer could be found in both data sets, the structure of the second data set(see 1.1.2 London_merged.csv) would make the job easier if we were only looking at big trends. Then we would look at the microscopic data provided by the first data set(1.1.1 London.csv), and hope it would support our claims.</p>
-<p>Lastly, after each correlation is explored, we will try to formulate a Machine Learning model that would help us predict the hourly bike-sharing usage in the stops. Our objective is to apply and optimize Machine Learning models that accurately forecast the number of ride-sharing bikes that will be used in any given 1 hour time-period and help users manage their travel time, as well as for service providers to better dispatch bikes to maintain service quality, using the information that is currently available (such as weather, season, etc.) about that time/day.</p>
 <h2 id="exploratory-data-analysis">2 Exploratory Data Analysis</h2>
 <p>In this section, we look at different factors affecting the usage of the bike sharing system in London. Each factors that we are interested is plotted along with the average usage per hour. Then we look for micro trends in specific bike-stop that contradicts with the big trends we found.</p>
 <h3 id="data-wrangling">2.1 Data Wrangling</h3>
@@ -415,8 +415,7 @@ CEE, University of Illinois Urbana-Champaign
 <p><strong>Figure9: Bike-share usage under 7 weather conditions</strong></p>
 <p>This pie chart shows the how users utilize the bike sharing system in different weather conditions. Basically, when the weather is good, people tend to utilize the bike sharing system more often, which is easy to understand. In London, raining doesn’t bother this city that much since Londoners have developed a certain life style or fashion to accommodate their unique weather condition. This phenomenon can also be spotted right here,since there is not a huge difference in usage between “cloudy”, “light rain” and “thunderstorm”.</p>
 <hr />
-<h2 id="predictive-modeling">3 Predictive Modeling</h2>
-<h3 id="spotting-micro-trends-individual-behaviors-varying-with-bike-stop-locations">3.1 Spotting micro trends (Individual behaviors varying with bike stop locations)</h3>
+<h4 id="spotting-micro-trends-individual-behaviors-varying-with-bike-stop-locations">2.2.1.2 Spotting micro trends (Individual behaviors varying with bike stop locations)</h4>
 <p>In the previous section, we have come up with some speculations, such as:</p>
 <p>During weekdays, usage during rush hours are often higher than non-peak hours.
 Usage in weekdays are often higher than weekends.
@@ -446,7 +445,9 @@ Queen Street 1, Bank : Located in the central of business districts . (Will be l
 </figure>
 <p><strong>Figure12: The effect of Rain and National Holidays</strong></p>
 <p>In figure12, we can see the date is set on 05/06 ~ 05/12 and 05/13 ~ 05/19 (2019). 05/06 (Mon) is a national holiday in UK. Also, there are heavy rainfall during 2019/05/08 ~ 09. We can see the national holiday having drastic on usage in CBD, causing a giant difference between the two Mondays, 05/06 and 05/13. However Hyde Park was not that severely affected. From the figure we can also see less bike usage on 2019/05/08 ~ 09, regardless the location. Comparing to the result in Figure11, it is safe to say that precipitation affects bike users in CBD more than low temperature. But is this phenomenon universal across London? Or is this a business district thing? We may need to look for other proofs.</p>
-<h3 id="variables-for-predicting">3.2 Variables for predicting</h3>
+<hr />
+<h2 id="predictive-modeling">3 Predictive Modeling</h2>
+<h3 id="variables-for-predicting">3.1 Variables for predicting</h3>
 <p>The main data set (1.1.1 London.csv) although contains rich content, is too time-consuming to perform a thorough exploratory data analysis right now. But until the next step, it would be neccesary to look for deeper connections between the dots. For now, combining large trends and micro trends, we have thought of the following variables for predicting bike-share usage:</p>
 <table>
 <thead>
