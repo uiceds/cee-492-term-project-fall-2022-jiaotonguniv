@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2022-12-02'
+date-meta: '2022-12-05'
 author-meta:
 - Mulin Wan
 - Jingwen Yao
@@ -21,8 +21,8 @@ header-includes: |-
   <meta name="citation_title" content="Bike-Share Usage in London Network Analysis" />
   <meta property="og:title" content="Bike-Share Usage in London Network Analysis" />
   <meta property="twitter:title" content="Bike-Share Usage in London Network Analysis" />
-  <meta name="dc.date" content="2022-12-02" />
-  <meta name="citation_publication_date" content="2022-12-02" />
+  <meta name="dc.date" content="2022-12-05" />
+  <meta name="citation_publication_date" content="2022-12-05" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -44,9 +44,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/a94ec949d2d36833786477f2cbdf7f10a71d0b05/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/a94ec949d2d36833786477f2cbdf7f10a71d0b05/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/a94ec949d2d36833786477f2cbdf7f10a71d0b05/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/60aa509e99c6053857e2d1a5beff53972ad1a264/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/60aa509e99c6053857e2d1a5beff53972ad1a264/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/60aa509e99c6053857e2d1a5beff53972ad1a264/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -68,10 +68,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/a94ec949d2d36833786477f2cbdf7f10a71d0b05/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/60aa509e99c6053857e2d1a5beff53972ad1a264/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@a94ec94](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/a94ec949d2d36833786477f2cbdf7f10a71d0b05)
-on December 2, 2022.
+from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@60aa509](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/60aa509e99c6053857e2d1a5beff53972ad1a264)
+on December 5, 2022.
 </em></small>
 
 ## Authors
@@ -118,9 +118,9 @@ on December 2, 2022.
 
 ### 1.1 Proposal
 
-Recently, bike-sharing in big cities has become an important part of residents' daily life, and its role in urban transportation system has never been more significant. By making bicycles available for short-distance excursions in metropolitan areas, governments hope that traffic, noise, and air pollution could reduce as the usage of motorized vehicles decreased. However, it takes great effort to maintain a well-funcioned bike sharing system. To ensure that citizens could have constant access to the bikes, predicting the usage and dispatching bikes across different stops become crucial since one can easily imagine that usage would vary across different time and space. There are a lot of machine learning projects done on predicting total bike share usage in an entire city, this research plans to build on that and try to develop a usage predicting model on a single-stop scale, which is relatively rare at the moment.
+Recently, bike-sharing in big cities has become an important part of residents' daily life, and its role in urban transportation system has never been more significant. By making bicycles available for short-distance excursions in metropolitan areas, governments hope that traffic, noise, and air pollution could reduce as the usage of motorized vehicles decreased. However, it takes great effort to maintain a well-functioned bike sharing system. To ensure that citizens could have constant access to the bikes, predicting the usage and dispatching bikes across different stops become crucial since one can easily imagine that usage would vary across different time and space. There are a lot of machine learning projects done on predicting total bike share usage in an entire city, this research plans to build on that and try to develop a usage predicting model on a single-stop scale, which is relatively rare at the moment.
 
-We choose London as the area to work on. Looking at the spatiotemporal bike-sharing data in London, we could explore patterns, describe variations, or model the data in many different ways. From the two data sets, we may have a chance to take a peek at the residents' bike-renting behavior through many angles. Previous work has shown that weather is a key driver for variation in usage. <sup>[1]</sup><sup>[2]</sup><sup>[3]</sup> Aside from weather, We believe there are a lot more important factors such as peak/off-peak hours, weekday/weekend, bike-stop location etc. By utilizing these data sets, we hope to find as many correlations between the users behavior and various factors. Also, since we are working on data collected before the outbreak of the coronavirus, we assume that peoples' behavior showned in the datasets are still valid now. The datassets would be introduced in the following sections, including why do we choose them and how we are going to implement them in our research.
+We choose London as the area to work on. Looking at the spatiotemporal bike-sharing data in London, we could explore patterns, describe variations, or model the data in many different ways. From the two data sets, we may have a chance to take a peek at the residents' bike-renting behavior through many angles. Previous work has shown that weather is a key driver for variation in usage. <sup>[1]</sup><sup>[2]</sup><sup>[3]</sup> Aside from weather, We believe there are a lot more important factors such as peak/off-peak hours, weekday/weekend, bike-stop location etc. By utilizing these data sets, we hope to find as many correlations between the users behavior and various factors. Also, since we are working on data collected before the outbreak of the COVID-19, we assume that peoples' behavior shown in the datasets are still valid now. The datasets would be introduced in the following sections, including why do we choose them and how we are going to implement them in our research.
 
 ### 1.2 Data set:
 
@@ -129,7 +129,7 @@ The two main datasets were downloaded from Kaggle, titled "London bike sharing d
 
 #### 1.2.1 London bike sharing data set
 
-This dataset shows how many bike-sharing transactions took place in the entire London area each hour in 2015 to 2016. Because the usage in this dataset is the summation across all the stops in the city, we could have a more general feel of how major variables such as weather condiions and time affect bike share usage, excluding the effect of the location of the stop on its usage.
+This dataset shows how many bike-sharing transactions took place in the entire London area each hour in 2015 to 2016. Because the usage in this dataset is the summation across all the stops in the city, we could have a more general feel of how major variables such as weather conditions and time affect bike share usage, excluding the effect of the location of the stop on its usage.
 
 
 Table 1: Description of London_merged.csv
@@ -163,7 +163,7 @@ Table 2: Description of weathercode
 
 #### 1.2.2 London and Taipei Bike-Share Data
 
-This data set contains every single bike rental transaction in a total of 802 bike-sharing stops in the London area from 2017 until the Covid outbreak. This dataset gives us the microscoptic view, also allowing us to verify the results we got from analyzing the first dataset in each stop. Most importantly, we now have a chance to create a predictive model on a single-stop scale.
+This data set contains every single bike rental transaction in a total of 802 bike-sharing stops in the London area from 2017 until the COVID-19 outbreak. This dataset gives us the microscopic view, also allowing us to verify the results we got from analyzing the first dataset in each stop. Most importantly, we now have a chance to create a predictive model on a single-stop scale.
 
 Each transaction provides the following information:
 
@@ -309,7 +309,7 @@ In the previous section, we have come up with some speculations, such as:
   Usage in weekdays are often higher than weekends.
   Usage in warmer days are often higher than colder days.
 
-But as we move closer the the actual stop-by-stop prediction, we need to understand how the location and the characteristc of each stop changes how the large trends' impact on those stops. The main data set (1.2.2 London.csv) provides a chance to look extremely closely to certain stops in certain time spans, for us to verify out speculations, or to discover new revelation.
+But as we move closer the the actual stop-by-stop prediction, we need to understand how the location and the characteristic of each stop changes how the large trends' impact on those stops. The main data set (1.2.2 London.csv) provides a chance to look extremely closely to certain stops in certain time spans, for us to verify out speculations, or to discover new revelation.
 
 
 ![](images/LBS.png)
@@ -355,7 +355,7 @@ We have chosen the following three stops to perform the prediction. They are Sto
 
 ### 3.1 Existing variables for predicting
 
-Based on the data and information we are able to gather, these are the varibales to begin with.
+Based on the data and information we are able to gather, these are the variables to begin with.
 
 | Variables | Description |
 | --- | --- |
@@ -375,7 +375,7 @@ We believe that the usage in the previous hour in the same stop and the neighbor
 
 ***ROUGH (will add more content in final draft)
 
-Categorical data such as yr, season, mnth, weekday, hr, holiday, workingdat should be handled by one-hot encoding to help the model work better.
+Categorical data such as yr, season, mnth, weekday, hr, holiday, workingday should be handled by one-hot encoding to help the model work better.
 
 Other variables such as temperature and precipitation should be scaled.
 
