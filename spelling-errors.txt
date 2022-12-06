@@ -20,7 +20,7 @@ Kaggle
 Mavrodiev
 mnth
 MSE
-Mulin
+mulin
 overfitting
 resuls
 scikitlearn
