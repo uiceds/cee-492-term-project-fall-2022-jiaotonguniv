@@ -44,9 +44,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/81b2288cd2eaddd42babb97716df9c7c6ff31213/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/81b2288cd2eaddd42babb97716df9c7c6ff31213/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/81b2288cd2eaddd42babb97716df9c7c6ff31213/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/924ed31ae363d12f7aea8d3ccf458926703af81b/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/924ed31ae363d12f7aea8d3ccf458926703af81b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/924ed31ae363d12f7aea8d3ccf458926703af81b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -68,9 +68,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/81b2288cd2eaddd42babb97716df9c7c6ff31213/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/924ed31ae363d12f7aea8d3ccf458926703af81b/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@81b2288](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/81b2288cd2eaddd42babb97716df9c7c6ff31213)
+from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@924ed31](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/924ed31ae363d12f7aea8d3ccf458926703af81b)
 on December 6, 2022.
 </em></small>
 
@@ -317,7 +317,7 @@ But as we move closer the the actual stop-by-stop prediction, we need to underst
 
 In the data set there are 802 stops, as shown in the figure above. We will be looking at two stops:
 
-  Triangle Car Park, Hyde Park : Located right in the middle of the famous tourist attraction Hyde Park. (Will be later denoted as Hyde)
+  Triangle Car Park, Hyde Park : Located right in the middle of the famous tourist attraction Hyde Park. (Will be later denoted as Hyde) 
   Queen Street 1, Bank : Located in the central of business districts . (Will be later denoted as CBD)
   
 And we will see how different conditions affect them respectively.
@@ -422,37 +422,54 @@ Similarly, numerical data such as temperature and precipitation are normalized.
 
 #### 3.2.1 Preliminary results
 
-![](762o.png) ![](583o.png) ![](108o.png)
+| #762 | #583 | #108  |
+| --- | --- | --- |
+| 0.53 | 0.45 | 0.54 |
 
-We believe that the usage in the previous hour in the same stop and the neighboring stops would also help predicting the usage in the next hour, so three columns were added to the dataset, which is 762_lag, 583_lag and 108_lag.
+**Table 6: Prediction results of the three stops(R^2)**
 
-***ROUGH (will add more content in final draft)
+As expected, without any manipulations or additional features added to the training data, the result would not be satisfactory. But there could still be useful information we could take advantage of from the dataset. 
 
-Categorical data such as yr, season, mnth, weekday, hr, holiday, workingday should be handled by one-hot encoding to help the model work better.
+#### 3.2.2 Creating linearity
 
-Other variables such as temperature and precipitation should be scaled.
-
-
-### 3.3 Training
-
+Having features that linearly predict the outcome is ideal as it reduces the need for complex non-linear ML algorithms. From our observations in the exploratory analysis, we can see that bike share usage are greatly affected by different hours in a day and also different months. Unfortunately, when we look at the usage in stop #762 plotted along with hours and months, the plot is far from linear:
 
 
-***ROUGH (will add more content in final draft: overfitting/underfitting and discussion)
 
-<img width="584" alt="image" src="https://user-images.githubusercontent.com/112497612/205402680-ea8c8cc1-235a-41e0-9264-753fb9dd8c45.png">
-
-
-**Figure15: Best prediction results for the three stops**
+However, with a little manipulation we could generate a linear fit. We found that the hourly usage are lowest at 5AM, and for different hours in each day, the farther it gets from 5AM, the higher the usage. Therefore, we create a new feature "til5am" base on how far this particular time is from 5AM (For 4AM and 6AM, "til5am" is 1. For 5PM, "til5am" would be 12, which is the largest possible number.) In this case,  we have succesfully generate a feature which is somewhat linear to the usage. 
 
 
-| Stop | 762 | 583 | 108 |
-
-| Model used | RF | RF | RF |
-
-| R^2 | 0.68 | 0.56 | 0.72 |
+We could also carry out this process when we look at the "month" feature. We found out that in November and December, the usages are the lowest. And the usage of a month increases as its distance from 11/30, which is the midpoint of these two months, grows larger. Therefore, we create a new feature "tilnovdec" base on how far the month is from November or December (For January and October, "tilnovdec" is 1. For May and June , "tilnovdec" would be 5, which is the largest possible number.) Now we have two features that better describes the usage in different times. These behaviors can also be observed in stop #583 and #108, so we also apply them to the datasets of these two stops.  
 
 
-**Table: Best prediction results for the three stops**
+
+#### 3.2.3 Creating lag values
+
+We believe that the usage in the previous hour(s) in the same stop and the neighboring stops would also help predicting the usage in the next hour. Therefore, we calculated the correlations between the usage in this hour and the usage from an hour ago in stop #762. Our assumptions have been confirmed since the correlation coefficient turns out to be 0.72. Usage in two hours and three hours ago have also shown moderate relationship with the usage in this hour. Also, usage from the neighboring stops an hour ago also shown moderate relationship with the usage in this hour in stop #762.
+
+
+| #762 Usage, lagged 1 hour | 2 hour | 3 hour  | #583 Usage, lagged 1 hour | #108 Usage, lagged 1 hour  |
+| --- | --- | --- | --- | --- |
+| 0.72 | 0.59 | 0.45 | 0.51 | 0.39 |
+
+**Table 7: Correlation coefficients between features and #762 usage**
+
+Same characteristics can be found in stop #583 and stop #108. Therefore, we added the usage 1, 2 and 3 hour(s) ago from the own stop and the usage from neighboring stops 1 hour ago as new features.
+
+
+Before we train the model again, we believe that even features such as year, month, weekday and hour do not show linearity, they could still offer hidden information. Hence, we shall treat them as categorical data and one-hot encode them.
+
+
+### 3.3 New results
+
+| #762 | #583 | #108  |
+| --- | --- | --- |
+| 0.53 | 0.45 | 0.54 |
+
+**Table 6: Prediction results of the three stops(R^2)**
+
+Results in all three stops have shown improvement. The R^2 scores imdicate that these models are now very close to being reliable. Lastly, we check for the instance of over/underfitting.
+
 
 
 ### 3.5 Model Discussion and Conclusion
