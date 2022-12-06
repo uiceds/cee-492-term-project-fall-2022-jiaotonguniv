@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2022-12-05'
+date-meta: '2022-12-06'
 author-meta:
 - Mulin Wan
 - Jingwen Yao
@@ -21,8 +21,8 @@ header-includes: |-
   <meta name="citation_title" content="Bike-Share Usage in London Network Analysis" />
   <meta property="og:title" content="Bike-Share Usage in London Network Analysis" />
   <meta property="twitter:title" content="Bike-Share Usage in London Network Analysis" />
-  <meta name="dc.date" content="2022-12-05" />
-  <meta name="citation_publication_date" content="2022-12-05" />
+  <meta name="dc.date" content="2022-12-06" />
+  <meta name="citation_publication_date" content="2022-12-06" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -44,9 +44,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/60aa509e99c6053857e2d1a5beff53972ad1a264/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/60aa509e99c6053857e2d1a5beff53972ad1a264/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/60aa509e99c6053857e2d1a5beff53972ad1a264/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/6270719fae7840bc5e247f8049d460a06650e607/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/6270719fae7840bc5e247f8049d460a06650e607/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/6270719fae7840bc5e247f8049d460a06650e607/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -68,10 +68,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/60aa509e99c6053857e2d1a5beff53972ad1a264/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/6270719fae7840bc5e247f8049d460a06650e607/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@60aa509](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/60aa509e99c6053857e2d1a5beff53972ad1a264)
-on December 5, 2022.
+from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@6270719](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/6270719fae7840bc5e247f8049d460a06650e607)
+on December 6, 2022.
 </em></small>
 
 ## Authors
@@ -129,10 +129,10 @@ The two main datasets were downloaded from Kaggle, titled "London bike sharing d
 
 #### 1.2.1 London bike sharing data set
 
-This dataset shows how many bike-sharing transactions took place in the entire London area each hour in 2015 to 2016. Because the usage in this dataset is the summation across all the stops in the city, we could have a more general feel of how major variables such as weather conditions and time affect bike share usage, excluding the effect of the location of the stop on its usage.
+This dataset shows how many bike-sharing transactions took place in the entire London area each hour in 2015 to 2016. Because the usage in this dataset is the summation across all the stops in the city, we could have a more general feel of how major variables such as weather conditions and time affect bike share usage, excluding the effect of the location of the stop on its usage. (This dataset will be hereinafter referred to as the first dataset.)
 
 
-Table 1: Description of London_merged.csv
+**Table 1: Description of London_merged.csv**
 
 | Object | Description |
 | --- | --- |
@@ -147,7 +147,7 @@ Table 1: Description of London_merged.csv
 | season | category (0-spring; 1-summer; 2-autumn; 3-winter) |
 | weathercode | different weather condition|
 
-Table 2: Description of weathercode
+**Table 2: Description of weathercode**
 
 | weathercode | Description |
 | --- | --- |
@@ -163,11 +163,11 @@ Table 2: Description of weathercode
 
 #### 1.2.2 London and Taipei Bike-Share Data
 
-This data set contains every single bike rental transaction in a total of 802 bike-sharing stops in the London area from 2017 until the COVID-19 outbreak. This dataset gives us the microscopic view, also allowing us to verify the results we got from analyzing the first dataset in each stop. Most importantly, we now have a chance to create a predictive model on a single-stop scale.
+This data set contains every single bike rental transaction in a total of 802 bike-sharing stops in the London area from 2017 until the COVID-19 outbreak. This dataset gives us the microscopic view, also allowing us to verify the results we got from analyzing the first dataset in each stop. Most importantly, we now have a chance to create a predictive model on a single-stop scale. (This dataset will be hereinafter referred to as the second dataset.)
 
 Each transaction provides the following information:
 
-Table 1: Description of London.csv
+**Table 3: Description of London.csv**
 
 | Object | Description |
 | --- | --- |
@@ -195,17 +195,15 @@ Our final goal is to apply and optimize machine learning models that accurately 
 
 ## 2 Exploratory Data Analysis
 
-In this section, we look at different factors affecting the usage of the bike sharing system in London. We first plot the average usage per hour in the first dataset(1.2.1 London bike sharing data set) along with the factors that we are interested. Then we look for micro trends in specific bike-stop that contradicts with the big trends we found.
+In this section, we look at different factors affecting the usage of the bike sharing system in London. We first plot the average usage per hour in the first dataset along with the factors that we are interested. Then we look for micro trends in specific bike-stop that contradicts with the big trends we found.
 
 ### 2.1 Data Wrangling
 
 #### 2.1.1 Data cleaning process
 
-Both of the csv files need to be restructured in some ways before the analyzing process. For instance, the exact time is stored as strings: 
+In our ideal data format, each row contains the usage in a certain area(entire London area or a single stop) in an hour, along with features such as month, day of the week, hour and others. The first dataset is already structured as how we want it to be, we just need to extract the data from the timestamp such as "2015/1/4  12:00:00 AM." This can be done by built-in functions in Julia(or any other programming language).
 
-"2015/1/4  12:00:00 AM"
-
-Information such as date and time could be extracted from within. The somehow trickier part is the day-of-the-week. We add a certain number to the date and take the remainder after divided by 7 to get the day-of-the-week.
+The second dataset, however, recorded the exact time that each transaction is made down to seconds. We had to sum up the transactions made in each hour to achieve the intended format.
 
 
 ### 2.2 Analysis and Visualization
@@ -309,7 +307,7 @@ In the previous section, we have come up with some speculations, such as:
   Usage in weekdays are often higher than weekends.
   Usage in warmer days are often higher than colder days.
 
-But as we move closer the the actual stop-by-stop prediction, we need to understand how the location and the characteristic of each stop changes how the large trends' impact on those stops. The main data set (1.2.2 London.csv) provides a chance to look extremely closely to certain stops in certain time spans, for us to verify out speculations, or to discover new revelation.
+But as we move closer the the actual stop-by-stop prediction, we need to understand how the location and the characteristic of each stop changes how the large trends' impact on those stops. The second data set provides a chance to look extremely closely to certain stops in certain time spans, for us to verify out speculations, or to discover new revelation.
 
 
 ![](images/LBS.png)
@@ -351,7 +349,47 @@ In figure12, we can see the date is set on 05/06 ~ 05/12 and 05/13 ~ 05/19 (2019
 
 ## 3 Predictive Modeling
 
-We have chosen the following three stops to perform the prediction. They are Storey's Gate (N.o. 762), Abingdon Green (N.o. 582) and Abbey Orchard Street (N.o. 108). The three stops form a triangle with no other stops near them. This triangle is located near the iconic Big Ben and Westminster Abbey.
+We have chosen the following three stops to perform the prediction, which are Storey's Gate (N.o. 762), Abingdon Green (N.o. 583) and Abbey Orchard Street (N.o. 108). The three stops form a triangle with no other stops near them. This triangle is located near the iconic Big Ben and Westminster Abbey. However, we would first build the model and apply it on the first dataset as a test run.
+
+### 3.1 The test run
+
+In the test run, there wasn't a lot of alterations done on the first dataset. We added three more features, which are month, day and hour. Also, features "season" and "weather_code" are categorical data and need to be handled by one-hot encoding. Lastly, numerical data such as temperature, humidity and wind speed were normalized.
+
+#### 3.1.1 Splitting the data
+
+This is a typical supervised learning. To train the model, we split the data set into two subsets; the first subset is used to train the model, and the second(and smaller) one is used to validate the model by comparing the predicted labels to the known labels. The data is randomly split up to about 8:2. This is done by the `train_test_split` function in the 'scikitlearn' library in python. And as the result we get four data sets:
+
+- **X_train**: The feature values we'll use to train the model
+- **y_train**: The corresponding labels we'll use to train the model
+- **X_test**: The feature values we'll use to validate the model
+- **y_test**: The corresponding labels we'll use to validate the model
+
+We tried training a model by fitting a suitable regression algorithm to the training data. We'll use a linear regression algorithm, a common starting point for regression that works by trying to find a linear relationship between the X values and the y label. The resulting model is a function that conceptually defines a line where every possible X and y value combination intersect. The result is as follows:
+
+
+#### 3.1.2 Results
+
+
+
+**Figure14: Predicted and Actual Bike Sharing Number of Linear Regression**
+
+The figure shown a generally diagonal trend with several deviation values. One way to identify the model's error level is by mean square error, and the result is 814512. We then try an ensemble algorithm, the Random Forest algorithm, which typically would give a better result than the linear regression algorithm. Applying the Random Forest resuls in a huge decrease in MSE, which is now 55439.
+
+
+**Figure15: Predicted and Actual Bike Sharing Number of Decision Tree**
+
+A more intuitive way to compare the improvement of the model is using the coefficient of determination(R-squared). As the R^2 score went up from 0.31 to 0.95, the assumption that the Random Forest is more powerful is confirmed. 
+
+The results above were all evaluations on the testing data. To see if there is a situation of overfitting or underfitting, it is ideal to also perform the prediction on the training data, and the results are shown in the table below:
+
+| Evaluation Metrics | Linear Regression | Random Forest  |
+| --- | --- | --- |
+| R^2 (Predicting training data) | 0.32 | 0.99 |
+| R^2 (Predicting testing data) | 0.31 | 0.95 |
+
+**Table 4: Prediction results **
+
+The result is slightly better when predicting the training data. This indicates the possibility of overfitting. However, as this section merely being a test run, we would ignore this for now and move on.
 
 ### 3.1 Existing variables for predicting
 
@@ -382,42 +420,7 @@ Other variables such as temperature and precipitation should be scaled.
 
 ### 3.3 Training
 
-#### 3.3.1 Splitting the data
 
-As the data has been explored, the next step is to train a regression model and predict the bike sharing number(cnt):
-
-To validate the training model, we split the data set into two subsets; the first subset is used to train the model, and the second(and smaller) one is used to validate the model by comparing the predicted labels to the known labels. The data is randomly split to about 7:3. We realize it by the `train_test_split` function in the 'scikitlearn' library in python. And the result is four data sets:
-
-- **X_train**: The feature values we'll use to train the model
-- **y_train**: The corresponding labels we'll use to train the model
-- **X_test**: The feature values we'll use to validate the model
-- **y_test**: The corresponding labels we'll use to validate the model
-
-The next step is to train the model with a proper regression method. The group used  a linear regression algorithm, which is basic and commonly used, to find a linear relationship between X and y. 
-
-
-### 3.4 Evaluate Trained Model
-
-<img src=https://raw.githubusercontent.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/main/content/images/predict%26actual_cnt.png width="400" height="300" />
-
-**Figure14: Predicted and Actual Bike Sharing Number of Linear Regression**
-
-It is a generally diagonal trend with several deviation values. The group uses mean square error to identify our model's error level, and the result is 814512. One reasonable explanation is linear regression can only clearly show the data trend, but it cannot cover too much data in a data set. To improve the power of our model, the group also uses the decision tree method, and the result of MSE is 97082:
-
-<img src=https://raw.githubusercontent.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/main/content/images/decision_tree.png width="400" height="300" />
-
-**Figure15: Predicted and Actual Bike Sharing Number of Decision Tree**
-
-A more intuitive way to compare the improvement of the model is using the coefficient of determination(R-squared). 
-
-***ROUGH (will add more content in final draft: overfitting/underfitting)
-
-| Evaluation Metrics | Linear Regression | Decision Tree |
-| --- | --- | --- |
-| MSE | 814512 | 97082 |
-| R^2 | 0.31 | 0.91 |
-
-As the R^2 is more than 90% now, the improvement of the model is obvious.
 
 ***ROUGH (will add more content in final draft: overfitting/underfitting and discussion)
 
