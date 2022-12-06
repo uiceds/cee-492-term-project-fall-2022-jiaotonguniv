@@ -73,9 +73,9 @@
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/00b408d90d9b802bfb594ba66829c46ee90c2802/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/00b408d90d9b802bfb594ba66829c46ee90c2802/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/00b408d90d9b802bfb594ba66829c46ee90c2802/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/334ab4a73a80eb9ff4adee6c37ed6b02ca086ccb/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/334ab4a73a80eb9ff4adee6c37ed6b02ca086ccb/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/334ab4a73a80eb9ff4adee6c37ed6b02ca086ccb/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -89,9 +89,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/00b408d90d9b802bfb594ba66829c46ee90c2802/">permalink</a>)
+(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/334ab4a73a80eb9ff4adee6c37ed6b02ca086ccb/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/00b408d90d9b802bfb594ba66829c46ee90c2802">uiceds/cee-492-term-project-fall-2022-jiaotonguniv@00b408d</a>
+from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/334ab4a73a80eb9ff4adee6c37ed6b02ca086ccb">uiceds/cee-492-term-project-fall-2022-jiaotonguniv@334ab4a</a>
 on December 6, 2022.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -398,7 +398,7 @@ Queen Street 1, Bank : Located in the central of business districts . (Will be l
 <p>We tried training a model by fitting a suitable regression algorithm to the training data. We’ll use a linear regression algorithm, a common starting point for regression that works by trying to find a linear relationship between the X values and the y label. The resulting model is a function that conceptually defines a line where every possible X and y value combination intersect. The result is as follows:</p>
 <h4 id="results">3.1.2 Results</h4>
 <figure>
-<img src="BIGo.png%20%7C%20width=100" />
+<img src="BIGo.png" />
 </figure>
 <p><strong>Figure14: Predicted and Actual Bike Sharing Number of Linear Regression</strong></p>
 <p>The figure shown a generally diagonal trend with several deviation values. One way to identify the model’s error level is by mean square error, and the result is 814512.</p>
@@ -430,7 +430,8 @@ Queen Street 1, Bank : Located in the central of business districts . (Will be l
 </tbody>
 </table>
 <p><strong>Table 4: Prediction results</strong></p>
-<p>From the result of predicting the training data, there could be a possibility of overfitting when using the Random Forest algorithm. Therefore, for predicting the single-stop usage we would only use the linear regression algorithm. The result we gained from the linear regression algorithm is not ideal in the test run, hence in the next section, we would try different method to improve it.</p>
+<p>From the result of predicting the training data, there could be a possibility of overfitting when using the Random Forest algorithm.</p>
+<p>For predicting the single-stop usage we would only use the linear regression algorithm. The result we gained from the linear regression algorithm is not ideal in the test run, hence in the next section, we would try different method to improve it.</p>
 <h3 id="predicting-single-stop-usage">3.2 Predicting single-stop usage</h3>
 <p>We would now apply the algorithm to predict the usage of the three stops, base on the features shown in the table below. The features are slightly different from the previous section, due to the different information contained in the original datasets.</p>
 <table>
@@ -481,6 +482,7 @@ Queen Street 1, Bank : Located in the central of business districts . (Will be l
 <table>
 <thead>
 <tr class="header">
+<th>Stop</th>
 <th>#762</th>
 <th>#583</th>
 <th>#108</th>
@@ -488,18 +490,23 @@ Queen Street 1, Bank : Located in the central of business districts . (Will be l
 </thead>
 <tbody>
 <tr class="odd">
+<td>R^2</td>
 <td>0.53</td>
 <td>0.45</td>
 <td>0.54</td>
 </tr>
 </tbody>
 </table>
-<p><strong>Table 6: Prediction results of the three stops(R^2)</strong></p>
+<p><strong>Table 6: Prediction results of the three stops</strong></p>
 <p>As expected, without any manipulations or additional features added to the training data, the result would not be satisfactory. But there could still be useful information we could take advantage of from the dataset.</p>
 <h4 id="creating-linearity">3.2.2 Creating linearity</h4>
 <p>Having features that linearly predict the outcome is ideal as it reduces the need for complex non-linear ML algorithms. From our observations in the exploratory analysis, we can see that bike share usage are greatly affected by different hours in a day and also different months. Unfortunately, when we look at the usage in stop #762 plotted along with hours and months, the plot is far from linear:</p>
+<p><img src="hrnotlinear.png" /> <img src="mnnotlinear.png" /></p>
+<p><strong>Figure16: Hourly and monthly #762 Usage</strong></p>
 <p>However, with a little manipulation we could generate a linear fit. We found that the hourly usage are lowest at 5AM, and for different hours in each day, the farther it gets from 5AM, the higher the usage. Therefore, we create a new feature “til5am” base on how far this particular time is from 5AM (For 4AM and 6AM, “til5am” is 1. For 5PM, “til5am” would be 12, which is the largest possible number.) In this case, we have succesfully generate a feature which is somewhat linear to the usage.</p>
 <p>We could also carry out this process when we look at the “month” feature. We found out that in November and December, the usages are the lowest. And the usage of a month increases as its distance from 11/30, which is the midpoint of these two months, grows larger. Therefore, we create a new feature “tilnovdec” base on how far the month is from November or December (For January and October, “tilnovdec” is 1. For May and June , “tilnovdec” would be 5, which is the largest possible number.) Now we have two features that better describes the usage in different times. These behaviors can also be observed in stop #583 and #108, so we also apply them to the datasets of these two stops.</p>
+<p><img src="hrlinear.png" /> <img src="mnlinear.png" /></p>
+<p><strong>Figure17: #762 Usage with new features</strong></p>
 <h4 id="creating-lag-values">3.2.3 Creating lag values</h4>
 <p>We believe that the usage in the previous hour(s) in the same stop and the neighboring stops would also help predicting the usage in the next hour. Therefore, we calculated the correlations between the usage in this hour and the usage from an hour ago in stop #762. Our assumptions have been confirmed since the correlation coefficient turns out to be 0.72. Usage in two hours and three hours ago have also shown moderate relationship with the usage in this hour. Also, usage from the neighboring stops an hour ago also shown moderate relationship with the usage in this hour in stop #762.</p>
 <table>
@@ -531,11 +538,12 @@ Queen Street 1, Bank : Located in the central of business districts . (Will be l
 </table>
 <p><strong>Table 7: Correlation coefficients between features and #762 usage</strong></p>
 <p>Same characteristics can be found in stop #583 and stop #108. Therefore, we added the usage 1, 2 and 3 hour(s) ago from the own stop and the usage from neighboring stops 1 hour ago as new features.</p>
-<p>Before we train the model again, we believe that even features such as year, month, weekday and hour do not show linearity, they could still offer hidden information. Hence, we shall treat them as categorical data and one-hot encode them.</p>
+<p>Before we train the model again, we believe that even though features such as year, month, weekday and hour do not show linearity, they could still offer hidden information. Hence, we shall treat them as categorical data and one-hot encode them.</p>
 <h3 id="new-results">3.3 New results</h3>
 <table>
 <thead>
 <tr class="header">
+<th>Stop</th>
 <th>#762</th>
 <th>#583</th>
 <th>#108</th>
@@ -543,36 +551,71 @@ Queen Street 1, Bank : Located in the central of business districts . (Will be l
 </thead>
 <tbody>
 <tr class="odd">
+<td>Original</td>
 <td>0.53</td>
 <td>0.45</td>
 <td>0.54</td>
 </tr>
+<tr class="even">
+<td>Improved</td>
+<td>0.64</td>
+<td>0.54</td>
+<td>0.59</td>
+</tr>
 </tbody>
 </table>
-<p><strong>Table 6: Prediction results of the three stops(R^2)</strong></p>
+<p><strong>Table 8: Prediction results of the three stops(R^2)</strong></p>
+<p><img src="762o.png" /> <img src="762imp.png" /></p>
+<p><strong>Figure18: #762 Prediction results(Original | Improved)</strong></p>
+<p><img src="583o.png" /> <img src="583imp.png" /></p>
+<p><strong>Figure19: #583 Prediction results(Original | Improved)</strong></p>
+<p><img src="108o.png" /> <img src="108imp.png" /></p>
+<p><strong>Figure20: #108 Prediction results(Original | Improved)</strong></p>
 <p>Results in all three stops have shown improvement. The R^2 scores imdicate that these models are now very close to being reliable. Lastly, we check for the instance of over/underfitting.</p>
-<h3 id="model-discussion-and-conclusion">3.5 Model Discussion and Conclusion</h3>
-<p>***ROUGH (will add more content in final draft)</p>
-<p>Why are results worse for individual stop predictions?</p>
+<table>
+<thead>
+<tr class="header">
+<th>Stop</th>
+<th>#762</th>
+<th>#583</th>
+<th>#108</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Training</td>
+<td>0.66</td>
+<td>0.54</td>
+<td>0.58</td>
+</tr>
+<tr class="even">
+<td>Testing</td>
+<td>0.64</td>
+<td>0.54</td>
+<td>0.59</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Table 9: Results comparison between training/testing data(Improved model, R^2)</strong></p>
+<p>As the results suggested, there is no clear sign of overfitting or underfitting.</p>
+<h3 id="model-discussion-and-conclusion">3.4 Model Discussion and Conclusion</h3>
+<p>In this section we would discuss what we have learned after building the model.</p>
 <ol type="1">
-<li>Because we are not able to get hourly weather data for 2017~2019, so we right now we assume weather conditions are uniform through the day, obviously that won’t be correct.</li>
-<li>Too many 0-usage hours and small sample size, compared to the first dataset which record the usage across the whole city.</li>
-<li>… to be replenish in the final draft</li>
+<li><p>Size does matter: We have a more accurate result when predicting the usage in a single stop than predicting the usage of the whole city. We found this reasonable because we provided 3 years of data from a single stop to be trained, while the data of the whole city were only two years long. Also, stop #762 has the highest total usage in the three stops, and this could be the reason why it gave the highest performance when predicting.</p></li>
+<li><p>We believe when we train the model with data from a certain stop, it would learn its characteristic, whether it is in a school area, business area, tourist attraction area and others, therefore the predicting result is better comparing to the prediction of the whole city, since all the uniqueness of each stop has been mixed up.</p></li>
+<li><p>Lagged versions of the usage did help predicting the future. We assume this would allow varying amounts of recent history to be brought into the forecast, and it did. Adding the lagged usage resulted in a major part of the improvement, in terms of the increase of R^2 score.</p></li>
+<li><p>Manipulating features to give a more linear fit also helped improve the result a bit, but it wasn’t as significant as adding the lagged data. We think the problem comes from giving the same feature value to different points in time. For example, October and January has the same value of “tilnovdec”, but October had higher usage than January. By doing this, the prediction of October usage could be smaller, and the prediction of January usage could be larger, which canceled out the positive influence given by the generating of a close-to-linear feature, that is “tilnovdec” or “til5am”</p></li>
+<li><p>For 2017 to 2019 we could only find daily weather information. Obviously, assuming the same weather condition to last for the entire day is questionable, but that is the best we could do for the time being. We believe if we used hourly weather the accuracy would go up even more.</p></li>
 </ol>
 <h2 id="discussion">4 Discussion</h2>
-<p>***ROUGH (will add more content in final draft)</p>
-<p>Based on what was done in previous sections, we have completed a preliminary forecast for the number of shared bikes that will be used in any given 1 hour time period with reasonable accuracy. Regarding to helping the service provider, we have also given some ideas about bike distribution in each station, providing some help in maintaining service quality, which basically achieved our objective.</p>
+<p>Based on what was done in previous sections, we have completed a preliminary forecast for the number of shared bikes that will be used in any given 1 hour time period in a single bike share stop with reasonable accuracy, which basically achieved our objective.</p>
 <p>However, there are still much progress to make in a future study to make the model more accurate, have more constructive opinions, and possess more guidance value.</p>
 <p>First of all, this model is just a preliminary analysis or a starting point. For future study, we could try to:</p>
-<p>1.In order to solve the problem of small sample sizes, we could try to group stops with similar traits(school/ business/ tourist) together and predict them as a whole (using k-means or other methods).</p>
-<ol start="2" type="1">
-<li><p>We could also predict the count of users returning the bikes, and create an alarm system when a stop has low bike amount (Numbers of bike at full capacity - (Rent counts - Return Counts))</p></li>
-<li><p>Improve our ML model.
-Our model has combined all of the factors together with the same weight, which is not very accurate when it comes to determining the main influential factor when arranging shared bikes. Further work on finding out how each factor influences the outcome should be done to make the model more accurate.</p></li>
-<li><p>Expand the scale.
-In order to find out the patterns quicker, we chose to use a limited dataset, which is not comprehensive enough. In the future, we will expand the dataset to include more circumstances to optimize the model.</p></li>
-<li><p>Generate more ideas.
-The model is made to aid the service providers with arranging bikes efficiently and spending less time when selecting a new bike station. In the future, we will take more geographic information, political information, economical information and cultural information into consideration, making predictions about which place is eager to have a bike station and how many bikes should be provided at least.</p></li>
+<ol type="1">
+<li><p>Find bike share stops with similar traits and group them(using k-means or other methods). Actually, doing predictions on a single stop may result in a sample size that is too small. If we gather bike share stops with similar traits and generate a larger sample size, we could improve the performance further more. However, including too much stops in a group may also cancel out the uniqueness of each group. Therefore, there must be a trade-off and we need to find the optimal.</p></li>
+<li><p>The second dataset also contains the count of users returning their bike at a certain stop. After a similar process, we could also build a model predict the count of returns in the future. With these predictions, combining the real-time available bike amounts and the number of the full capacity at a certain stop, we could build an application warning the service provider whether a bike stop would run out of bikes in the following hours. Users could also monitor the renting situations at their desired stops, and the application could help them make better travel decisions.</p></li>
+<li><p>Give different weights to different features. Our model has combined all of the features together with the same weight, which is not very accurate when it comes to determining the main influential factor when arranging shared bikes. Further work on finding out how each factor influences the outcome should be done to make the model more accurate.</p></li>
+<li><p>Give insight to whether a new bike stop should be implemented or a existing bike stop should be discard. The model is made to aid the service providers with dispatching bikes efficiently and for travelers to better plan their trips. However, these predictions could also tell us that whether the demand in a certain region is always larger than the supply of bikes. In this case, a new bike stop can be considered to be built in said area. Of course the situation can be entirely opposite where we find a bike stop is never really used and close to being deserted.</p></li>
 </ol>
 <h2 class="page_break_before" id="references">References</h2>
 <!-- Explicitly insert bibliography here -->
