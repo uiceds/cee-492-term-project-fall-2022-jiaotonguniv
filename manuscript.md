@@ -44,9 +44,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/c40d68ab3d3e55d265eb11952b9aa24d15a615aa/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/c40d68ab3d3e55d265eb11952b9aa24d15a615aa/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/c40d68ab3d3e55d265eb11952b9aa24d15a615aa/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/19a2ce7465031b1bf9466a0318dd83dd334e3e71/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/19a2ce7465031b1bf9466a0318dd83dd334e3e71/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/19a2ce7465031b1bf9466a0318dd83dd334e3e71/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -68,9 +68,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/c40d68ab3d3e55d265eb11952b9aa24d15a615aa/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/19a2ce7465031b1bf9466a0318dd83dd334e3e71/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@c40d68a](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/c40d68ab3d3e55d265eb11952b9aa24d15a615aa)
+from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@19a2ce7](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/19a2ce7465031b1bf9466a0318dd83dd334e3e71)
 on December 6, 2022.
 </em></small>
 
@@ -370,7 +370,7 @@ We tried training a model by fitting a suitable regression algorithm to the trai
 #### 3.1.2 Results
 
 
-![](images/BIGo.png)
+![](BIGo.png)
 
 
 **Figure14: Predicted and Actual Bike Sharing Number of Linear Regression**
@@ -378,7 +378,7 @@ We tried training a model by fitting a suitable regression algorithm to the trai
 The figure shown a generally diagonal trend with several deviation values. One way to identify the model's error level is by mean square error, and the result is 814512. We then try an ensemble algorithm, the Random Forest algorithm, which typically would give a better result than the linear regression algorithm. Applying the Random Forest resuls in a huge decrease in MSE, which is now 55439.
 
 
-![](images/原始o.png)
+![](原始o.png)
 
 
 **Figure15: Predicted and Actual Bike Sharing Number of Decision Tree**
