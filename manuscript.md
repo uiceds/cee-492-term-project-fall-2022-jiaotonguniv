@@ -44,9 +44,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/adddc670e253a4ce82e04fcf272d40f06daf1fce/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/adddc670e253a4ce82e04fcf272d40f06daf1fce/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/adddc670e253a4ce82e04fcf272d40f06daf1fce/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/c40d68ab3d3e55d265eb11952b9aa24d15a615aa/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/c40d68ab3d3e55d265eb11952b9aa24d15a615aa/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/c40d68ab3d3e55d265eb11952b9aa24d15a615aa/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -68,9 +68,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/adddc670e253a4ce82e04fcf272d40f06daf1fce/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/c40d68ab3d3e55d265eb11952b9aa24d15a615aa/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@adddc67](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/adddc670e253a4ce82e04fcf272d40f06daf1fce)
+from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@c40d68a](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/c40d68ab3d3e55d265eb11952b9aa24d15a615aa)
 on December 6, 2022.
 </em></small>
 
@@ -370,10 +370,15 @@ We tried training a model by fitting a suitable regression algorithm to the trai
 #### 3.1.2 Results
 
 
+![](images/BIGo.png)
+
 
 **Figure14: Predicted and Actual Bike Sharing Number of Linear Regression**
 
 The figure shown a generally diagonal trend with several deviation values. One way to identify the model's error level is by mean square error, and the result is 814512. We then try an ensemble algorithm, the Random Forest algorithm, which typically would give a better result than the linear regression algorithm. Applying the Random Forest resuls in a huge decrease in MSE, which is now 55439.
+
+
+![](images/原始o.png)
 
 
 **Figure15: Predicted and Actual Bike Sharing Number of Decision Tree**
@@ -387,18 +392,19 @@ The results above were all evaluations on the testing data. To see if there is a
 | R^2 (Predicting training data) | 0.32 | 0.99 |
 | R^2 (Predicting testing data) | 0.31 | 0.95 |
 
-**Table 4: Prediction results **
+**Table 4: Prediction results**
 
 The result is slightly better when predicting the training data. This indicates the possibility of overfitting. However, as this section merely being a test run, we would ignore this for now and move on.
 
-### 3.1 Existing variables for predicting
 
-Based on the data and information we are able to gather, these are the variables to begin with.
 
-| Variables | Description |
+### 3.2 Predicting single-stop usage
+
+We would now try to predict the usage of the three stops, base on the features shown in the table below. The features are slightly different from the previous section, due to the different information contained in the original datasets.
+
+| Features | Description |
 | --- | --- |
 | yr  | 2017,18 or 19|
-| season | What season of the year |
 | mnth | What month of the year |
 | weekday | What day of the week |
 | hr | What time of the day |
@@ -407,7 +413,11 @@ Based on the data and information we are able to gather, these are the variables
 | temp | Temperature in Celsius |
 | precipitation | The amount of precipitation  |
 
-### 3.2 New variables, one-hot encoding and feature scaling
+**Table 5: Features used in predicting usage of the three stops**
+
+Similarly, numerical data such as temperature and precipitation are normalized.
+
+#### 3.2.1 Preliminary results
 
 We believe that the usage in the previous hour in the same stop and the neighboring stops would also help predicting the usage in the next hour, so three columns were added to the dataset, which is 762_lag, 583_lag and 108_lag.
 
