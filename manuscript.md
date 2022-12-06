@@ -44,9 +44,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/19a2ce7465031b1bf9466a0318dd83dd334e3e71/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/19a2ce7465031b1bf9466a0318dd83dd334e3e71/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/19a2ce7465031b1bf9466a0318dd83dd334e3e71/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/cec03ffb58d8e663e0ea47f87231ddaba7633770/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/cec03ffb58d8e663e0ea47f87231ddaba7633770/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/cec03ffb58d8e663e0ea47f87231ddaba7633770/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -68,9 +68,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/19a2ce7465031b1bf9466a0318dd83dd334e3e71/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/cec03ffb58d8e663e0ea47f87231ddaba7633770/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@19a2ce7](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/19a2ce7465031b1bf9466a0318dd83dd334e3e71)
+from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@cec03ff](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/cec03ffb58d8e663e0ea47f87231ddaba7633770)
 on December 6, 2022.
 </em></small>
 
@@ -310,7 +310,7 @@ In the previous section, we have come up with some speculations, such as:
 But as we move closer the the actual stop-by-stop prediction, we need to understand how the location and the characteristic of each stop changes how the large trends' impact on those stops. The second data set provides a chance to look extremely closely to certain stops in certain time spans, for us to verify out speculations, or to discover new revelation.
 
 
-![](images/LBS.png)
+![](LBS.png)
 
 
 **Figure10: Bike-share stops in London area**
@@ -349,11 +349,15 @@ In figure12, we can see the date is set on 05/06 ~ 05/12 and 05/13 ~ 05/19 (2019
 
 ## 3 Predictive Modeling
 
-We have chosen the following three stops to perform the prediction, which are Storey's Gate (N.o. 762), Abingdon Green (N.o. 583) and Abbey Orchard Street (N.o. 108). The three stops form a triangle with no other stops near them. This triangle is located near the iconic Big Ben and Westminster Abbey. However, we would first build the model and apply it on the first dataset as a test run.
+We have chosen three stops to perform the prediction, which are Storey's Gate (N.o. 762), Abingdon Green (N.o. 583) and Abbey Orchard Street (N.o. 108). The three stops form a triangle with no other stops near them. This triangle is located near the iconic Big Ben and Westminster Abbey. However, we would first build the model and apply it on the first dataset as a test run.
+
+![](stops.png)
+
+
 
 ### 3.1 The test run
 
-In the test run, there wasn't a lot of alterations done on the first dataset. We added three more features, which are month, day and hour. Also, features "season" and "weather_code" are categorical data and need to be handled by one-hot encoding. Lastly, numerical data such as temperature, humidity and wind speed were normalized.
+In the test run, there wasn't a lot of alterations done on the first dataset. We added three more features, which are month, day and hour. Also, features "season" and "weather_code" are categorical data and need to be handled by **one-hot encoding**. Lastly, numerical data such as temperature, humidity and wind speed were normalized.
 
 #### 3.1.1 Splitting the data
 
@@ -375,7 +379,9 @@ We tried training a model by fitting a suitable regression algorithm to the trai
 
 **Figure14: Predicted and Actual Bike Sharing Number of Linear Regression**
 
-The figure shown a generally diagonal trend with several deviation values. One way to identify the model's error level is by mean square error, and the result is 814512. We then try an ensemble algorithm, the Random Forest algorithm, which typically would give a better result than the linear regression algorithm. Applying the Random Forest resuls in a huge decrease in MSE, which is now 55439.
+The figure shown a generally diagonal trend with several deviation values. One way to identify the model's error level is by mean square error, and the result is 814512. 
+
+We then try an ensemble algorithm, the Random Forest algorithm, which typically would give a better result than the linear regression algorithm. Applying the Random Forest resuls in a huge decrease in MSE, which is now 55439.
 
 
 ![](原始o.png)
@@ -383,9 +389,7 @@ The figure shown a generally diagonal trend with several deviation values. One w
 
 **Figure15: Predicted and Actual Bike Sharing Number of Decision Tree**
 
-A more intuitive way to compare the improvement of the model is using the coefficient of determination(R-squared). As the R^2 score went up from 0.31 to 0.95, the assumption that the Random Forest is more powerful is confirmed. 
-
-The results above were all evaluations on the testing data. To see if there is a situation of overfitting or underfitting, it is ideal to also perform the prediction on the training data, and the results are shown in the table below:
+A more intuitive way to compare the improvement of the model is using the coefficient of determination(R-squared). As the R^2 score went up from 0.31 to 0.95, the assumption that the Random Forest is more powerful is confirmed. However, this could raise a concern of overfitting. The results above were all evaluations on the testing data. To see if there is overfitting or underfitting, it is ideal to also perform the prediction on the training data, and the results are shown in the table below:
 
 | Evaluation Metrics | Linear Regression | Random Forest  |
 | --- | --- | --- |
@@ -394,13 +398,12 @@ The results above were all evaluations on the testing data. To see if there is a
 
 **Table 4: Prediction results**
 
-The result is slightly better when predicting the training data. This indicates the possibility of overfitting. However, as this section merely being a test run, we would ignore this for now and move on.
-
+From the result of predicting the training data, there could be a possibility of overfitting when using the Random Forest algorithm. Therefore, for predicting the single-stop usage we would only use the linear regression algorithm. The result we gained from the linear regression algorithm is not ideal in the test run, hence in the next section, we would try different method to improve it.
 
 
 ### 3.2 Predicting single-stop usage
 
-We would now try to predict the usage of the three stops, base on the features shown in the table below. The features are slightly different from the previous section, due to the different information contained in the original datasets.
+We would now apply the algorithm to predict the usage of the three stops, base on the features shown in the table below. The features are slightly different from the previous section, due to the different information contained in the original datasets.
 
 | Features | Description |
 | --- | --- |
@@ -415,9 +418,11 @@ We would now try to predict the usage of the three stops, base on the features s
 
 **Table 5: Features used in predicting usage of the three stops**
 
-Similarly, numerical data such as temperature and precipitation are normalized.
+Similarly, numerical data such as temperature and precipitation are normalized. 
 
 #### 3.2.1 Preliminary results
+
+![](762o.png) ![](583o.png) ![](108o.png)
 
 We believe that the usage in the previous hour in the same stop and the neighboring stops would also help predicting the usage in the next hour, so three columns were added to the dataset, which is 762_lag, 583_lag and 108_lag.
 
