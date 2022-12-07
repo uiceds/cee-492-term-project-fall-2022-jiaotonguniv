@@ -44,9 +44,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/8b9692f4b6a1ead82088c8f586b1e3b1c0c53536/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/8b9692f4b6a1ead82088c8f586b1e3b1c0c53536/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/8b9692f4b6a1ead82088c8f586b1e3b1c0c53536/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/97420483d379c98650088efb10d2748fc0bfe059/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/97420483d379c98650088efb10d2748fc0bfe059/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/97420483d379c98650088efb10d2748fc0bfe059/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -68,9 +68,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/8b9692f4b6a1ead82088c8f586b1e3b1c0c53536/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/97420483d379c98650088efb10d2748fc0bfe059/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@8b9692f](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/8b9692f4b6a1ead82088c8f586b1e3b1c0c53536)
+from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@9742048](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/97420483d379c98650088efb10d2748fc0bfe059)
 on December 7, 2022.
 </em></small>
 
@@ -322,7 +322,7 @@ In the previous section, we have come up with some speculations, such as:
 But as we move closer the the actual stop-by-stop prediction, we need to understand how the location and the characteristic of each stop changes how the large trends' impact on those stops. The second data set provides a chance to look extremely closely to certain stops in certain time spans, for us to verify out speculations, or to discover new revelation.
 
 
-![](LBS.png)
+![](images/LBS.png)
 
 
 **Figure10: Bike-share stops in London area**
