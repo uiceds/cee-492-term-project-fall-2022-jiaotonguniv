@@ -73,9 +73,9 @@
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/3e4d9ee2cd6bd8f32b9a05e738f20f1a6b5a20a0/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/3e4d9ee2cd6bd8f32b9a05e738f20f1a6b5a20a0/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/3e4d9ee2cd6bd8f32b9a05e738f20f1a6b5a20a0/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/8b9692f4b6a1ead82088c8f586b1e3b1c0c53536/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/8b9692f4b6a1ead82088c8f586b1e3b1c0c53536/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/8b9692f4b6a1ead82088c8f586b1e3b1c0c53536/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -89,9 +89,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/3e4d9ee2cd6bd8f32b9a05e738f20f1a6b5a20a0/">permalink</a>)
+(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/8b9692f4b6a1ead82088c8f586b1e3b1c0c53536/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/3e4d9ee2cd6bd8f32b9a05e738f20f1a6b5a20a0">uiceds/cee-492-term-project-fall-2022-jiaotonguniv@3e4d9ee</a>
+from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/8b9692f4b6a1ead82088c8f586b1e3b1c0c53536">uiceds/cee-492-term-project-fall-2022-jiaotonguniv@8b9692f</a>
 on December 7, 2022.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -374,7 +374,7 @@ Queen Street 1, Bank : Located in the central of business districts . (Will be l
 <img src="images/cbdmay.svg" />
 </figure>
 <figure>
-<img src="images/hydemay.svg" />
+<img src="images/hydemay.png" />
 </figure>
 <p><strong>Figure12: The effect of Rain and National Holidays</strong></p>
 <p>In figure12, we can see the date is set on 05/06 ~ 05/12 and 05/13 ~ 05/19 (2019). 05/06 (Mon) is a national holiday in UK. Also, there are heavy rainfall during 2019/05/08 ~ 09. We can see the national holiday having drastic on usage in CBD, causing a giant difference between the two Mondays, 05/06 and 05/13. However Hyde Park was not that severely affected. From the figure we can also see less bike usage on 2019/05/08 ~ 09, regardless the location. Comparing to the result in Figure11, it is safe to say that precipitation affects bike users in CBD more than low temperature. But is this phenomenon universal across London? Or is this a business district thing? We may need to look for other proofs.</p>
@@ -382,7 +382,7 @@ Queen Street 1, Bank : Located in the central of business districts . (Will be l
 <h2 id="predictive-modeling">3 Predictive Modeling</h2>
 <p>We have chosen three stops to perform the prediction, which are Storey’s Gate (N.o. 762), Abingdon Green (N.o. 583) and Abbey Orchard Street (N.o. 108). The three stops form a triangle with no other stops near them. This triangle is located near the iconic Big Ben and Westminster Abbey. However, we would first build the model and apply it on the first dataset as a test run.</p>
 <figure>
-<img src="stops.png" />
+<img src="images/stops.png" />
 </figure>
 <p><strong>Figure13: Locations of the stops chosen</strong></p>
 <h3 id="the-test-run">3.1 The test run</h3>
@@ -398,13 +398,13 @@ Queen Street 1, Bank : Located in the central of business districts . (Will be l
 <p>We tried training a model by fitting a suitable regression algorithm to the training data. We’ll use a linear regression algorithm, a common starting point for regression that works by trying to find a linear relationship between the X values and the y label. The resulting model is a function that conceptually defines a line where every possible X and y value combination intersect. The result is as follows:</p>
 <h4 id="results">3.1.2 Results</h4>
 <figure>
-<img src="BIGo.png" />
+<img src="images/BIGo.png" />
 </figure>
 <p><strong>Figure14: Predicted and Actual Bike Sharing Number of Linear Regression</strong></p>
 <p>The figure shown a generally diagonal trend with several deviation values. One way to identify the model’s error level is by mean square error, and the result is 814512.</p>
 <p>We then try an ensemble algorithm, the Random Forest algorithm, which typically would give a better result than the linear regression algorithm. Applying the Random Forest resuls in a huge decrease in MSE, which is now 55439.</p>
 <figure>
-<img src="原始o.png" />
+<img src="images/原始o.png" />
 </figure>
 <p><strong>Figure15: Predicted and Actual Bike Sharing Number of Decision Tree</strong></p>
 <p>A more intuitive way to compare the improvement of the model is using the coefficient of determination(R-squared). As the R^2 score went up from 0.31 to 0.95, the assumption that the Random Forest is more powerful is confirmed. However, this could raise a concern of overfitting. The results above were all evaluations on the testing data. To see if there is overfitting or underfitting, it is ideal to also perform the prediction on the training data, and the results are shown in the table below:</p>
@@ -501,11 +501,11 @@ Queen Street 1, Bank : Located in the central of business districts . (Will be l
 <p>As expected, without any manipulations or additional features added to the training data, the result would not be satisfactory. But there could still be useful information we could take advantage of from the dataset.</p>
 <h4 id="creating-linearity">3.2.2 Creating linearity</h4>
 <p>Having features that linearly predict the outcome is ideal as it reduces the need for complex non-linear ML algorithms. From our observations in the exploratory analysis, we can see that bike share usage are greatly affected by different hours in a day and also different months. Unfortunately, when we look at the usage in stop #762 plotted along with hours and months, the plot is far from linear:</p>
-<p><img src="hrnotlinear.svg" /> <img src="mnnotlinear.svg" /></p>
+<p><img src="images/hrnotlinear.svg" /> <img src="images/mnnotlinear.svg" /></p>
 <p><strong>Figure16: Hourly and monthly #762 Usage</strong></p>
 <p>However, with a little manipulation we could generate a linear fit. We found that the hourly usage are lowest at 5AM, and for different hours in each day, the farther it gets from 5AM, the higher the usage. Therefore, we create a new feature “til5am” base on how far this particular time is from 5AM (For 4AM and 6AM, “til5am” is 1. For 5PM, “til5am” would be 12, which is the largest possible number.) In this case, we have succesfully generate a feature which is somewhat linear to the usage.</p>
 <p>We could also carry out this process when we look at the “month” feature. We found out that in November and December, the usages are the lowest. And the usage of a month increases as its distance from 11/30, which is the midpoint of these two months, grows larger. Therefore, we create a new feature “tilnovdec” base on how far the month is from November or December (For January and October, “tilnovdec” is 1. For May and June , “tilnovdec” would be 5, which is the largest possible number.) Now we have two features that better describes the usage in different times. These behaviors can also be observed in stop #583 and #108, so we also apply them to the datasets of these two stops.</p>
-<p><img src="hrlinear.svg" /> <img src="mnlinear.svg" /></p>
+<p><img src="images/hrlinear.svg" /> <img src="images/mnlinear.svg" /></p>
 <p><strong>Figure17: #762 Usage with new features</strong></p>
 <h4 id="creating-lag-values">3.2.3 Creating lag values</h4>
 <p>We believe that the usage in the previous hour(s) in the same stop and the neighboring stops would also help predicting the usage in the next hour. Therefore, we calculated the correlations between the usage in this hour and the usage from an hour ago in stop #762. Our assumptions have been confirmed since the correlation coefficient turns out to be 0.72. Usage in two hours and three hours ago have also shown moderate relationship with the usage in this hour. Also, usage from the neighboring stops an hour ago also shown moderate relationship with the usage in this hour in stop #762.</p>
@@ -565,12 +565,12 @@ Queen Street 1, Bank : Located in the central of business districts . (Will be l
 </tr>
 </tbody>
 </table>
-<p><img src="762o.png" /> <img src="762imp.png" /></p>
-<p><strong>Figure18: #762 Prediction results(Original | Improved)</strong></p>
-<p><img src="583o.png" /> <img src="583imp.png" /></p>
-<p><strong>Figure19: #583 Prediction results(Original | Improved)</strong></p>
-<p><img src="108o.png" /> <img src="108imp.png" /></p>
-<p><strong>Figure20: #108 Prediction results(Original | Improved)</strong></p>
+<p><img src="images/762o.png" /> <img src="images/762imp.png" /></p>
+<p><strong>Figure18: #762 Prediction results( Original | Improved )</strong></p>
+<p><img src="images/583o.png" /> <img src="images/583imp.png" /></p>
+<p><strong>Figure19: #583 Prediction results( Original | Improved )</strong></p>
+<p><img src="images/108o.png" /> <img src="images/108imp.png" /></p>
+<p><strong>Figure20: #108 Prediction results( Original | Improved )</strong></p>
 <p>Results in all three stops have shown improvement. The R^2 scores imdicate that these models are now very close to being reliable. Lastly, we check for the instance of over/underfitting.</p>
 <p><strong>Table 9: Results comparison between training/testing data(Improved model, R^2)</strong></p>
 <table>
