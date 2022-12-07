@@ -44,9 +44,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/3e4d9ee2cd6bd8f32b9a05e738f20f1a6b5a20a0/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/3e4d9ee2cd6bd8f32b9a05e738f20f1a6b5a20a0/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/3e4d9ee2cd6bd8f32b9a05e738f20f1a6b5a20a0/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/8b9692f4b6a1ead82088c8f586b1e3b1c0c53536/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/8b9692f4b6a1ead82088c8f586b1e3b1c0c53536/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/8b9692f4b6a1ead82088c8f586b1e3b1c0c53536/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -68,9 +68,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/3e4d9ee2cd6bd8f32b9a05e738f20f1a6b5a20a0/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/8b9692f4b6a1ead82088c8f586b1e3b1c0c53536/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@3e4d9ee](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/3e4d9ee2cd6bd8f32b9a05e738f20f1a6b5a20a0)
+from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@8b9692f](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/8b9692f4b6a1ead82088c8f586b1e3b1c0c53536)
 on December 7, 2022.
 </em></small>
 
@@ -352,7 +352,7 @@ Bike stops near tourist attractions can have another trait different than the sp
 
 ![](images/cbdmay.svg)
 
-![](images/hydemay.svg)
+![](images/hydemay.png)
 
 **Figure12: The effect of Rain and National Holidays**
 
@@ -366,7 +366,7 @@ In figure12, we can see the date is set on 05/06 ~ 05/12 and 05/13 ~ 05/19 (2019
 
 We have chosen three stops to perform the prediction, which are Storey's Gate (N.o. 762), Abingdon Green (N.o. 583) and Abbey Orchard Street (N.o. 108). The three stops form a triangle with no other stops near them. This triangle is located near the iconic Big Ben and Westminster Abbey. However, we would first build the model and apply it on the first dataset as a test run.
 
-![](stops.png)
+![](images/stops.png)
 
 **Figure13: Locations of the stops chosen**
 
@@ -391,7 +391,7 @@ We tried training a model by fitting a suitable regression algorithm to the trai
 #### 3.1.2 Results
 
 
-![](BIGo.png)
+![](images/BIGo.png)
 
 
 **Figure14: Predicted and Actual Bike Sharing Number of Linear Regression**
@@ -402,7 +402,7 @@ The figure shown a generally diagonal trend with several deviation values. One w
 We then try an ensemble algorithm, the Random Forest algorithm, which typically would give a better result than the linear regression algorithm. Applying the Random Forest resuls in a huge decrease in MSE, which is now 55439.
 
 
-![](原始o.png)
+![](images/原始o.png)
 
 
 **Figure15: Predicted and Actual Bike Sharing Number of Decision Tree**
@@ -464,7 +464,7 @@ As expected, without any manipulations or additional features added to the train
 Having features that linearly predict the outcome is ideal as it reduces the need for complex non-linear ML algorithms. From our observations in the exploratory analysis, we can see that bike share usage are greatly affected by different hours in a day and also different months. Unfortunately, when we look at the usage in stop #762 plotted along with hours and months, the plot is far from linear:
 
 
-![](hrnotlinear.svg) ![](mnnotlinear.svg)
+![](images/hrnotlinear.svg) ![](images/mnnotlinear.svg)
 
 
 **Figure16: Hourly and monthly #762 Usage**
@@ -475,7 +475,7 @@ However, with a little manipulation we could generate a linear fit. We found tha
 We could also carry out this process when we look at the "month" feature. We found out that in November and December, the usages are the lowest. And the usage of a month increases as its distance from 11/30, which is the midpoint of these two months, grows larger. Therefore, we create a new feature "tilnovdec" base on how far the month is from November or December (For January and October, "tilnovdec" is 1. For May and June , "tilnovdec" would be 5, which is the largest possible number.) Now we have two features that better describes the usage in different times. These behaviors can also be observed in stop #583 and #108, so we also apply them to the datasets of these two stops.  
 
 
-![](hrlinear.svg) ![](mnlinear.svg)
+![](images/hrlinear.svg) ![](images/mnlinear.svg)
 
 
 **Figure17: #762 Usage with new features**
@@ -510,22 +510,22 @@ Before we train the model again, we believe that even though features such as ye
 
 
 
-![](762o.png) ![](762imp.png)
+![](images/762o.png) ![](images/762imp.png)
 
 
-**Figure18: #762 Prediction results(Original | Improved)**
+**Figure18: #762 Prediction results( Original | Improved )**
 
 
-![](583o.png) ![](583imp.png)
+![](images/583o.png) ![](images/583imp.png)
 
 
-**Figure19: #583 Prediction results(Original | Improved)**
+**Figure19: #583 Prediction results( Original | Improved )**
 
 
-![](108o.png) ![](108imp.png)
+![](images/108o.png) ![](images/108imp.png)
 
 
-**Figure20: #108 Prediction results(Original | Improved)**
+**Figure20: #108 Prediction results( Original | Improved )**
 
 
 Results in all three stops have shown improvement. The R^2 scores imdicate that these models are now very close to being reliable. Lastly, we check for the instance of over/underfitting.
