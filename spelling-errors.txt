@@ -8,10 +8,9 @@ cnt
 COVID
 csv
 cyfcx
-Dataset
+dataset
 datasets
 Guo
-imdicate
 isholiday
 isweekend
 Jingwen
@@ -20,13 +19,11 @@ Kaggle
 Mavrodiev
 mnth
 MSE
-mulin
+Mulin
 overfitting
-resuls
 scikitlearn
 spatiotemporal
 Storey’s
-succesfully
 tilnovdec
 underfitting
 Urbana

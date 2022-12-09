@@ -42,7 +42,6 @@ content/01.abstract.md:255:Storey's
 content/01.abstract.md:265:dataset
 content/01.abstract.md:270:scikitlearn
 content/01.abstract.md:291:MSE
-content/01.abstract.md:291:resuls
 content/01.abstract.md:300:overfitting
 content/01.abstract.md:300:overfitting
 content/01.abstract.md:300:underfitting
@@ -51,12 +50,10 @@ content/01.abstract.md:318:datasets
 content/01.abstract.md:326:mnth
 content/01.abstract.md:330:workingday
 content/01.abstract.md:348:dataset
-content/01.abstract.md:362:succesfully
 content/01.abstract.md:364:datasets
 content/01.abstract.md:364:tilnovdec
 content/01.abstract.md:364:tilnovdec
 content/01.abstract.md:364:tilnovdec
-content/01.abstract.md:420:imdicate
 content/01.abstract.md:420:underfitting
 content/01.abstract.md:431:overfitting
 content/01.abstract.md:431:underfitting
