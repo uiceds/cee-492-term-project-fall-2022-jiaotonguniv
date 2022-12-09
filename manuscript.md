@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2022-12-07'
+date-meta: '2022-12-09'
 author-meta:
 - Mulin Wan
 - Jingwen Yao
@@ -21,8 +21,8 @@ header-includes: |-
   <meta name="citation_title" content="Bike-Share Usage in London Network Analysis" />
   <meta property="og:title" content="Bike-Share Usage in London Network Analysis" />
   <meta property="twitter:title" content="Bike-Share Usage in London Network Analysis" />
-  <meta name="dc.date" content="2022-12-07" />
-  <meta name="citation_publication_date" content="2022-12-07" />
+  <meta name="dc.date" content="2022-12-09" />
+  <meta name="citation_publication_date" content="2022-12-09" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -44,9 +44,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/97420483d379c98650088efb10d2748fc0bfe059/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/97420483d379c98650088efb10d2748fc0bfe059/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/97420483d379c98650088efb10d2748fc0bfe059/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/d4d7a74fa0cbaf7d47cb996052683db39976cff2/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/d4d7a74fa0cbaf7d47cb996052683db39976cff2/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/d4d7a74fa0cbaf7d47cb996052683db39976cff2/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -68,10 +68,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/97420483d379c98650088efb10d2748fc0bfe059/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/d4d7a74fa0cbaf7d47cb996052683db39976cff2/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@9742048](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/97420483d379c98650088efb10d2748fc0bfe059)
-on December 7, 2022.
+from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@d4d7a74](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/d4d7a74fa0cbaf7d47cb996052683db39976cff2)
+on December 9, 2022.
 </em></small>
 
 ## Authors
@@ -366,7 +366,7 @@ In figure12, we can see the date is set on 05/06 ~ 05/12 and 05/13 ~ 05/19 (2019
 
 We have chosen three stops to perform the prediction, which are Storey's Gate (N.o. 762), Abingdon Green (N.o. 583) and Abbey Orchard Street (N.o. 108). The three stops form a triangle with no other stops near them. This triangle is located near the iconic Big Ben and Westminster Abbey. However, we would first build the model and apply it on the first dataset as a test run.
 
-![](images/stops.png)
+![](images/stops.png width="300px")
 
 **Figure13: Locations of the stops chosen**
 
