@@ -1,26 +1,35 @@
 ---
-title: "Manuscript Title"
+title: "Bike-Share Usage in London Network Analysis"
 keywords:
   - markdown
   - publishing
   - manubot
 lang: en-US
 authors:
-  - github: johndoe
-    name: John Doe
-    initials: JD
-    orcid: XXXX-XXXX-XXXX-XXXX
-    twitter: johndoe
-    email: john.doe@something.com
+  - github: mulin-wan
+    name: Mulin Wan
+    initials: MW
+    email: mulinw2@illinois.edu
     affiliations:
-      - Department of Something, University of Whatever
-    funders:
-      - Grant XXXXXXXX
-  - github: janeroe
-    name: Jane Roe
-    initials: JR
-    orcid: XXXX-XXXX-XXXX-XXXX
-    email: jane.roe@whatever.edu
+      - CEE, University of Illinois Urbana-Champaign
+  - github: jingwenyaooo
+    name: Jingwen Yao
+    initials: JY
+    email: jyao26@illinois.edu
+    twitter: Yaojune
+    email1: jyao26@illinois.edu
+    email2: yaojune33@gmail.com
     affiliations:
-      - Department of Something, University of Whatever
-      - Department of Whatever, University of Something
+      - CEE, University of Illinois Urbana-Champaign
+  - github: cyfcx2
+    name: Yunze Guo
+    initials: YG
+    email: yunzeg2@illinois.edu
+    affiliations:
+      - CEE, University of Illinois Urbana-Champaign
+  - github: byw-5
+    name: Bo-Yang Wang
+    initials: BYW
+    email: bywang2@illinois.edu
+    affiliations:
+      - CEE, University of Illinois Urbana-Champaign
