@@ -44,9 +44,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/d4d7a74fa0cbaf7d47cb996052683db39976cff2/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/d4d7a74fa0cbaf7d47cb996052683db39976cff2/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/d4d7a74fa0cbaf7d47cb996052683db39976cff2/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/0c885dda19ada38d77a843b2040e5a831dff0a19/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/0c885dda19ada38d77a843b2040e5a831dff0a19/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/0c885dda19ada38d77a843b2040e5a831dff0a19/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -68,9 +68,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/d4d7a74fa0cbaf7d47cb996052683db39976cff2/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jiaotonguniv/v/0c885dda19ada38d77a843b2040e5a831dff0a19/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@d4d7a74](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/d4d7a74fa0cbaf7d47cb996052683db39976cff2)
+from [uiceds/cee-492-term-project-fall-2022-jiaotonguniv@0c885dd](https://github.com/uiceds/cee-492-term-project-fall-2022-jiaotonguniv/tree/0c885dda19ada38d77a843b2040e5a831dff0a19)
 on December 9, 2022.
 </em></small>
 
@@ -366,7 +366,8 @@ In figure12, we can see the date is set on 05/06 ~ 05/12 and 05/13 ~ 05/19 (2019
 
 We have chosen three stops to perform the prediction, which are Storey's Gate (N.o. 762), Abingdon Green (N.o. 583) and Abbey Orchard Street (N.o. 108). The three stops form a triangle with no other stops near them. This triangle is located near the iconic Big Ben and Westminster Abbey. However, we would first build the model and apply it on the first dataset as a test run.
 
-![](images/stops.png width="300px")
+![](images/stops.png width="150")
+
 
 **Figure13: Locations of the stops chosen**
 
